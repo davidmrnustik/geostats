@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="CaspianSea">Caspian Sea</string>
+	<string name="LakeSuperior">Lake Superior</string>
+	<string name="LakeVictoria">Lake Victoria</string>
+	<string name="LakeHuron">Lake Huron</string>
+	<string name="LakeMichigan">Lake Michigan</string>
+	<string name="LakeTanganyika">Lake Tanganyika</string>
+	<string name="GreatBearLake">"Great Bear Lake"</string>
+	<string name="LakeBaikal">Lake Baikal (Ozero Baykal)</string>
+	<string name="LakeNyasa">Lake Nyasa (Lake Malawi)</string>
+	<string name="GreatSlaveLake">Great Slave Lake</string>
+	<string name="LakeErie">Lake Erie</string>
+	<string name="Winnipeg">Winnipeg</string>
+	<string name="Ontario">Ontario</string>
+	<string name="LakeLadoga">Lake Ladoga (Ladozhskoye Ozero)</string>
+	<string name="LakeBalkhash">Lake Balkhash (Ozero Balkash)</string>
+	<string name="AralSea">Aral Sea (Araľskoye More)</string>
+	<string name="Vostok">Vostok</string>
+	<string name="LakeOnega">Lake Onega (Onezhskoye Ozero)</string>
+	<string name="LakeEyre">Lake Eyre</string>
+	<string name="LakeVolta">Lake Volta</string>
+	<string name="Vanern">Vänern</string>
+	<string name="RybinskoyeVodokhranilishche">Rybinskoye Vodokhranilishche</string>
+	<string name="LakeAssal">Lake Assal</string>
+	<string name="LakeTurkana">Lake Turkana</string>
+	<string name="LakeTiticaca">Lake Titicaca</string>
+	<string name="LakeTorrens">Lake Torrens</string>
+	
+	
+</resources>

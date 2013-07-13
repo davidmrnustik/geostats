@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Tohoku">Tohoku</string>
+	<string name="Leogane">Léogane</string>
+	<string name="SichuanProvince">Sichuan Province</string>
+	<string name="NorthwestPakistan">northwest Pakistan</string>
+	<string name="Sumatera">Sumatera</string>
+	<string name="Bam">Bam</string>
+	<string name="Gujarat">Gujarat</string>
+	<string name="IzmitKocaeli">Izmit (Kocaeli)</string>
+	<string name="Manjil">Manjil</string>
+	<string name="Spitak">Spitak</string>
+	<string name="EchChelif">Ech Chélif</string>
+	<string name="KhorasanProvince">Khorasan Province</string>
+	<string name="TangshanHebeiProvince">Tangshan, Hebei Province</string>
+	<string name="CentralGuatemala">central Guatemala</string>
+	<string name="YunnanAndSichuanProvinces">Yunnan and Sichuan Provinces</string>
+	<string name="HuanucoProvince">Huánuco Province</string>
+	<string name="NothwestIran">nothwest Iran</string>
+	<string name="Asgabat">Asgabat</string>
+	<string name="Erzincan">Erzincan</string>
+	<string name="Chillan">Chillán</string>
+	<string name="Quetta">Quetta</string>
+	<string name="NepalIndia">Nepal/India</string>
+	<string name="GansuProvince">Gansu Province</string>
+	<string name="QinghaiProvince">Qinghai Province</string>
+	<string name="NingxiaProvince">Ningxia Province</string>
+	<string name="Bali">Bali</string>
+	<string name="Abruzzo">Abruzzo</string>
+	<string name="Messina">Messina</string>
+	<string name="WestOfDusanbe">west of Dusanbe</string>
+	<string name="Kangra">Kangra</string>
+    
+</resources>
