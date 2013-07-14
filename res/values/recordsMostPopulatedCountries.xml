@@ -85,14 +85,14 @@
 	<string name="MostPopulatedCountriesSAmerica10">3.380.000</string>
 	
 	<!-- MOST POPULATED COUNTRIES AUSTRALIA -->
-	<string name="MostPopulatedCountriesAustralia01">313.085.000</string>
-	<string name="MostPopulatedCountriesAustralia02">114.793.000</string>
-	<string name="MostPopulatedCountriesAustralia03">34.350.000</string>
-	<string name="MostPopulatedCountriesAustralia04">14.757.000</string>
-	<string name="MostPopulatedCountriesAustralia05">11.254.000</string>
-	<string name="MostPopulatedCountriesAustralia06">10.124.000</string>
-	<string name="MostPopulatedCountriesAustralia07">10.056.000</string>
-	<string name="MostPopulatedCountriesAustralia08">7.755.000</string>
-	<string name="MostPopulatedCountriesAustralia09">6.227.000</string>
-	<string name="MostPopulatedCountriesAustralia10">5.870.000</string>
+	<string name="MostPopulatedCountriesAustralia01">22.606.000</string>
+	<string name="MostPopulatedCountriesAustralia02">7.014.000</string>
+	<string name="MostPopulatedCountriesAustralia03">4.415.000</string>
+	<string name="MostPopulatedCountriesAustralia04">868.000</string>
+	<string name="MostPopulatedCountriesAustralia05">552.000</string>
+	<string name="MostPopulatedCountriesAustralia06">246.000</string>
+	<string name="MostPopulatedCountriesAustralia07">184.000</string>
+	<string name="MostPopulatedCountriesAustralia08">112.000</string>
+	<string name="MostPopulatedCountriesAustralia09">105.000</string>
+	<string name="MostPopulatedCountriesAustralia10">101.000</string>
 </resources>

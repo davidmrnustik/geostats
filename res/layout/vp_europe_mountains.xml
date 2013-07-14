@@ -6,22 +6,26 @@
 	<ScrollView
 	    style="@style/ScrollView">
 	    
-	    <LinearLayout
-	        android:layout_height="wrap_content"
+	    <LinearLayout 
 	        android:layout_width="fill_parent"
-	         android:orientation="vertical">
-	    
-		    <TextView
-		        style="@style/TextViewTitle"
-		        android:text="@string/HighestMountains"/>
-		    
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/BoundaryKMD"
+	            android:textColor="@color/colorFFF"
+	            android:layout_marginTop="12dp"
+	            android:layout_marginBottom="8dp"/>
+
 		    <TableLayout style="@style/TableLayout"
 		        android:shrinkColumns="0">
 		        
 			    <TableRow style="@style/TableRow">
 			        <TextView 
 			          	style="@style/TableTextView.Head"
-			            android:text="@string/Country"/>
+			            android:text="@string/Name"/>
 			        <TextView 
 			            style="@style/TableTextView.Head"
 			            android:text="@string/TotalM"/>
@@ -30,162 +34,104 @@
 			    <TableRow style="@style/TableRow">
 			        <TextView 
 			          	style="@style/TableTextView"
-			            android:text="@string/MtEverest"/>
+			            android:text="@string/MontBlanc"/>
 			        <TextView 
 			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld01"/>
+			            android:text="@string/HighestMountainsEuropeKMD01"/>
 			    </TableRow>
 			    <TableRow style="@style/TableRow">
 			        <TextView 
 			          	style="@style/TableTextView"
-			            android:text="@string/K2"/>
+			            android:text="@string/Dufourspitze"/>
 			        <TextView 
 			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld02"/>
+			            android:text="@string/HighestMountainsEuropeKMD02"/>
 			    </TableRow>
 			    <TableRow style="@style/TableRow">
 			        <TextView 
 			          	style="@style/TableTextView"
-			            android:text="@string/Kangchenjunga"/>
+			            android:text="@string/Grossglockner"/>
 			        <TextView 
 			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld03"/>
+			            android:text="@string/HighestMountainsEuropeKMD03"/>
 			    </TableRow>
 			    <TableRow style="@style/TableRow">
 			        <TextView 
 			          	style="@style/TableTextView"
-			            android:text="@string/Lhotse"/>
+			            android:text="@string/Teide"/>
 			        <TextView 
 			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld04"/>
+			            android:text="@string/HighestMountainsEuropeKMD04"/>
 			    </TableRow>
 			    <TableRow style="@style/TableRow">
 			        <TextView 
 			          	style="@style/TableTextView"
-			            android:text="@string/Makalu"/>
+			            android:text="@string/Mulhacen"/>
 			        <TextView 
 			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld05"/>
+			            android:text="@string/HighestMountainsEuropeKMD05"/>
+			    </TableRow>
+			</TableLayout>
+			
+		    <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/BoundaryCC"
+	            android:textColor="@color/colorFFF"
+	            android:layout_marginTop="12dp"
+	            android:layout_marginBottom="8dp"/>
+		    
+		    <TableLayout style="@style/TableLayout"
+		        android:shrinkColumns="0">
+		        
+			    <TableRow style="@style/TableRow">
+			        <TextView 
+			          	style="@style/TableTextView.Head"
+			            android:text="@string/Name"/>
+			        <TextView 
+			            style="@style/TableTextView.Head"
+			            android:text="@string/TotalM"/>
+			    </TableRow>
+			    
+			    <TableRow style="@style/TableRow">
+			        <TextView 
+			          	style="@style/TableTextView"
+			            android:text="@string/Elbrus"/>
+			        <TextView 
+			            style="@style/TableTextView.GravityRight"
+			            android:text="@string/HighestMountainsEuropeCC01"/>
 			    </TableRow>
 			    <TableRow style="@style/TableRow">
 			        <TextView 
 			          	style="@style/TableTextView"
-			            android:text="@string/ChoOyu"/>
+			            android:text="@string/GoraDykhTau"/>
 			        <TextView 
 			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld06"/>
+			            android:text="@string/HighestMountainsEuropeCC02"/>
 			    </TableRow>
 			    <TableRow style="@style/TableRow">
 			        <TextView 
 			          	style="@style/TableTextView"
-			            android:text="@string/DhaulagiriI"/>
+			            android:text="@string/Kazbek"/>
 			        <TextView 
 			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld07"/>
+			            android:text="@string/HighestMountainsEuropeCC03"/>
 			    </TableRow>
 			    <TableRow style="@style/TableRow">
 			        <TextView 
 			          	style="@style/TableTextView"
-			            android:text="@string/Manaslu"/>
+			            android:text="@string/MontBlanc"/>
 			        <TextView 
 			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld08"/>
+			            android:text="@string/HighestMountainsEuropeCC04"/>
 			    </TableRow>
 			    <TableRow style="@style/TableRow">
 			        <TextView 
 			          	style="@style/TableTextView"
-			            android:text="@string/NangaParbat"/>
+			            android:text="@string/Dufourspitze"/>
 			        <TextView 
 			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld09"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/AnnapurnaI"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld10"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/GasherbrumI"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld11"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/BroadPeak"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld12"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/GasherbrumII"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld13"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/Shishapangma"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld14"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/GyachungKang"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld15"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/GasherbrumIII"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld16"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/AnnapurnaII"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld17"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/GasherbrumIV"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld18"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/Himalchuli"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld19"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/DistaghilSar"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsWorld20"/>
+			            android:text="@string/HighestMountainsEuropeCC05"/>
 			    </TableRow>
 			</TableLayout>
 		</LinearLayout>

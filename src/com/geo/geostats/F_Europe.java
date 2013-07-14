@@ -77,6 +77,8 @@ public class F_Europe extends SherlockFragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_europe_countries, null);
+				
+				
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_europe_population, null);
@@ -98,16 +100,15 @@ public class F_Europe extends SherlockFragment{
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_europe_lakes, null);
-				//Button b = (Button) v.findViewById(R.id.btBoton);
+				
+				//Button b = (Button) v.findViewById(R.id.btDialog);
 				//b.setOnClickListener(new OnClickListener() {
 					
-					//public void onClick(View v) {
+				//	public void onClick(View v) {
 						// TODO Auto-generated method stub
-					//Toast toast = Toast.makeText(MyFragment.this, "VIsita el blabla", Toast.LENGTH_LONG);
-					//toast.show();
-					//}
+				//	Dialog d = new Dialog(vp);
+				//	}
 				//});
-
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

@@ -17,7 +17,7 @@ public class F_Asia extends SherlockFragment{
 	
 	//String countries, population, cities, capitals, mountains, islands, rivers, lakes;
 	
-	private static final String[] CONTENT = new String[] {"Population", "Cities", "Capitals", "Mountains", "Islands", "Rivers", "Lakes"};
+	private static final String[] CONTENT = new String[] {"Countries", "Population", "Cities", "Capitals", "Mountains", "Islands", "Rivers", "Lakes"};
 	
 	ViewPager vp;
 	private vpAdapter miAdapter;

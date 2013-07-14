@@ -32,8 +32,11 @@
         <item name="android:paddingBottom">1dp</item>
         <item name="android:paddingRight">1dp</item>
     </style>
+    <style name="TableRow.Span">
+        <item name="android:paddingBottom">0dp</item>
+    </style>
     <style name="TableTextView">
-        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_marginLeft">1dp</item>
         <item name="android:paddingTop">5dp</item>
@@ -46,8 +49,10 @@
         <item name="android:paddingBottom">2dp</item>
     </style>
     <style name="TableTextView.RowSpan">
-        <item name="android:textStyle">italic</item>
         <item name="android:paddingTop">0dp</item>
+    </style>
+    <style name="TableTextView.RowSpan.Italic">
+        <item name="android:textStyle">italic</item>
     </style>
     <style name="TableTextView.Head">
         <item name="android:background">@color/colorCCC</item>
@@ -55,6 +60,13 @@
     </style>
     <style name="TableTextView.GravityRight">
         <item name="android:gravity">right</item>
+    </style>
+    <style name="TableTextView.GravityRight.RowSpan">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+    <style name="TableTextView.Bold">
+        <item name="android:textStyle">bold</item>
     </style>
     <style name="ScrollView">
         <item name="android:layout_width">fill_parent</item>

@@ -16,6 +16,7 @@
     <string name="Highest">Highest</string>
     <string name="Value">Value</string>
     <string name="Topic">Topic</string>
+    <string name="TopicName">Topic / Name</string>
     <string name="PercentOfPopulation">% of population</string>
     <string name="DensitySqKm">density sq km</string>
     <string name="Ocean">Ocean</string>
@@ -24,7 +25,6 @@
     <string name="Countries">Countries</string>
     <string name="Cities">Cities</string>
     <string name="Capitals">Capitals</string>
-    <string name="Capital">Capital</string>
     <string name="Mountains">Mountains</string>
     <string name="Islands">Islands</string>
     <string name="Rivers">Rivers</string>
@@ -55,4 +55,5 @@
     <string name="MajorOceanicTrenches">Major oceanic trenches</string>
     <string name="AverageDepth">Average Depth</string>
     <string name="DeepestPoint">Deepest Point</string>
+
 </resources>

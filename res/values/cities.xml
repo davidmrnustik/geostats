@@ -40,7 +40,7 @@
 	<string name="Tunis">Tunis</string>
 	<string name="CapeTown">Cape Town</string>
 	<string name="AddisAbaba">Addis Ababa</string>
-	<string name="Kinshasa"></string>
+	<string name="Kinshasa">Kinshasa</string>
 	<string name="JohannesburgEastRand">Johannesburg-East Rand</string>
 	<string name="Luanda">Luanda</string>
 	<string name="Khartoum">Khartoum</string>
@@ -62,7 +62,7 @@
 	<string name="Caracas">Caracas</string>
 	<string name="Stanley">Stanley</string>
 	<string name="LaPaz">La Paz</string>
-	<string name="Lima"></string>
+	<string name="Lima">Lima</string>
 	<string name="Bogota">Bogotá</string>
 	<string name="Santiago">Santiago</string>
 	<string name="BeloHorizonte">Belo Horizonte</string>
