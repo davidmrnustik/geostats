@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">geostats</string>
+    
+    <string name="Name">Name</string>
+    <string name="Country">Country</string>
+    <string name="Total">Total</string>
+    <string name="TotalSqKm">Total sq km</string>
+    <string name="TotalSqM">Total sq m</string>
+    <string name="TotalKm">Total km</string>
+    <string name="TotalM">Total m</string>
+    <string name="Location">Location</string>
+    <string name="TotalLandArea">Total Land Area (sq km)</string>
+    <string name="Population">Population</string>
+    <string name="Volume">Volume</string>
+    <string name="Highest">Highest</string>
+    <string name="Value">Value</string>
+    <string name="Topic">Topic</string>
+    <string name="TopicName">Topic / Name</string>
+    <string name="PercentOfPopulation">% of population</string>
+    <string name="DensitySqKm">density sq km</string>
+    <string name="Ocean">Ocean</string>
+    <string name="World">World</string>
+    <string name="Continents">Continents</string>
+    <string name="Countries">Countries</string>
+    <string name="Cities">Cities</string>
+    <string name="Capitals">Capitals</string>
+    <string name="Mountains">Mountains</string>
+    <string name="Islands">Islands</string>
+    <string name="Rivers">Rivers</string>
+    <string name="Lakes">Lakes</string>
+    
+    <string name="NumberOfCountries">Number of countries</string>
+    <string name="HighestPoint">Highest point (m)</string>
+    <string name="LowestPoint">Lowest point (m)</string>
+    <string name="TimesAtlas">Times Atlas</string>
+    <string name="Wikipedia">Wikipedia</string>
+    <string name="Temperature">Temperature</string>
+    <string name="HighestTemp">Highest °C / °F</string>
+    <string name="LowestTemp">Lowest °C / °F</string>
+    <string name="Capitals">Capitals</string>
+    <string name="LargestPopulation">Largest population</string>
+	<string name="SmallestPopulation">Smallest population</string>
+	<string name="MostNortherly">Most northerly</string>
+	<string name="MostSoutherly">Most southerly</string>
+    <string name="LargestCountries">Largest Countries</string>
+    <string name="MostPopulatedCountries">Most Populated Countries</string>
+    <string name="CountriesByPopulationDensity">Countries by population density</string>
+    <string name="HighestMountains">Highest Mountains</string>
+    <string name="LargestIslands">Largest Islands</string>
+    <string name="LongestRivers">Longest Rivers</string>
+    <string name="LargestLakes">Largest Lakes</string>
+    <string name="LargestSeas">Largest Seas</string>
+    <string name="LargestCities">Largest Cities</string>
+    <string name="MajorOceanicTrenches">Major oceanic trenches</string>
+    <string name="AverageDepth">Average Depth</string>
+    <string name="DeepestPoint">Deepest Point</string>
+
+</resources>

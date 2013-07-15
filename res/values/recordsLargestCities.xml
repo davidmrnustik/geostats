@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- LARGEST CITIES WORLD -->
+    <string name="LargestCitiesWorld01">@string/LargestCitiesAsia01</string>
+	<string name="LargestCitiesWorld02">@string/LargestCitiesAsia02</string>
+	<string name="LargestCitiesWorld03">@string/LargestCitiesAsia03</string>
+	<string name="LargestCitiesWorld04">@string/LargestCitiesSAmerica01</string>
+	<string name="LargestCitiesWorld05">@string/LargestCitiesNAmerica01</string>
+	<string name="LargestCitiesWorld06">@string/LargestCitiesNAmerica02</string>
+	<string name="LargestCitiesWorld07">@string/LargestCitiesAsia04</string>
+	<string name="LargestCitiesWorld08">@string/LargestCitiesAsia05</string>
+	<string name="LargestCitiesWorld09">@string/LargestCitiesAsia06</string>
+	<string name="LargestCitiesWorld10">@string/LargestCitiesAsia07</string>
+	<string name="LargestCitiesWorld11">@string/LargestCitiesSAmerica02</string>
+	<string name="LargestCitiesWorld12">@string/LargestCitiesAsia08</string>
+	<string name="LargestCitiesWorld13">@string/LargestCitiesNAmerica03</string>
+	<string name="LargestCitiesWorld14">@string/LargestCitiesAsia09</string>
+	<string name="LargestCitiesWorld15">@string/LargestCitiesAfrica01</string>
+	<string name="LargestCitiesWorld16">@string/LargestCitiesSAmerica03</string>
+	<string name="LargestCitiesWorld17">@string/LargestCitiesAfrica02</string>
+	<string name="LargestCitiesWorld18">@string/LargestCitiesAsia10</string>
+	<string name="LargestCitiesWorld19">@string/LargestCitiesEurope01</string>
+	<string name="LargestCitiesWorld20">@string/LargestCitiesEurope02</string>
+	
+	<!-- LARGEST CITIES EUROPE -->
+	<string name="LargestCitiesEurope01">11.164.000</string>
+	<string name="LargestCitiesEurope02">10.777.000</string>
+	<string name="LargestCitiesEurope03">10.641.000</string>
+	<string name="LargestCitiesEurope04">8.693.000</string>
+	<string name="LargestCitiesEurope05">6.087.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesEurope06">5.000.000</string> <!-- WIKI -->
+	<string name="LargestCitiesEurope07">3.956.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesEurope08">3.798.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesEurope09">2.785.100</string> <!-- WIKI -->
+	<string name="LargestCitiesEurope10">1.864.100</string> <!-- WIKI -->
+	
+	<!-- LARGEST CITIES ASIA -->
+	<string name="LargestCitiesAsia01">37.049.000</string>
+	<string name="LargestCitiesAsia02">24.160.000</string>
+	<string name="LargestCitiesAsia03">21.797.000</string>
+	<string name="LargestCitiesAsia04">17.840.000</string>
+	<string name="LargestCitiesAsia05">16.924.000</string>
+	<string name="LargestCitiesAsia06">16.623.000</string>
+	<string name="LargestCitiesAsia07">14.818.000</string>
+	<string name="LargestCitiesAsia08">13.335.000</string>
+	<string name="LargestCitiesAsia09">12.587.000</string>
+	<string name="LargestCitiesAsia10">11.365.000</string>
+	
+	<!-- LARGEST CITIES AFRICA -->
+	<string name="LargestCitiesAfrica01">12.427.000</string>
+	<string name="LargestCitiesAfrica02">11.663.000</string>
+	<string name="LargestCitiesAfrica03">10.668.000</string>
+	<string name="LargestCitiesAfrica04">7.426.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAfrica05">5.425.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAfrica06">4.919.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAfrica07">4.603.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAfrica08">4.603.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAfrica09">4.457.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAfrica10">3.723.000</string> <!-- demographia.com -->
+	
+	<!-- LARGEST CITIES NORTH AMERICA -->
+	<string name="LargestCitiesNAmerica01">20.078.000</string>
+	<string name="LargestCitiesNAmerica02">19.968.000</string>
+	<string name="LargestCitiesNAmerica03">13.165.000</string>
+	<string name="LargestCitiesNAmerica04">9.513.000</string>
+	<string name="LargestCitiesNAmerica05">6.184.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesNAmerica06">6.022.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesNAmerica07">6.020.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesNAmerica08">5.804.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesNAmerica09">5.508.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesNAmerica10">5.485.000</string> <!-- demographia.com -->
+	
+	<!-- LARGEST CITIES SOUTH AMERICA -->
+	<string name="LargestCitiesSAmerica01">21.300.000</string>
+	<string name="LargestCitiesSAmerica02">13.401.000</string>
+	<string name="LargestCitiesSAmerica03">12.404.000</string>
+	<string name="LargestCitiesSAmerica04">9.659.000</string>
+	<string name="LargestCitiesSAmerica05">9.521.000</string>
+	<string name="LargestCitiesSAmerica06">6.171.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesSAmerica07">5.582.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesSAmerica08">4.075.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesSAmerica09">4.002.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesSAmerica10">3.793.000</string> <!-- demographia.com -->
+	
+	<!-- LARGEST CITIES AUSTRALIA -->
+	<string name="LargestCitiesAustralia01">3.956.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAustralia02">3.761.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAustralia03">1.912.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAustralia04">1.657.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAustralia05">1.120.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAustralia06">534.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAustralia07">382.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAustralia08">308.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAustralia09">298.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAustralia10">246.000</string> <!-- demographia.com -->
+	
+</resources>

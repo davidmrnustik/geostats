@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AtlanticOcean">Atlantic Ocean</string>
+    <string name="PacificOcean">Pacific Ocean</string>
+    <string name="IndianOcean">Indian Ocean</string>
+    <string name="ArcticOcean">Arctic Ocean</string>
+    <string name="SouthernOcean">Southern Ocean</string>
+    
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TotalAreaRecordAtlanticO">86.557.000</string>
+    <string name="VolumeRecordAtlanticO">22%</string>
+    <string name="DeepestPointRecordAtlanticO">@string/PuertoRicoTrenchRecord</string>
+    <string name="AverageDepthRecordAtlanticO">3.872</string> <!-- marianatrench.com -->
+    
+    <string name="TotalAreaRecordPacificO">166.241.000</string>
+    <string name="VolumeRecordPacificO">33%</string>
+    <string name="DeepestPointRecordPacificO">@string/MarianaTrenchRecord</string>
+    <string name="AverageDepthRecordPacificO">4.188</string> <!-- marianatrench.com -->
+    
+    <string name="TotalAreaRecordIndianO">73.427.000</string>
+    <string name="VolumeRecordIndianO">20%</string>
+    <string name="DeepestPointRecordIndianO">@string/JavaTrenchRecord</string>
+    <string name="AverageDepthRecordIndianO">3.872</string> <!-- marianatrench.com -->
+    
+    <string name="TotalAreaRecordArcticO">14.056.000</string>
+    <string name="VolumeRecordArcticO">-</string>
+    <string name="DeepestPointRecordArcticO">@string/LitkeDeepEurasianBasinRecord</string>
+    <string name="AverageDepthRecordArcticO">1.038</string> <!-- marianatrench.com -->
+    
+    <string name="TotalAreaRecordSouthernO">20.327.000</string> <!-- CIA Factbook -->
+    <string name="VolumeRecordSouthernO">-</string>
+    <string name="DeepestPointRecordSouthernO">@string/SouthSandwichTrenchRecord</string> 
+    <string name="AverageDepthRecordSouthernO">-</string>
+</resources>
