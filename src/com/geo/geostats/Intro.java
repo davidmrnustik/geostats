@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class Intro extends Activity implements android.view.View.OnClickListener {
 	
-	Button btWorld, btContinents;
+	Button btWorld, btContinents, btOceans;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -18,9 +18,11 @@ public class Intro extends Activity implements android.view.View.OnClickListener
 		
 		btWorld = (Button) findViewById(R.id.btWorld);
 		btContinents = (Button) findViewById(R.id.btContinents);
+		btOceans = (Button) findViewById(R.id.btOceans);
 		
 		btWorld.setOnClickListener(this);
 		btContinents.setOnClickListener(this);
+		btOceans.setOnClickListener(this);
 		
 	}
 
@@ -36,6 +38,11 @@ public class Intro extends Activity implements android.view.View.OnClickListener
 		case R.id.btContinents:
 			Intent c = new Intent("com.geo.geostats.CONTINENTS");
 			startActivity(c);
+		break;
+		
+		case R.id.btOceans:
+			Intent o = new Intent("com.geo.geostats.OCEANS");
+			startActivity(o);
 		break;
 		}
 	}

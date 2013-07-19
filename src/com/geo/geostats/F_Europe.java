@@ -1,5 +1,8 @@
 package com.geo.geostats;
 
+import java.util.Locale;
+
+import com.geo.geostats.Constants;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -9,16 +12,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
 
 public class F_Europe extends SherlockFragment{
-	
-	//String countries, population, cities, capitals, mountains, islands, rivers, lakes;
-	
-	private static final String[] CONTENT = new String[] {"Countries", "Population", "Cities", "Capitals", "Mountains", "Islands", "Rivers", "Lakes"};
-	
+
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	public final int limit = 0;
@@ -47,7 +45,7 @@ public class F_Europe extends SherlockFragment{
 		}
 		
 		public CharSequence getPageTitle(int position) {
-            return CONTENT[position % CONTENT.length].toUpperCase();
+            return Constants.CONTENT[position % Constants.CONTENT.length].toUpperCase(Locale.getDefault());
         }
 
 		@Override
@@ -77,8 +75,6 @@ public class F_Europe extends SherlockFragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_europe_countries, null);
-				
-				
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_europe_population, null);

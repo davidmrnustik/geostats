@@ -24,19 +24,39 @@
             </intent-filter>
         </activity>
         <activity android:name=".World"
-                  android:label="@string/app_name">
+                  android:label="@string/app_name"
+                  android:parentActivityName="com.geo.geostats.Intro">
             <intent-filter>
                 <action android:name="com.geo.geostats.WORLD"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
+            <meta-data
+            	android:name="android.support.PARENT_ACTIVITY"
+            	android:value="com.geo.geostats.Intro" />
         </activity>
         <activity android:name=".Continents"
           		  android:theme="@style/Theme.PageIndicatorDefaults"
-                  android:label="@string/app_name">
+                  android:label="@string/app_name"
+                  android:parentActivityName="com.geo.geostats.Intro">
             <intent-filter>
                 <action android:name="com.geo.geostats.CONTINENTS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
+            <meta-data
+            	android:name="android.support.PARENT_ACTIVITY"
+            	android:value="com.geo.geostats.Intro" />
+        </activity>
+        <activity android:name=".Oceans"
+          		  android:theme="@style/Theme.PageIndicatorDefaults"
+                  android:label="@string/app_name"
+                  android:parentActivityName="com.geo.geostats.Intro">
+            <intent-filter>
+                <action android:name="com.geo.geostats.OCEANS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+            	android:name="android.support.PARENT_ACTIVITY"
+            	android:value="com.geo.geostats.Intro" />
         </activity>
     </application>
 </manifest>

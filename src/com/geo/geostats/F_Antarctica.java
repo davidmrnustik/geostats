@@ -1,5 +1,8 @@
 package com.geo.geostats;
 
+import java.util.Locale;
+
+import com.geo.geostats.Constants;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -9,15 +12,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
 
 public class F_Antarctica extends SherlockFragment{
-	
-	//String countries, population, cities, capitals, mountains, islands, rivers, lakes;
-	
-	private static final String[] CONTENT = new String[] {"Mountains"};
 	
 	ViewPager vp;
 	private vpAdapter miAdapter;
@@ -47,7 +45,7 @@ public class F_Antarctica extends SherlockFragment{
 		}
 		
 		public CharSequence getPageTitle(int position) {
-            return CONTENT[position % CONTENT.length].toUpperCase();
+            return Constants.CONTENT_ANTARCTICA[position % Constants.CONTENT_ANTARCTICA.length].toUpperCase(Locale.getDefault());
         }
 
 		@Override

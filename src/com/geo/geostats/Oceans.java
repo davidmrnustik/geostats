@@ -10,34 +10,30 @@ import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.ActionBar.Tab;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 
-public class Continents extends SherlockFragmentActivity{
+public class Oceans extends SherlockFragmentActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.continents);
+        setContentView(R.layout.oceans);
         
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
         
         ActionBar actionbar = getSupportActionBar();
         actionbar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        actionbar.setTitle(getString(R.string.Continents));
+        actionbar.setTitle(getString(R.string.Oceans));
                 
-        ActionBar.Tab Frag1Tab = actionbar.newTab().setText(getString(R.string.Europe));
-        ActionBar.Tab Frag2Tab = actionbar.newTab().setText(getString(R.string.Asia));
-        ActionBar.Tab Frag3Tab = actionbar.newTab().setText(getString(R.string.Africa));
-        ActionBar.Tab Frag4Tab = actionbar.newTab().setText(getString(R.string.NorthAmerica));
-        ActionBar.Tab Frag5Tab = actionbar.newTab().setText(getString(R.string.SouthAmerica));
-        ActionBar.Tab Frag6Tab = actionbar.newTab().setText(getString(R.string.Australia));
-        ActionBar.Tab Frag7Tab = actionbar.newTab().setText(getString(R.string.Antarctica));
+        ActionBar.Tab Frag1Tab = actionbar.newTab().setText(getString(R.string.AtlanticOcean));
+        ActionBar.Tab Frag2Tab = actionbar.newTab().setText(getString(R.string.PacificOcean));
+        ActionBar.Tab Frag3Tab = actionbar.newTab().setText(getString(R.string.IndianOcean));
+        ActionBar.Tab Frag4Tab = actionbar.newTab().setText(getString(R.string.ArcticOcean));
+        ActionBar.Tab Frag5Tab = actionbar.newTab().setText(getString(R.string.SouthernOcean));
         
-        Fragment Fragment1 = new F_Europe();
-        Fragment Fragment2 = new F_Asia();
-        Fragment Fragment3 = new F_Africa();
-        Fragment Fragment4 = new F_NAmerica();
-        Fragment Fragment5 = new F_SAmerica();
-        Fragment Fragment6 = new F_Australia();
-        Fragment Fragment7 = new F_Antarctica();
+        Fragment Fragment1 = new F_AtlanticO();
+        Fragment Fragment2 = new F_PacificO();
+        Fragment Fragment3 = new F_IndianO();
+        Fragment Fragment4 = new F_ArcticO();
+        Fragment Fragment5 = new F_SouthernO();
 
         
         Frag1Tab.setTabListener(new MyTabsListener(Fragment1));
@@ -45,21 +41,17 @@ public class Continents extends SherlockFragmentActivity{
         Frag3Tab.setTabListener(new MyTabsListener(Fragment3));
         Frag4Tab.setTabListener(new MyTabsListener(Fragment4));
         Frag5Tab.setTabListener(new MyTabsListener(Fragment5));
-        Frag6Tab.setTabListener(new MyTabsListener(Fragment6));
-        Frag7Tab.setTabListener(new MyTabsListener(Fragment7));
         
         actionbar.addTab(Frag1Tab);
         actionbar.addTab(Frag2Tab);
         actionbar.addTab(Frag3Tab);
         actionbar.addTab(Frag4Tab);
         actionbar.addTab(Frag5Tab);
-        actionbar.addTab(Frag6Tab);
-        actionbar.addTab(Frag7Tab);
     }
     
     @Override
 	public boolean onCreateOptionsMenu(com.actionbarsherlock.view.Menu menu){
-		getSupportMenuInflater().inflate(R.menu.menu_continents, menu);
+		getSupportMenuInflater().inflate(R.menu.menu_oceans, menu);
 		return true;
 	}
     
@@ -73,17 +65,18 @@ public class Continents extends SherlockFragmentActivity{
 			startActivity(w);
 			
 			break;
-		
-		case R.id.menu_oceans:
 			
-			Intent i = new Intent("com.geo.geostats.OCEANS");
+		case R.id.menu_continents:
+			
+			Intent i = new Intent("com.geo.geostats.CONTINENTS");
 			startActivity(i);
 			
 			break;
+			
 		case android.R.id.home:
 			NavUtils.navigateUpFromSameTask(this);
 	        return true;
-		}
+		}	
 		
 		return true;
 	}
