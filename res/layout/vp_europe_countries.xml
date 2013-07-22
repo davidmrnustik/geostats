@@ -2,32 +2,32 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-	<ScrollView
-	    style="@style/ScrollView">
-	    
-	    <LinearLayout 
-	        android:layout_width="fill_parent"
-	        android:layout_height="fill_parent"
-	        android:orientation="vertical">
-	        
-	        <Button
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:text="Open dialog"
-	            android:id="@+id/btDialog"/>
-	        
-			<TableLayout style="@style/TableLayout"
-			        android:shrinkColumns="0">
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/NumberOfCountries"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/NumberOfCountriesRecordEurope"/>
-			    </TableRow>
-			</TableLayout>
-		</LinearLayout>
-	</ScrollView>
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TableLayout style="@style/TableLayout"
+        android:shrinkColumns="0">
+    	<TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/NumberOfCountries"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/NumberOfCountriesRecordEurope"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow.Span">
+	        <Button 
+		        style="@style/TableTextView"
+		        android:text="@string/LargestCountries"
+		        android:layout_span="2"
+		        android:id="@+id/btDialog"/>
+	    </TableRow>
+	     <TableRow style="@style/TableRow.Span">
+	        <Button 
+		        style="@style/TableTextView"
+		        android:text="@string/LargestEUCountries"
+		        android:layout_span="2"
+		        android:id="@+id/btDialog2"/>
+	    </TableRow>
+	</TableLayout>
 </LinearLayout>

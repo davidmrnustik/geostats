@@ -88,5 +88,9 @@
         <item name="android:layout_height">10dp</item>
         <item name="android:background">@color/colorFFF</item>
     </style>
+    <style name="DialogContinents" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#ff0000</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
 
 </resources>

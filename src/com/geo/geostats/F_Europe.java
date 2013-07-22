@@ -22,7 +22,7 @@ import com.viewpagerindicator.TabPageIndicator;
 
 public class F_Europe extends SherlockFragment {
 
-	Button btD1O, btD1C;
+	Button btD1O, btD1C, btD2O;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	public final int limit = 0;
@@ -83,13 +83,12 @@ public class F_Europe extends SherlockFragment {
 				v = inflater.inflate(R.layout.vp_europe_countries, null);
 				
 				Button btD1O = (Button) v.findViewById(R.id.btDialog);
-				
+				Button btD2O = (Button) v.findViewById(R.id.btDialog2);
 				
 				btD1O.setOnClickListener(new OnClickListener() {
 					public void onClick(View v) {
 						
 						// OK version with AlertDialog 
-						
 						/*AlertDialog.Builder d = new AlertDialog.Builder(F_Europe.this.getActivity());
 						LayoutInflater inflater = F_Europe.this.getActivity().getLayoutInflater();
 						d.setView(inflater.inflate(R.layout.vp_africa_countries, null))
@@ -104,30 +103,38 @@ public class F_Europe extends SherlockFragment {
 								}
 							}).create();
 						d.show();*/
-						
-						
-						
-						final Dialog d = new Dialog(F_Europe.this.getActivity());
-						d.setTitle("Nadpis");
-						//d.setCancelable(true);
+												
+						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+						d.setCancelable(true);
 						d.setContentView(R.layout.d_europe_countries);
+						d.setCanceledOnTouchOutside(true);
 						Button btD1C = (Button) d.findViewById(R.id.btClose);
 						btD1C.setOnClickListener(new OnClickListener() {
 							@Override
 							public void onClick(View v) {
-								d.dismiss();
+								d.cancel();
 							}
 						});
-						
-						/*d.setOnCancelListener(new OnCancelListener() {
-							public void onCancel(final DialogInterface arg0) {
-					            d.cancel();
-							}
-				        });*/
-						
 						d.show();
 					}
-				});				
+				});
+				
+				btD2O.setOnClickListener(new OnClickListener() {
+					public void onClick(View v) {
+						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+						d.setCancelable(true);
+						d.setContentView(R.layout.d_europe_eu_countries);
+						d.setCanceledOnTouchOutside(true);
+						Button btD1C = (Button) d.findViewById(R.id.btClose);
+						btD1C.setOnClickListener(new OnClickListener() {
+							@Override
+							public void onClick(View v) {
+								d.cancel();
+							}
+						});
+						d.show();
+					}
+				});		
 				
 				break;
 			case 1:

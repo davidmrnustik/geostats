@@ -46,6 +46,7 @@
 	<string name="MostNortherly">Most northerly</string>
 	<string name="MostSoutherly">Most southerly</string>
     <string name="LargestCountries">Largest Countries</string>
+    <string name="LargestEUCountries">Largest EU Countries</string>
     <string name="MostPopulatedCountries">Most Populated Countries</string>
     <string name="CountriesByPopulationDensity">Countries by population density</string>
     <string name="HighestMountains">Highest Mountains</string>
