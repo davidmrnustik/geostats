@@ -3,6 +3,7 @@ package com.geo.geostats;
 import java.util.Locale;
 
 import com.geo.geostats.Constants;
+
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
@@ -86,18 +87,44 @@ public class F_Europe extends SherlockFragment {
 				
 				btD1O.setOnClickListener(new OnClickListener() {
 					public void onClick(View v) {
+						
+						// OK version with AlertDialog 
+						
+						/*AlertDialog.Builder d = new AlertDialog.Builder(F_Europe.this.getActivity());
+						LayoutInflater inflater = F_Europe.this.getActivity().getLayoutInflater();
+						d.setView(inflater.inflate(R.layout.vp_africa_countries, null))
+						.setIcon(R.drawable.content_remove)
+						.setMessage(R.string.MostPopulatedCountries)
+							.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+								
+								@Override
+								public void onClick(DialogInterface dialog, int id) {
+									// TODO Auto-generated method stub
+									
+								}
+							}).create();
+						d.show();*/
+						
+						
+						
 						final Dialog d = new Dialog(F_Europe.this.getActivity());
 						d.setTitle("Nadpis");
-						d.setCancelable(true);
+						//d.setCancelable(true);
 						d.setContentView(R.layout.d_europe_countries);
-						/*Button btD1C = (Button) v.findViewById(R.id.btClose);
+						Button btD1C = (Button) d.findViewById(R.id.btClose);
 						btD1C.setOnClickListener(new OnClickListener() {
-					        @Override
-					            public void onClick(View v) {
-					            d.dismiss();
-
-					            }
-					        });*/
+							@Override
+							public void onClick(View v) {
+								d.dismiss();
+							}
+						});
+						
+						/*d.setOnCancelListener(new OnCancelListener() {
+							public void onCancel(final DialogInterface arg0) {
+					            d.cancel();
+							}
+				        });*/
+						
 						d.show();
 					}
 				});				
