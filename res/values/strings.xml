@@ -11,6 +11,7 @@
     <string name="TotalM">Total m</string>
     <string name="Location">Location</string>
     <string name="TotalLandArea">Total Land Area (sq km)</string>
+    <string name="TotalArea">Total Area (sq km)</string>
     <string name="Population">Population</string>
     <string name="Volume">Volume</string>
     <string name="Highest">Highest</string>
@@ -54,7 +55,7 @@
     <string name="LargestSeas">Largest Seas</string>
     <string name="LargestCities">Largest Cities</string>
     <string name="MajorOceanicTrenches">Major oceanic trenches</string>
-    <string name="AverageDepth">Average Depth</string>
-    <string name="DeepestPoint">Deepest Point</string>
+    <string name="AverageDepth">Average Depth (m)</string>
+    <string name="DeepestPoint">Deepest Point (m)</string>
 
 </resources>

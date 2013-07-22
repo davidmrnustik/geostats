@@ -3,6 +3,7 @@ package com.geo.geostats;
 import java.util.Locale;
 
 import com.geo.geostats.Constants;
+import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -10,13 +11,17 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
+
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
 
-public class F_Europe extends SherlockFragment{
+public class F_Europe extends SherlockFragment {
 
+	Button btD1O, btD1C;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	public final int limit = 0;
@@ -41,7 +46,7 @@ public class F_Europe extends SherlockFragment{
 		@Override
 		public int getCount() {
 			// TODO Auto-generated method stub
-			return 8;
+			return 9;
 		}
 		
 		public CharSequence getPageTitle(int position) {
@@ -75,6 +80,28 @@ public class F_Europe extends SherlockFragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_europe_countries, null);
+				
+				Button btD1O = (Button) v.findViewById(R.id.btDialog);
+				
+				
+				btD1O.setOnClickListener(new OnClickListener() {
+					public void onClick(View v) {
+						final Dialog d = new Dialog(F_Europe.this.getActivity());
+						d.setTitle("Nadpis");
+						d.setCancelable(true);
+						d.setContentView(R.layout.d_europe_countries);
+						/*Button btD1C = (Button) v.findViewById(R.id.btClose);
+						btD1C.setOnClickListener(new OnClickListener() {
+					        @Override
+					            public void onClick(View v) {
+					            d.dismiss();
+
+					            }
+					        });*/
+						d.show();
+					}
+				});				
+				
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_europe_population, null);
@@ -96,15 +123,9 @@ public class F_Europe extends SherlockFragment{
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_europe_lakes, null);
-				
-				//Button b = (Button) v.findViewById(R.id.btDialog);
-				//b.setOnClickListener(new OnClickListener() {
-					
-				//	public void onClick(View v) {
-						// TODO Auto-generated method stub
-				//	Dialog d = new Dialog(vp);
-				//	}
-				//});
+				break;
+			case 8:
+				v = inflater.inflate(R.layout.vp_europe_weather, null);
 				break;
 			}
 			((ViewPager)container).addView(v, 0);
@@ -122,7 +143,6 @@ public class F_Europe extends SherlockFragment{
 			// TODO Auto-generated method stub
 			
 		}
-		
 	}
 }
 
