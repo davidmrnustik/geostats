@@ -7,8 +7,14 @@
     <Button 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/World"
-        android:id="@+id/btWorld"/>
+        android:text="@string/Indicators"
+        android:id="@+id/btIndicators"/>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Branches"
+        android:id="@+id/btBranches"/>
     
     <Button 
         android:layout_width="wrap_content"

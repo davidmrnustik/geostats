@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class Intro extends Activity implements android.view.View.OnClickListener {
 	
-	Button btWorld, btContinents, btOceans;
+	Button btWorld, btContinents, btOceans, btBranches;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -16,13 +16,15 @@ public class Intro extends Activity implements android.view.View.OnClickListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.intro);
 		
-		btWorld = (Button) findViewById(R.id.btWorld);
+		btWorld = (Button) findViewById(R.id.btIndicators);
 		btContinents = (Button) findViewById(R.id.btContinents);
 		btOceans = (Button) findViewById(R.id.btOceans);
+		btBranches = (Button) findViewById(R.id.btBranches);
 		
 		btWorld.setOnClickListener(this);
 		btContinents.setOnClickListener(this);
 		btOceans.setOnClickListener(this);
+		btBranches.setOnClickListener(this);
 		
 	}
 
@@ -30,9 +32,14 @@ public class Intro extends Activity implements android.view.View.OnClickListener
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		switch(v.getId()){
-		case R.id.btWorld:
-			Intent w = new Intent("com.geo.geostats.WORLD");
-			startActivity(w);
+		case R.id.btIndicators:
+			Intent in = new Intent("com.geo.geostats.INDICATORS");
+			startActivity(in);
+		break;
+		
+		case R.id.btBranches:
+			Intent b = new Intent("com.geo.geostats.BRANCHES");
+			startActivity(b);
 		break;
 		
 		case R.id.btContinents:

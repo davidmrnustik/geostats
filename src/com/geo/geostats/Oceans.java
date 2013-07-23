@@ -59,13 +59,6 @@ public class Oceans extends SherlockFragmentActivity{
 	public boolean onOptionsItemSelected(com.actionbarsherlock.view.MenuItem item){
 		super.onOptionsItemSelected(item);
 		switch(item.getItemId()){
-		case R.id.menu_world:
-			
-			Intent w = new Intent("com.geo.geostats.WORLD");
-			startActivity(w);
-			
-			break;
-			
 		case R.id.menu_continents:
 			
 			Intent i = new Intent("com.geo.geostats.CONTINENTS");

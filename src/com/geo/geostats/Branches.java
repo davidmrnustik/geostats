@@ -7,25 +7,25 @@ import android.support.v4.app.NavUtils;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 
-public class World extends SherlockActivity{
+public class Branches extends SherlockActivity{
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.world);
+		setContentView(R.layout.branches);
 		
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
         
         ActionBar actionbar = getSupportActionBar();
-        actionbar.setTitle(getString(R.string.World));
+        actionbar.setTitle(getString(R.string.Branches));
                 
 	}
 	
 	@Override
 	public boolean onCreateOptionsMenu(com.actionbarsherlock.view.Menu menu){
-		getSupportMenuInflater().inflate(R.menu.menu_world, menu);
+		getSupportMenuInflater().inflate(R.menu.menu_indicators, menu);
 		return true;
 	}
 	
@@ -33,17 +33,10 @@ public class World extends SherlockActivity{
 	public boolean onOptionsItemSelected(com.actionbarsherlock.view.MenuItem item){
 		super.onOptionsItemSelected(item);
 		switch(item.getItemId()){
-		case R.id.menu_continents:
+		case R.id.menu_indicators:
 			
-			Intent i = new Intent("com.geo.geostats.CONTINENTS");
+			Intent i = new Intent("com.geo.geostats.INDICATORS");
 			startActivity(i);
-			
-			break;
-			
-		case R.id.menu_oceans:
-			
-			Intent o = new Intent("com.geo.geostats.OCEANS");
-			startActivity(o);
 			
 			break;
 			

@@ -22,7 +22,7 @@ import com.viewpagerindicator.TabPageIndicator;
 
 public class F_Europe extends SherlockFragment {
 
-	Button btD1O, btD1C, btD2O;
+	Button btD1O, btD2O, btClose;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	public final int limit = 0;
@@ -108,8 +108,8 @@ public class F_Europe extends SherlockFragment {
 						d.setCancelable(true);
 						d.setContentView(R.layout.d_europe_countries);
 						d.setCanceledOnTouchOutside(true);
-						Button btD1C = (Button) d.findViewById(R.id.btClose);
-						btD1C.setOnClickListener(new OnClickListener() {
+						Button btClose = (Button) d.findViewById(R.id.btClose);
+						btClose.setOnClickListener(new OnClickListener() {
 							@Override
 							public void onClick(View v) {
 								d.cancel();
@@ -125,8 +125,8 @@ public class F_Europe extends SherlockFragment {
 						d.setCancelable(true);
 						d.setContentView(R.layout.d_europe_eu_countries);
 						d.setCanceledOnTouchOutside(true);
-						Button btD1C = (Button) d.findViewById(R.id.btClose);
-						btD1C.setOnClickListener(new OnClickListener() {
+						Button btClose = (Button) d.findViewById(R.id.btClose);
+						btClose.setOnClickListener(new OnClickListener() {
 							@Override
 							public void onClick(View v) {
 								d.cancel();

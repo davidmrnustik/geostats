@@ -23,11 +23,22 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".World"
+        <activity android:name=".Indicators"
                   android:label="@string/app_name"
                   android:parentActivityName="com.geo.geostats.Intro">
             <intent-filter>
-                <action android:name="com.geo.geostats.WORLD"/>
+                <action android:name="com.geo.geostats.INDICATORS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+            	android:name="android.support.PARENT_ACTIVITY"
+            	android:value="com.geo.geostats.Intro" />
+        </activity>
+         <activity android:name=".Branches"
+                  android:label="@string/app_name"
+                  android:parentActivityName="com.geo.geostats.Intro">
+            <intent-filter>
+                <action android:name="com.geo.geostats.BRANCHES"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <meta-data
