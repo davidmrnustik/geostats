@@ -3,159 +3,53 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-	<ScrollView
-	    style="@style/ScrollView">
-	    
-	    <LinearLayout 
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:orientation="vertical">
-	        
-	        <TableLayout style="@style/TableLayout"
-	            android:shrinkColumns="0">
-	            
-	            <TableRow
-	        	style="@style/TableRow.Span">
-		        <TextView 
-		            style="@style/TableTextView.Bold"
-		            android:layout_span="2"
-		            android:text="@string/HighestPoint"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView.RowSpan"
-			            android:text="@string/Elbrus"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight.RowSpan"
-			            android:text="@string/HighestPointRecord1Europe"/>
-			    </TableRow>
-			    <TableRow
-			        style="@style/TableRow.Span">
-			        <TextView 
-			            style="@style/TableTextView.Bold"
-			            android:layout_span="2"
-			            android:text="@string/LowestPoint"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView.RowSpan"
-			            android:text="@string/CaspianSea"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight.RowSpan"
-			            android:text="@string/LowestPointRecordEurope"/>
-			    </TableRow>
-	        </TableLayout>
-	        
-	        <View 
-		        style="@style/ViewDivider"/>
 
-		    <TableLayout style="@style/TableLayout"
-		        android:shrinkColumns="0">
-		        
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView.Head"
-			            android:text="@string/BoundaryKMD"/>
-			        <TextView 
-			            style="@style/TableTextView.Head"
-			            android:text="@string/TotalM"/>
-			    </TableRow>
-			    
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/MontBlanc"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsEuropeKMD01"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/Dufourspitze"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsEuropeKMD02"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/Grossglockner"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsEuropeKMD03"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/Teide"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsEuropeKMD04"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/Mulhacen"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsEuropeKMD05"/>
-			    </TableRow>
-			</TableLayout>
-			
-		    <TableLayout style="@style/TableLayout"
-		        android:shrinkColumns="0">
-		        
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView.Head"
-			            android:text="@string/BoundaryCC"/>
-			        <TextView 
-			            style="@style/TableTextView.Head"
-			            android:text="@string/TotalM"/>
-			    </TableRow>
-			    
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/Elbrus"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsEuropeCC01"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/GoraDykhTau"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsEuropeCC02"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/Kazbek"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsEuropeCC03"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/MontBlanc"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsEuropeCC04"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/Dufourspitze"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsEuropeCC05"/>
-			    </TableRow>
-			</TableLayout>
-		</LinearLayout>
-	</ScrollView>
+	<TableLayout style="@style/TableLayout"
+	          android:shrinkColumns="0">
+	          
+		<TableRow
+	      	style="@style/TableRow.Span">
+	       <TextView 
+	           style="@style/TableTextView.Bold"
+	           android:layout_span="2"
+	           android:text="@string/HighestPoint"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/Elbrus"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/HighestPointRecord1Europe"/>
+	    </TableRow>
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/LowestPoint"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/CaspianSea"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/LowestPointRecordEurope"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow.Span">
+	        <Button 
+		        style="@style/TableTextView"
+		        android:text="@string/BoundaryKMD"
+		        android:layout_span="2"
+		        android:id="@+id/btDialog7"/>
+	    </TableRow>
+	     <TableRow style="@style/TableRow.Span">
+	        <Button 
+		        style="@style/TableTextView"
+		        android:text="@string/BoundaryCC"
+		        android:layout_span="2"
+		        android:id="@+id/btDialog8"/>
+	    </TableRow>
+	</TableLayout>
 </LinearLayout>

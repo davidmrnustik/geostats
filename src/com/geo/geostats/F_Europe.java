@@ -22,7 +22,7 @@ import com.viewpagerindicator.TabPageIndicator;
 
 public class F_Europe extends SherlockFragment {
 
-	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btClose;
+	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btD7O, btD8O, btClose;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	public final int limit = 0;
@@ -223,6 +223,44 @@ public class F_Europe extends SherlockFragment {
 				break;
 			case 4:
 				v = inflater.inflate(R.layout.vp_europe_mountains, null);
+				
+				Button btD7O = (Button) v.findViewById(R.id.btDialog7);
+				Button btD8O = (Button) v.findViewById(R.id.btDialog8);
+				
+				btD7O.setOnClickListener(new OnClickListener() {
+					public void onClick(View v) {
+						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+						d.setCancelable(true);
+						d.setContentView(R.layout.d_europe_mountains_kmd);
+						d.setCanceledOnTouchOutside(true);
+						Button btClose = (Button) d.findViewById(R.id.btClose);
+						btClose.setOnClickListener(new OnClickListener() {
+							@Override
+							public void onClick(View v) {
+								d.cancel();
+							}
+						});
+						d.show();
+					}
+				});	
+				
+				btD8O.setOnClickListener(new OnClickListener() {
+					public void onClick(View v) {
+						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+						d.setCancelable(true);
+						d.setContentView(R.layout.d_europe_mountains_cc);
+						d.setCanceledOnTouchOutside(true);
+						Button btClose = (Button) d.findViewById(R.id.btClose);
+						btClose.setOnClickListener(new OnClickListener() {
+							@Override
+							public void onClick(View v) {
+								d.cancel();
+							}
+						});
+						d.show();
+					}
+				});	
+				
 				break;
 			case 5:
 				v = inflater.inflate(R.layout.vp_europe_islands, null);

@@ -44,6 +44,36 @@
 			            style="@style/TableTextView.GravityRight.RowSpan"
 			            android:text="@string/TempLowestEurope"/>
 			    </TableRow>
+			    <TableRow
+		        	style="@style/TableRow.Span">
+		        <TextView 
+		            style="@style/TableTextView.Bold"
+		            android:layout_span="2"
+		            android:text="@string/GreatestPrec"/>
+			    </TableRow>
+			    <TableRow style="@style/TableRow">
+			        <TextView 
+			          	style="@style/TableTextView.RowSpan"
+			            android:text="@string/CrkvicaBosniaHercegovina"/>
+			        <TextView 
+			            style="@style/TableTextView.GravityRight.RowSpan"
+			            android:text="@string/PrepGreatestEurope"/>
+			    </TableRow>
+			    <TableRow
+			        style="@style/TableRow.Span">
+			        <TextView 
+			            style="@style/TableTextView.Bold"
+			            android:layout_span="2"
+			            android:text="@string/LeastPrec"/>
+			    </TableRow>
+			    <TableRow style="@style/TableRow">
+			        <TextView 
+			          	style="@style/TableTextView.RowSpan"
+			            android:text="@string/AstrakhanRussia"/>
+			        <TextView 
+			            style="@style/TableTextView.GravityRight.RowSpan"
+			            android:text="@string/PrepLeastEurope"/>
+			    </TableRow>
 			</TableLayout>
 		</LinearLayout>
 	</ScrollView>

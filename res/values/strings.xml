@@ -40,8 +40,10 @@
     <string name="TimesAtlas">Times Atlas</string>
     <string name="Wikipedia">Wikipedia</string>
     <string name="Temperature">Temperature</string>
-    <string name="HighestTemp">Highest °C / °F</string>
-    <string name="LowestTemp">Lowest °C / °F</string>
+    <string name="HighestTemp">Highest Temprature °C / °F</string>
+    <string name="LowestTemp">Lowest Temprature °C / °F</string>
+    <string name="GreatestPrec">Greatest Precipitation (average annual) mm</string>
+    <string name="LeastPrec">Least Precipitation (average annual) mm</string>
     <string name="Capitals">Capitals</string>
     <string name="LargestPopulation">Largest population</string>
 	<string name="SmallestPopulation">Smallest population</string>
