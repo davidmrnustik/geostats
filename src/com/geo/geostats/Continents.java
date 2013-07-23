@@ -21,13 +21,14 @@ public class Continents extends SherlockFragmentActivity{
         
         ActionBar actionbar = getSupportActionBar();
         actionbar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+        actionbar.setDisplayShowTitleEnabled(false);
         actionbar.setTitle(getString(R.string.Continents));
                 
         ActionBar.Tab Frag1Tab = actionbar.newTab().setText(getString(R.string.Europe));
         ActionBar.Tab Frag2Tab = actionbar.newTab().setText(getString(R.string.Asia));
         ActionBar.Tab Frag3Tab = actionbar.newTab().setText(getString(R.string.Africa));
-        ActionBar.Tab Frag4Tab = actionbar.newTab().setText(getString(R.string.NorthAmerica));
-        ActionBar.Tab Frag5Tab = actionbar.newTab().setText(getString(R.string.SouthAmerica));
+        ActionBar.Tab Frag4Tab = actionbar.newTab().setText(getString(R.string.NAmerica));
+        ActionBar.Tab Frag5Tab = actionbar.newTab().setText(getString(R.string.SAmerica));
         ActionBar.Tab Frag6Tab = actionbar.newTab().setText(getString(R.string.Australia));
         ActionBar.Tab Frag7Tab = actionbar.newTab().setText(getString(R.string.Antarctica));
         

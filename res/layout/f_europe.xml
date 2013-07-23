@@ -3,9 +3,11 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#000000"
+    android:weightSum="4"
     android:orientation="vertical" >
     
     <TableLayout style="@style/TableLayout"
+        android:layout_weight="1"
 	        android:shrinkColumns="0">
 		    
 	    <TableRow style="@style/TableRow">
@@ -24,15 +26,6 @@
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/VolumeRecordEurope"/>
 	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView.Head"
-	            android:text="@string/TopicName"/>
-	        <TextView 
-	            style="@style/TableTextView.Head"
-	            android:text="@string/Value"/>
-	    </TableRow>
-
 	</TableLayout>
     
     <com.viewpagerindicator.TabPageIndicator
@@ -44,6 +37,7 @@
     <android.support.v4.view.ViewPager
         android:id="@+android:id/viewpager"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_weight="3"
+        android:layout_height="0dp" />
 
 </LinearLayout>
