@@ -22,7 +22,7 @@ import com.viewpagerindicator.TabPageIndicator;
 
 public class F_Europe extends SherlockFragment {
 
-	Button btD1O, btD2O, btClose;
+	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btClose;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	public final int limit = 0;
@@ -139,9 +139,84 @@ public class F_Europe extends SherlockFragment {
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_europe_population, null);
+				Button btD3O = (Button) v.findViewById(R.id.btDialog3);
+				Button btD4O = (Button) v.findViewById(R.id.btDialog4);
+				
+				btD3O.setOnClickListener(new OnClickListener() {
+					public void onClick(View v) {
+						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+						d.setCancelable(true);
+						d.setContentView(R.layout.d_europe_population);
+						d.setCanceledOnTouchOutside(true);
+						Button btClose = (Button) d.findViewById(R.id.btClose);
+						btClose.setOnClickListener(new OnClickListener() {
+							@Override
+							public void onClick(View v) {
+								d.cancel();
+							}
+						});
+						d.show();
+					}
+				});
+				
+				btD4O.setOnClickListener(new OnClickListener() {
+					public void onClick(View v) {
+						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+						d.setCancelable(true);
+						d.setContentView(R.layout.d_europe_eu_population);
+						d.setCanceledOnTouchOutside(true);
+						Button btClose = (Button) d.findViewById(R.id.btClose);
+						btClose.setOnClickListener(new OnClickListener() {
+							@Override
+							public void onClick(View v) {
+								d.cancel();
+							}
+						});
+						d.show();
+					}
+				});
+				
 				break;
 			case 2:
 				v = inflater.inflate(R.layout.vp_europe_cities, null);
+				
+				Button btD5O = (Button) v.findViewById(R.id.btDialog5);
+				Button btD6O = (Button) v.findViewById(R.id.btDialog6);
+				
+				btD5O.setOnClickListener(new OnClickListener() {
+					public void onClick(View v) {
+						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+						d.setCancelable(true);
+						d.setContentView(R.layout.d_europe_cities);
+						d.setCanceledOnTouchOutside(true);
+						Button btClose = (Button) d.findViewById(R.id.btClose);
+						btClose.setOnClickListener(new OnClickListener() {
+							@Override
+							public void onClick(View v) {
+								d.cancel();
+							}
+						});
+						d.show();
+					}
+				});	
+				
+				btD6O.setOnClickListener(new OnClickListener() {
+					public void onClick(View v) {
+						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+						d.setCancelable(true);
+						d.setContentView(R.layout.d_europe_urban_areas);
+						d.setCanceledOnTouchOutside(true);
+						Button btClose = (Button) d.findViewById(R.id.btClose);
+						btClose.setOnClickListener(new OnClickListener() {
+							@Override
+							public void onClick(View v) {
+								d.cancel();
+							}
+						});
+						d.show();
+					}
+				});	
+				
 				break;
 			case 3:
 				v = inflater.inflate(R.layout.vp_europe_capitals, null);

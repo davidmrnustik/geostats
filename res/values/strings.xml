@@ -50,6 +50,7 @@
     <string name="LargestCountries">Largest Countries</string>
     <string name="LargestEUCountries">Largest EU Countries</string>
     <string name="MostPopulatedCountries">Most Populated Countries</string>
+    <string name="MostPopulatedEUCountries">Most Populated EU Countries</string>
     <string name="CountriesByPopulationDensity">Countries by population density</string>
     <string name="HighestMountains">Highest Mountains</string>
     <string name="LargestIslands">Largest Islands</string>
@@ -57,6 +58,7 @@
     <string name="LargestLakes">Largest Lakes</string>
     <string name="LargestSeas">Largest Seas</string>
     <string name="LargestCities">Largest Cities</string>
+    <string name="LargestUrbanAreas">Urban Areas</string>
     <string name="MajorOceanicTrenches">Major oceanic trenches</string>
     <string name="AverageDepth">Average Depth (m)</string>
     <string name="DeepestPoint">Deepest Point (m)</string>

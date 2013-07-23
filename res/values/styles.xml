@@ -92,5 +92,13 @@
         <item name="android:background">#ff0000</item>
         <item name="android:windowNoTitle">true</item>
     </style>
+    <style name="ButCloseDialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"></item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/navigation_cancel</item>
+    </style>
 
 </resources>

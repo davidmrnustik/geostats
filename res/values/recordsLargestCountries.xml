@@ -33,9 +33,9 @@
 	<string name="LargestCountriesEurope08">323.878</string>
 	<string name="LargestCountriesEurope09">312.683</string>
 	<string name="LargestCountriesEurope10">301.245</string>
-	<string name="LargestCountriesEUEurope08">243.610</string>
-	<string name="LargestCountriesEUEurope09">238.390</string>
-	<string name="LargestCountriesEUEurope10">131.960</string>
+	<string name="LargestCountriesEUEurope08">243.610</string> <!-- WDI -->
+	<string name="LargestCountriesEUEurope09">238.390</string> <!-- WDI -->
+	<string name="LargestCountriesEUEurope10">131.960</string> <!-- WDI -->
 	
 	<!-- LARGEST COUNTRIES ASIA -->
 	<string name="LargestCountriesAsia01">17.075.400</string>   

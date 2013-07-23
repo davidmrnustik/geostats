@@ -33,6 +33,8 @@
 	<string name="MostPopulatedCountriesEurope08">38.299.000</string>
 	<string name="MostPopulatedCountriesEurope09">21.436.000</string>
 	<string name="MostPopulatedCountriesEurope10">16.665.000</string>
+	<string name="MostPopulatedCountriesEUEurope09">11.280.000</string> <!-- WDI -->
+	<string name="MostPopulatedCountriesEUEurope10">11.140.000</string> <!-- WDI -->
 	
 	<!-- MOST POPULATED COUNTRIES ASIA -->
 	<string name="MostPopulatedCountriesAsia01">1.332.079.000</string>
