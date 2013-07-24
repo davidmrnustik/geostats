@@ -222,7 +222,7 @@ public class F_Europe extends SherlockFragment {
 				v = inflater.inflate(R.layout.vp_europe_capitals, null);
 				break;
 			case 4:
-				v = inflater.inflate(R.layout.vp_europe_mountains, vp, false);
+				v = inflater.inflate(R.layout.vp_europe_mountains, null);
 				
 				Button btD7O = (Button) v.findViewById(R.id.btDialog7);
 				Button btD8O = (Button) v.findViewById(R.id.btDialog8);
