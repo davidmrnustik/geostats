@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COUNTRIES BY POPULATION DENSITY WORLD -->
+	<string name="CountriesByPopulationDensityWorld01">20.069</string>
+	<string name="CountriesByPopulationDensityWorld02">18.068</string>
+	<string name="CountriesByPopulationDensityWorld03">7.546</string>
+	<string name="CountriesByPopulationDensityWorld04">6.516</string>
+	<string name="CountriesByPopulationDensityWorld05">4.250</string>
+	<string name="CountriesByPopulationDensityWorld06">1.818</string>
+	<string name="CountriesByPopulationDensityWorld07">1.631</string>
+	<string name="CountriesByPopulationDensityWorld08">1.321</string>
+	<string name="CountriesByPopulationDensityWorld09">1.212</string>
+	<string name="CountriesByPopulationDensityWorld10">1.101</string>
+	<string name="CountriesByPopulationDensityWorld11">1.065</string>
+	<string name="CountriesByPopulationDensityWorld12">1.045</string>
+	<string name="CountriesByPopulationDensityWorld13">844</string>
+	<string name="CountriesByPopulationDensityWorld14">800</string>
+	<string name="CountriesByPopulationDensityWorld15">713</string>
+	<string name="CountriesByPopulationDensityWorld16">685</string>
+	<string name="CountriesByPopulationDensityWorld17">645</string>
+	<string name="CountriesByPopulationDensityWorld18">637</string>
+	<string name="CountriesByPopulationDensityWorld19">617</string>
+	<string name="CountriesByPopulationDensityWorld20">568</string>
+</resources>

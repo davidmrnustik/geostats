@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<ScrollView
+	    style="@style/ScrollView">
+		    
+	    <TableLayout style="@style/TableLayout"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Name"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/TotalSqKm"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/LakeTiticaca"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestLakesSAmerica01"/>
+		    </TableRow>
+		</TableLayout>
+	</ScrollView>
+</LinearLayout>

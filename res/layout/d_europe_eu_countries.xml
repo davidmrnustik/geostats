@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LargestEUCountries"
+            android:id="@+id/dTitle"/>
+        
+        <Button
+            style="@style/ButCloseDialog"
+            android:id="@+id/btClose"/>
+
+	    <TableLayout style="@style/TableLayout"
+	        android:shrinkColumns="0"
+	        android:layout_below="@+id/btClose">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Name"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/TotalSqKm"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/France"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestCountriesEurope03"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Spain"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestCountriesEurope04"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Sweden"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestCountriesEurope05"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Germany"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestCountriesEurope06"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Finland"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestCountriesEurope07"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Poland"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestCountriesEurope09"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Italy"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestCountriesEurope10"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/UnitedKingdom"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestCountriesEUEurope08"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Romania"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestCountriesEUEurope09"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Greece"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestCountriesEUEurope10"/>
+		    </TableRow>
+		</TableLayout>
+	</RelativeLayout>
+</ScrollView>

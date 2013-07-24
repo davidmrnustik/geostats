@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<ScrollView
+    style="@style/ScrollView">
+    
+    <!-- Solution of row span from http://www.compiletimeerror.com/2013/07/android-tablelayout-example.html -->
+	    
+	    <TableLayout style="@style/TableLayout"
+	        android:stretchColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/TopicName"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/Value"/>
+		    </TableRow>
+		    
+		    <TableRow
+		        style="@style/TableRow.Span">
+		        <TextView 
+		            style="@style/TableTextView.Bold"
+		            android:layout_span="2"
+		            android:text="@string/LargestPopulation"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.RowSpan"
+		            android:text="@string/Tokyo"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight.RowSpan"
+		            android:text="@string/LargestPopulationAsia"/>
+		    </TableRow>
+		    
+		    <TableRow
+		        style="@style/TableRow.Span">
+		        <TextView 
+		            style="@style/TableTextView.Bold"
+		            android:layout_span="2"
+		            android:text="@string/SmallestPopulation"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.RowSpan"
+		            android:text="@string/Melekeok"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight.RowSpan"
+		            android:text="@string/SmallestPopulationAsia"/>
+		    </TableRow>
+		    
+		    <TableRow
+		        style="@style/TableRow.Span">
+		        <TextView 
+		            style="@style/TableTextView.Bold"
+		            android:layout_span="2"
+		            android:text="@string/MostNortherly"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.RowSpan"
+		            android:text="@string/Astana"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight.RowSpan"
+		            android:text="@string/MostNortherlyAsia"/>
+		    </TableRow>
+		    
+		    <TableRow
+		        style="@style/TableRow.Span">
+		        <TextView 
+		            style="@style/TableTextView.Bold"
+		            android:layout_span="2"
+		            android:text="@string/MostSoutherly"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.RowSpan"
+		            android:text="@string/Dili"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight.RowSpan"
+		            android:text="@string/MostSoutherlyAsia"/>
+		    </TableRow>
+		    
+		    <TableRow
+		        style="@style/TableRow.Span">
+		        <TextView 
+		            style="@style/TableTextView.Bold"
+		            android:layout_span="2"
+		            android:text="@string/Highest"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.RowSpan"
+		            android:text="@string/Thimphu"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight.RowSpan"
+		            android:text="@string/HighestCapitalAsia"/>
+		    </TableRow>
+
+		</TableLayout>
+		
+	</ScrollView>
+</LinearLayout>
