@@ -14,9 +14,8 @@
         
         <ImageView
 	        android:contentDescription="@string/NAmerica"
-	        android:layout_width="fill_parent"
-	        android:layout_height="fill_parent"
-	        android:background="@drawable/map" />
+	        style="@style/ImageViewMapLandLarge"
+	        android:src="@drawable/map" />
     
 	    <include layout="@layout/inc_namerica"/>
         

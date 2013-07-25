@@ -95,5 +95,15 @@
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:background">@drawable/navigation_cancel</item>
     </style>
+    <style name="ImageViewMapLand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="ImageViewMapLandLarge">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
 
 </resources>
