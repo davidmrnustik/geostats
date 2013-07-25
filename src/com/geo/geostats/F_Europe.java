@@ -15,7 +15,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.ScrollView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
@@ -25,7 +25,7 @@ public class F_Europe extends SherlockFragment {
 	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btD7O, btD8O, btClose;
 	ViewPager vp;
 	private vpAdapter miAdapter;
-	public final int limit = 0;
+	//public final int limit = 0;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -57,13 +57,13 @@ public class F_Europe extends SherlockFragment {
 		@Override
 		public boolean isViewFromObject(View view, Object object) {
 			// TODO Auto-generated method stub
-			return view == ((LinearLayout)object);
+			return view == ((ScrollView)object);
 		}
 
 		@Override
 		public void destroyItem(ViewGroup container, int position, Object object) {
 			// TODO Auto-generated method stub
-			((ViewPager)container).removeView((LinearLayout)object);
+			((ViewPager)container).removeView((ScrollView)object);
 		}
 
 		@Override

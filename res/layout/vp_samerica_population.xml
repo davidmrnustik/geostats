@@ -1,103 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-	<ScrollView
-	    style="@style/ScrollView">
+    style="@style/ScrollView">
 
-	    <TableLayout style="@style/TableLayout"
-	        android:shrinkColumns="0">
-	        
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView.Head"
-		            android:text="@string/Country"/>
-		        <TextView 
-		            style="@style/TableTextView.Head"
-		            android:text="@string/Total"/>
-		    </TableRow>
-		    
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Brazil"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesSAmerica01"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Colombia"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesSAmerica02"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Argentina"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesSAmerica03"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Venezuela"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesSAmerica04"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Peru"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesSAmerica05"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Chile"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesSAmerica06"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Ecuador"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesSAmerica07"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Bolivia"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesSAmerica08"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Paraguay"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesSAmerica09"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Uruguay"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesSAmerica10"/>
-		    </TableRow>
-		</TableLayout>
-	</ScrollView>
-</LinearLayout>
+    <TableLayout style="@style/TableLayout"
+        android:shrinkColumns="0">
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Country"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Total"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Brazil"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesSAmerica01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Colombia"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesSAmerica02"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Argentina"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesSAmerica03"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Venezuela"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesSAmerica04"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Peru"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesSAmerica05"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Chile"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesSAmerica06"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Ecuador"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesSAmerica07"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Bolivia"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesSAmerica08"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Paraguay"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesSAmerica09"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Uruguay"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesSAmerica10"/>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>
