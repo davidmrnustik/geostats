@@ -13,12 +13,32 @@
         android:layout_weight="1.1">
         
         <ImageView
-	        android:contentDescription="@string/Europe"
+	        android:contentDescription="@string/Australia"
 	        android:layout_width="fill_parent"
 	        android:layout_height="fill_parent"
 	        android:background="@drawable/map" />
     
-	    <include layout="@layout/inc_europe"/>
+	    <TableLayout style="@style/TableLayout"
+	        android:layout_alignParentBottom="true"
+		        android:shrinkColumns="0">
+			    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/TotalLandArea"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/TotalLandAreaRecordAustralia"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Volume"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/VolumeRecordAustralia"/>
+		    </TableRow>
+		</TableLayout>
         
     </RelativeLayout>
 
@@ -28,8 +48,8 @@
         android:layout_weight="0.9"
         android:orientation="vertical">
 	    
-	    <include layout="@layout/inc_viewpager"/>
-	    
+	   <include layout="@layout/inc_viewpager"/>
+	   
     </LinearLayout>
 
 </LinearLayout>

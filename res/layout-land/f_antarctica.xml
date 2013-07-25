@@ -10,10 +10,10 @@
     <RelativeLayout 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1">
+        android:layout_weight="1.1">
         
         <ImageView
-	        android:contentDescription="@string/Europe"
+	        android:contentDescription="@string/Antarctica"
 	        android:layout_width="fill_parent"
 	        android:layout_height="fill_parent"
 	        android:background="@drawable/map" />
@@ -28,7 +28,7 @@
 		            android:text="@string/TotalLandArea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/TotalLandAreaRecordEurope"/>
+		            android:text="@string/TotalLandAreaRecordAntarctica"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
@@ -36,7 +36,7 @@
 		            android:text="@string/Volume"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/VolumeRecordEurope"/>
+		            android:text="@string/VolumeRecordAntarctica"/>
 		    </TableRow>
 		</TableLayout>
         
@@ -45,11 +45,19 @@
     <LinearLayout 
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="1"
+        android:layout_weight="0.9"
         android:orientation="vertical">
 	    
-	    <include layout="@layout/inc_viewpager_land"/>
+	    <com.viewpagerindicator.TabPageIndicator
+	        android:id="@+id/indicator"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        />
 	    
+	    <android.support.v4.view.ViewPager
+	        android:id="@+android:id/viewpager"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" />
     </LinearLayout>
 
 </LinearLayout>
