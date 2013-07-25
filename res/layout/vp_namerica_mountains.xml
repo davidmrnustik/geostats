@@ -1,63 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-	<ScrollView
-	    style="@style/ScrollView">
-		    
-	    <TableLayout style="@style/TableLayout"
-	        android:shrinkColumns="0">
-	        
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView.Head"
-		            android:text="@string/Name"/>
-		        <TextView 
-		            style="@style/TableTextView.Head"
-		            android:text="@string/TotalM"/>
-		    </TableRow>
-		    
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/MtMcKinley"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/HighestMountainsNAmerica01"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/MtLogan"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/HighestMountainsNAmerica02"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/PicoDeOrizaba"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/HighestMountainsNAmerica03"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/MtStElias"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/HighestMountainsNAmerica04"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/VolcanPopocatepecl"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/HighestMountainsNAmerica05"/>
-		    </TableRow>
-		</TableLayout>
-	</ScrollView>
-</LinearLayout>
+    style="@style/ScrollView">
+	    
+    <TableLayout style="@style/TableLayout"
+        android:shrinkColumns="0">
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/TotalM"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MtMcKinley"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsNAmerica01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MtLogan"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsNAmerica02"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/PicoDeOrizaba"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsNAmerica03"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MtStElias"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsNAmerica04"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/VolcanPopocatepecl"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsNAmerica05"/>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>

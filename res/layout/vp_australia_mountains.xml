@@ -1,139 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-	<ScrollView
-	    style="@style/ScrollView">
-	    
-	    <LinearLayout 
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:orientation="vertical">
-	        
-	        <TextView 
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:text="@string/IndoAustralianPlate"
-	            android:textColor="@color/colorFFF"
-	            android:layout_marginTop="12dp"
-	            android:layout_marginBottom="8dp"/>
+    style="@style/ScrollView">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/IndoAustralianPlate"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"/>
 
-		    <TableLayout style="@style/TableLayout"
-		        android:shrinkColumns="0">
-		        
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView.Head"
-			            android:text="@string/Name"/>
-			        <TextView 
-			            style="@style/TableTextView.Head"
-			            android:text="@string/TotalM"/>
-			    </TableRow>
-			    
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/PuncakJaya"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsAustraliaAP01"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/PuncakTrikora"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsAustraliaAP02"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/PuncakMandala"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsAustraliaAP03"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/PuncakYamin"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsAustraliaAP04"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/MtWilhelm"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsAustraliaAP05"/>
-			    </TableRow>
-			</TableLayout>
-			
-		    <TextView 
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:text="@string/AustralianContinent"
-	            android:textColor="@color/colorFFF"
-	            android:layout_marginTop="12dp"
-	            android:layout_marginBottom="8dp"/>
+	    <TableLayout style="@style/TableLayout"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Name"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/TotalM"/>
+		    </TableRow>
 		    
-		    <TableLayout style="@style/TableLayout"
-		        android:shrinkColumns="0">
-		        
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView.Head"
-			            android:text="@string/Name"/>
-			        <TextView 
-			            style="@style/TableTextView.Head"
-			            android:text="@string/TotalM"/>
-			    </TableRow>
-			    
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/MtKosciuszko"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsAustraliaAC01"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/MtBogong"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsAustraliaAC02"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/BimberiPeak"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsAustraliaAC03"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/MtBartleFrere"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsAustraliaAC04"/>
-			    </TableRow>
-			    <TableRow style="@style/TableRow">
-			        <TextView 
-			          	style="@style/TableTextView"
-			            android:text="@string/MtOssa"/>
-			        <TextView 
-			            style="@style/TableTextView.GravityRight"
-			            android:text="@string/HighestMountainsAustraliaAC05"/>
-			    </TableRow>
-			</TableLayout>
-		</LinearLayout>
-	</ScrollView>
-</LinearLayout>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/PuncakJaya"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/HighestMountainsAustraliaAP01"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/PuncakTrikora"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/HighestMountainsAustraliaAP02"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/PuncakMandala"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/HighestMountainsAustraliaAP03"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/PuncakYamin"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/HighestMountainsAustraliaAP04"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/MtWilhelm"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/HighestMountainsAustraliaAP05"/>
+		    </TableRow>
+		</TableLayout>
+		
+	    <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AustralianContinent"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"/>
+	    
+	    <TableLayout style="@style/TableLayout"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Name"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/TotalM"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/MtKosciuszko"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/HighestMountainsAustraliaAC01"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/MtBogong"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/HighestMountainsAustraliaAC02"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/BimberiPeak"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/HighestMountainsAustraliaAC03"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/MtBartleFrere"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/HighestMountainsAustraliaAC04"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/MtOssa"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/HighestMountainsAustraliaAC05"/>
+		    </TableRow>
+		</TableLayout>
+	</LinearLayout>
+</ScrollView>

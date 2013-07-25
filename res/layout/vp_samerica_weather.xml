@@ -2,24 +2,23 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ScrollView">
-
+    
 	<TableLayout style="@style/TableLayout"
-          android:shrinkColumns="0">
-          
-       <TableRow
-       	style="@style/TableRow.Span">
-       <TextView 
-           style="@style/TableTextView.Bold"
-           android:layout_span="2"
-           android:text="@string/HighestTemp"/>
+	          android:shrinkColumns="0">
+		<TableRow
+	       	style="@style/TableRow.Span">
+	       <TextView 
+	           style="@style/TableTextView.Bold"
+	           android:layout_span="2"
+	           android:text="@string/HighestTemp"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/AthensGreece"/>
+	            android:text="@string/RivadaviaArgentina"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/TempHighestEurope"/>
+	            android:text="@string/TempHighestSAmerica"/>
 	    </TableRow>
 	    <TableRow
 	        style="@style/TableRow.Span">
@@ -31,10 +30,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/UstShchugerRussia"/>
+	            android:text="@string/SarmientoArgentina"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/TempLowestEurope"/>
+	            android:text="@string/TempLowestSAmerica"/>
 	    </TableRow>
 	    <TableRow
 	       	style="@style/TableRow.Span">
@@ -46,10 +45,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/CrkvicaBosniaHercegovina"/>
+	            android:text="@string/QuibdoColombia"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/PrepGreatestEurope"/>
+	            android:text="@string/PrepGreatestSAmerica"/>
 	    </TableRow>
 	    <TableRow
 	        style="@style/TableRow.Span">
@@ -61,10 +60,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/AstrakhanRussia"/>
+	            android:text="@string/AricaChile"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/PrepLeastEurope"/>
+	            android:text="@string/PrepLeastSAmerica"/>
 	    </TableRow>
 	</TableLayout>
 </ScrollView>

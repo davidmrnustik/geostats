@@ -1,103 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-	<ScrollView
-	    style="@style/ScrollView">
+    style="@style/ScrollView">
 
-	    <TableLayout style="@style/TableLayout"
-	        android:shrinkColumns="0">
-	        
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView.Head"
-		            android:text="@string/Country"/>
-		        <TextView 
-		            style="@style/TableTextView.Head"
-		            android:text="@string/Total"/>
-		    </TableRow>
-		    
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Australia"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesAustralia01"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/PapuaNewGuinea"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesAustralia02"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/NewZealand"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesAustralia03"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Fiji"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesAustralia04"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/SolomonIslands"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesAustralia05"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Vanuatu"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesAustralia06"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Samoa"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesAustralia07"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/FederateStatesOfMicronesia"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesAustralia08"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Tonga"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesAustralia09"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Kiribati"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/MostPopulatedCountriesAustralia10"/>
-		    </TableRow>
-		</TableLayout>
-	</ScrollView>
-</LinearLayout>
+    <TableLayout style="@style/TableLayout"
+        android:shrinkColumns="0">
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Country"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Total"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Australia"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAustralia01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/PapuaNewGuinea"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAustralia02"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/NewZealand"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAustralia03"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Fiji"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAustralia04"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/SolomonIslands"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAustralia05"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Vanuatu"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAustralia06"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Samoa"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAustralia07"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/FederateStatesOfMicronesia"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAustralia08"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Tonga"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAustralia09"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Kiribati"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/MostPopulatedCountriesAustralia10"/>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>
