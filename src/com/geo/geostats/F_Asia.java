@@ -19,7 +19,7 @@ public class F_Asia extends SherlockFragment{
 	
 	ViewPager vp;
 	private vpAdapter miAdapter;
-	public final int limit = 0;
+	//public final int limit = 0;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -29,7 +29,7 @@ public class F_Asia extends SherlockFragment{
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
-        vp.setOffscreenPageLimit(limit);
+        //vp.setOffscreenPageLimit(limit);
 		
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);

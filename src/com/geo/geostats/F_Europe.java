@@ -35,7 +35,7 @@ public class F_Europe extends SherlockFragment {
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
-        vp.setOffscreenPageLimit(limit);
+        //vp.setOffscreenPageLimit(limit);
 		
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);
