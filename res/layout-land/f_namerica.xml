@@ -18,27 +18,7 @@
 	        android:layout_height="fill_parent"
 	        android:background="@drawable/map" />
     
-	    <TableLayout style="@style/TableLayout"
-	        android:layout_alignParentBottom="true"
-		        android:shrinkColumns="0">
-			    
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/TotalLandArea"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/TotalLandAreaRecordNAmerica"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Volume"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/VolumeRecordNAmerica"/>
-		    </TableRow>
-		</TableLayout>
+	    <include layout="@layout/inc_namerica"/>
         
     </RelativeLayout>
 
