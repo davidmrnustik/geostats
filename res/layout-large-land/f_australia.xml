@@ -10,10 +10,10 @@
     <RelativeLayout 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1.1">
+        android:layout_weight="1">
         
         <ImageView
-	        android:contentDescription="@string/SAmerica"
+	        android:contentDescription="@string/Australia"
 	        android:layout_width="fill_parent"
 	        android:layout_height="fill_parent"
 	        android:background="@drawable/map" />
@@ -28,7 +28,7 @@
 		            android:text="@string/TotalLandArea"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/TotalLandAreaRecordSAmerica"/>
+		            android:text="@string/TotalLandAreaRecordAustralia"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
@@ -36,7 +36,7 @@
 		            android:text="@string/Volume"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/VolumeRecordSAmerica"/>
+		            android:text="@string/VolumeRecordAustralia"/>
 		    </TableRow>
 		</TableLayout>
         
@@ -45,11 +45,11 @@
     <LinearLayout 
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="0.9"
+        android:layout_weight="1"
         android:orientation="vertical">
 	    
-	    <include layout="@layout/inc_viewpager"/>
-	    
+	   <include layout="@layout/inc_viewpager_land"/>
+	   
     </LinearLayout>
 
 </LinearLayout>
