@@ -16,59 +16,7 @@
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
 	
-   		<TableLayout style="@style/TableLayout"
-   		    android:layout_below="@+id/dTitle"
-	       android:shrinkColumns="0">
-	       
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView.Head"
-		            android:text="@string/Name"/>
-		        <TextView 
-		            style="@style/TableTextView.Head"
-		            android:text="@string/TotalM"/>
-		    </TableRow>
-		    
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/MontBlanc"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/HighestMountainsEuropeKMD01"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Dufourspitze"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/HighestMountainsEuropeKMD02"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Grossglockner"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/HighestMountainsEuropeKMD03"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Teide"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/HighestMountainsEuropeKMD04"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Mulhacen"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/HighestMountainsEuropeKMD05"/>
-		    </TableRow>
-		</TableLayout>
+   		<include layout="@layout/inc_europe_mountains_kmd"/>
+        
 	</RelativeLayout>
 </ScrollView>

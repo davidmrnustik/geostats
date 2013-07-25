@@ -227,23 +227,28 @@ public class F_Europe extends SherlockFragment {
 				Button btD7O = (Button) v.findViewById(R.id.btDialog7);
 				Button btD8O = (Button) v.findViewById(R.id.btDialog8);
 				
-				btD7O.setOnClickListener(new OnClickListener() {
-					public void onClick(View v) {
-						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
-						d.setCancelable(true);
-						d.setContentView(R.layout.d_europe_mountains_kmd);
-						d.setCanceledOnTouchOutside(true);
-						Button btClose = (Button) d.findViewById(R.id.btClose);
-						btClose.setOnClickListener(new OnClickListener() {
-							@Override
-							public void onClick(View v) {
-								d.cancel();
-							}
-						});
-						d.show();
-					}
-				});	
+				if(btD7O != null){
+					btD7O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.d_europe_mountains_kmd);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});	
+				}else{
+					
+				}
 				
+				if(btD8O != null){
 				btD8O.setOnClickListener(new OnClickListener() {
 					public void onClick(View v) {
 						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
@@ -259,7 +264,10 @@ public class F_Europe extends SherlockFragment {
 						});
 						d.show();
 					}
-				});	
+				});
+				}else{
+					
+				}
 				
 				break;
 			case 5:
