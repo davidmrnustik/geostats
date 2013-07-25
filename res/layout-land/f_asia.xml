@@ -14,9 +14,8 @@
         
         <ImageView
 	        android:contentDescription="@string/Asia"
-	        android:layout_width="fill_parent"
-	        android:layout_height="fill_parent"
-	        android:background="@drawable/map" />
+	        android:src="@drawable/map"
+	        style="@style/ImageViewMapLand" />
     
 	    <include layout="@layout/inc_asia"/>
         

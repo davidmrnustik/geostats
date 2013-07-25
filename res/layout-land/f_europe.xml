@@ -13,10 +13,9 @@
         android:layout_weight="1.1">
         
         <ImageView
-	        android:contentDescription="@string/Europe"
-	        android:layout_width="fill_parent"
-	        android:layout_height="fill_parent"
-	        android:background="@drawable/map" />
+            android:src="@drawable/map"
+            android:contentDescription="@string/Europe"
+            style="@style/ImageViewMapLand" />
     
 	    <include layout="@layout/inc_europe"/>
         
