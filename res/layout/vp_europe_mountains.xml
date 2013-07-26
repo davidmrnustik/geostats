@@ -5,7 +5,6 @@
 
 	<TableLayout style="@style/TableLayout"
 	          android:shrinkColumns="0">
-	          
 		<TableRow
 	      	style="@style/TableRow.Span">
 	       <TextView 

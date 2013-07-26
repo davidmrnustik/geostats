@@ -35,10 +35,12 @@ public class F_Europe extends SherlockFragment {
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
+        //vp.setCurrentItem(2); skip to a particular tab
         //vp.setOffscreenPageLimit(limit);
 		
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);
+        //indicator.setCurrentItem(2); skip to a particular tab
         
 		return v;
 	}
@@ -85,56 +87,63 @@ public class F_Europe extends SherlockFragment {
 				Button btD1O = (Button) v.findViewById(R.id.btDialog);
 				Button btD2O = (Button) v.findViewById(R.id.btDialog2);
 				
-				btD1O.setOnClickListener(new OnClickListener() {
-					public void onClick(View v) {
-						
-						// OK version with AlertDialog 
-						/*AlertDialog.Builder d = new AlertDialog.Builder(F_Europe.this.getActivity());
-						LayoutInflater inflater = F_Europe.this.getActivity().getLayoutInflater();
-						d.setView(inflater.inflate(R.layout.vp_africa_countries, null))
-						.setIcon(R.drawable.content_remove)
-						.setMessage(R.string.MostPopulatedCountries)
-							.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-								
-								@Override
-								public void onClick(DialogInterface dialog, int id) {
-									// TODO Auto-generated method stub
+				if(btD1O != null){
+					btD1O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							
+							// OK version with AlertDialog 
+							/*AlertDialog.Builder d = new AlertDialog.Builder(F_Europe.this.getActivity());
+							LayoutInflater inflater = F_Europe.this.getActivity().getLayoutInflater();
+							d.setView(inflater.inflate(R.layout.vp_africa_countries, null))
+							.setIcon(R.drawable.content_remove)
+							.setMessage(R.string.MostPopulatedCountries)
+								.setPositiveButton("OK", new DialogInterface.OnClickListener() {
 									
+									@Override
+									public void onClick(DialogInterface dialog, int id) {
+										// TODO Auto-generated method stub
+										
+									}
+								}).create();
+							d.show();*/
+													
+							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.d_europe_countries);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
 								}
-							}).create();
-						d.show();*/
-												
-						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
-						d.setCancelable(true);
-						d.setContentView(R.layout.d_europe_countries);
-						d.setCanceledOnTouchOutside(true);
-						Button btClose = (Button) d.findViewById(R.id.btClose);
-						btClose.setOnClickListener(new OnClickListener() {
-							@Override
-							public void onClick(View v) {
-								d.cancel();
-							}
-						});
-						d.show();
-					}
-				});
+							});
+							d.show();
+						}
+					});
+				}else{
 				
-				btD2O.setOnClickListener(new OnClickListener() {
-					public void onClick(View v) {
-						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
-						d.setCancelable(true);
-						d.setContentView(R.layout.d_europe_eu_countries);
-						d.setCanceledOnTouchOutside(true);
-						Button btClose = (Button) d.findViewById(R.id.btClose);
-						btClose.setOnClickListener(new OnClickListener() {
-							@Override
-							public void onClick(View v) {
-								d.cancel();
-							}
-						});
-						d.show();
-					}
-				});		
+				}
+				if(btD2O != null){
+					btD2O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.d_europe_eu_countries);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});
+				}else{
+					
+				}
 				
 				break;
 			case 1:
@@ -142,39 +151,47 @@ public class F_Europe extends SherlockFragment {
 				Button btD3O = (Button) v.findViewById(R.id.btDialog3);
 				Button btD4O = (Button) v.findViewById(R.id.btDialog4);
 				
-				btD3O.setOnClickListener(new OnClickListener() {
-					public void onClick(View v) {
-						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
-						d.setCancelable(true);
-						d.setContentView(R.layout.d_europe_population);
-						d.setCanceledOnTouchOutside(true);
-						Button btClose = (Button) d.findViewById(R.id.btClose);
-						btClose.setOnClickListener(new OnClickListener() {
-							@Override
-							public void onClick(View v) {
-								d.cancel();
-							}
-						});
-						d.show();
-					}
-				});
+				if(btD3O != null){
+					btD3O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.d_europe_population);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});
+				}else{
+					
+				}
 				
-				btD4O.setOnClickListener(new OnClickListener() {
-					public void onClick(View v) {
-						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
-						d.setCancelable(true);
-						d.setContentView(R.layout.d_europe_eu_population);
-						d.setCanceledOnTouchOutside(true);
-						Button btClose = (Button) d.findViewById(R.id.btClose);
-						btClose.setOnClickListener(new OnClickListener() {
-							@Override
-							public void onClick(View v) {
-								d.cancel();
-							}
-						});
-						d.show();
-					}
-				});
+				if(btD4O != null){
+					btD4O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.d_europe_eu_population);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});
+				}else{
+					
+				}
 				
 				break;
 			case 2:
@@ -183,39 +200,47 @@ public class F_Europe extends SherlockFragment {
 				Button btD5O = (Button) v.findViewById(R.id.btDialog5);
 				Button btD6O = (Button) v.findViewById(R.id.btDialog6);
 				
-				btD5O.setOnClickListener(new OnClickListener() {
-					public void onClick(View v) {
-						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
-						d.setCancelable(true);
-						d.setContentView(R.layout.d_europe_cities);
-						d.setCanceledOnTouchOutside(true);
-						Button btClose = (Button) d.findViewById(R.id.btClose);
-						btClose.setOnClickListener(new OnClickListener() {
-							@Override
-							public void onClick(View v) {
-								d.cancel();
-							}
-						});
-						d.show();
-					}
-				});	
+				if(btD5O != null){
+					btD5O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.d_europe_cities);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});	
+				}else{
+					
+				}
 				
-				btD6O.setOnClickListener(new OnClickListener() {
-					public void onClick(View v) {
-						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
-						d.setCancelable(true);
-						d.setContentView(R.layout.d_europe_urban_areas);
-						d.setCanceledOnTouchOutside(true);
-						Button btClose = (Button) d.findViewById(R.id.btClose);
-						btClose.setOnClickListener(new OnClickListener() {
-							@Override
-							public void onClick(View v) {
-								d.cancel();
-							}
-						});
-						d.show();
-					}
-				});	
+				if(btD6O != null){
+					btD6O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.d_europe_urban_areas);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});
+				}else{
+					
+				}
 				
 				break;
 			case 3:
@@ -299,5 +324,6 @@ public class F_Europe extends SherlockFragment {
 			
 		}
 	}
+	
 }
 
