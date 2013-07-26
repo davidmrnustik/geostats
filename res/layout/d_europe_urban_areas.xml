@@ -16,28 +16,7 @@
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
 	
-   		<TableLayout style="@style/TableLayout"
-   		    android:layout_below="@+id/btClose"
-	        android:shrinkColumns="0">
-	        
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView.Head"
-		            android:text="@string/Name"/>
-		        <TextView 
-		            style="@style/TableTextView.Head"
-		            android:text="@string/Total"/>
-		    </TableRow>
-		    
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Istanbul"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestCitiesEurope01"/>
-		    </TableRow>
-		    
-		</TableLayout>
+   		<include layout="@layout/inc_europe_urban_areas"/>
+        
 	</RelativeLayout>
 </ScrollView>
