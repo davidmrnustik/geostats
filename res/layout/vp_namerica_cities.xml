@@ -3,97 +3,22 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ScrollView">
     
-    <TableLayout style="@style/TableLayout"
-        android:shrinkColumns="0">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
         
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView.Head"
-	            android:text="@string/Name"/>
-	        <TextView 
-	            style="@style/TableTextView.Head"
-	            android:text="@string/Total"/>
-	    </TableRow>
+	     <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/LargestCities"
+	        android:id="@+id/btDialog2"/>
 	    
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/MexicoCity"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesNAmerica01"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/NewYork"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesNAmerica02"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/LosAngeles"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesNAmerica03"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Chicago"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesNAmerica04"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Toronto"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesNAmerica05"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/DallasFortWorth"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesNAmerica06"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/SanFranciscoSanJose"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesNAmerica07"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Miami"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesNAmerica08"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Philadelphia"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesNAmerica09"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Houston"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesNAmerica10"/>
-	    </TableRow>
-	</TableLayout>
+	    <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/LargestUrbanAreas"
+	        android:id="@+id/btDialog3"/>
+        
+    </LinearLayout>
 </ScrollView>

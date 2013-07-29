@@ -20,6 +20,14 @@
 	            style="@style/TableTextView.GravityRight.RowSpan"
 	            android:text="@string/HighestPointRecord1Europe"/>
 	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/MontBlanc"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/HighestPointRecordEurope"/>
+	    </TableRow>
 	    <TableRow
 	        style="@style/TableRow.Span">
 	        <TextView 

@@ -1,0 +1,24 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+	    android:layout_below="@+id/btClose"
+        android:shrinkColumns="0">
+        
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Total"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/SaoPaulo"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesSAmerica01"/>
+	    </TableRow>
+	</TableLayout>
+</merge>
