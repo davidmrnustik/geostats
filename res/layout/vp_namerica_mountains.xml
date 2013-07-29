@@ -6,6 +6,36 @@
     <TableLayout style="@style/TableLayout"
         android:shrinkColumns="0">
         
+	    <TableRow
+	      	style="@style/TableRow.Span">
+	       <TextView 
+	           style="@style/TableTextView.Bold"
+	           android:layout_span="2"
+	           android:text="@string/HighestPoint"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/MtMcKinley"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/HighestPointRecordNAmerica"/>
+	    </TableRow>
+	    <TableRow
+	        style="@style/TableRow.Span">
+	        <TextView 
+	            style="@style/TableTextView.Bold"
+	            android:layout_span="2"
+	            android:text="@string/LowestPoint"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.RowSpan"
+	            android:text="@string/DeathValley"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight.RowSpan"
+	            android:text="@string/LowestPointRecordNAmerica"/>
+	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.Head"

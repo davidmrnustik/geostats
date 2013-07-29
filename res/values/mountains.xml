@@ -60,7 +60,7 @@
 	<string name="MtJackson">Mt Jackson</string>
     <string name="BoundaryCC">Highest mountains \n In the boundary along the Caucasus crest</string>
     <string name="BoundaryKMD">Highest mountains \n In the boundary along the Kuma–Manych Depression</string>
-    <string name="IndoAustralianPlate">Indo-Australian Plate</string>
-    <string name="AustralianContinent">Australian continent</string>
+    <string name="IndoAustralianPlate">Highest mountains \n in Indo-Australian Plate</string>
+    <string name="AustralianContinent">Highest mountains \n in Australian continent</string>
 	
 </resources>

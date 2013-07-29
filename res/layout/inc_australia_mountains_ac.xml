@@ -1,0 +1,56 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+	    android:layout_below="@+id/dTitle"
+	    android:shrinkColumns="0">
+	       
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/Name"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/TotalM"/>
+	    </TableRow>
+	    
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MtKosciuszko"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsAustraliaAC01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MtBogong"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsAustraliaAC02"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/BimberiPeak"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsAustraliaAC03"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MtBartleFrere"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsAustraliaAC04"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/MtOssa"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/HighestMountainsAustraliaAC05"/>
+	    </TableRow>
+	</TableLayout>
+</merge>
