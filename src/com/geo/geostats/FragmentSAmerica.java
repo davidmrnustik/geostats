@@ -20,7 +20,7 @@ import android.widget.ScrollView;
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
 
-public class F_Asia extends SherlockFragment{
+public class FragmentSAmerica extends SherlockFragment{
 	
 	Button btD1O, btD2O, btD3O;
 	ViewPager vp;
@@ -29,7 +29,7 @@ public class F_Asia extends SherlockFragment{
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
-		View v = inflater.inflate(R.layout.f_asia, container, false);
+		View v = inflater.inflate(R.layout.fragment_samerica, container, false);
 		
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
@@ -78,19 +78,19 @@ public class F_Asia extends SherlockFragment{
 			View v = null;
 			switch(position){
 			case 0:
-				v = inflater.inflate(R.layout.vp_asia_countries, null);
+				v = inflater.inflate(R.layout.vp_samerica_countries, null);
 				break;
 			case 1:
-				v = inflater.inflate(R.layout.vp_asia_population, null);
+				v = inflater.inflate(R.layout.vp_samerica_population, null);
 				
 				Button btD1O = (Button) v.findViewById(R.id.btDialog1);
 				
 				if(btD1O != null){
 					btD1O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_Asia.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentSAmerica.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_asia_population);
+							d.setContentView(R.layout.dialog_samerica_population);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -105,10 +105,9 @@ public class F_Asia extends SherlockFragment{
 				}else{
 					
 				}
-				
 				break;
 			case 2:
-				v = inflater.inflate(R.layout.vp_asia_cities, null);
+				v = inflater.inflate(R.layout.vp_samerica_cities, null);
 				
 				Button btD2O = (Button) v.findViewById(R.id.btDialog2);
 				Button btD3O = (Button) v.findViewById(R.id.btDialog3);
@@ -116,9 +115,9 @@ public class F_Asia extends SherlockFragment{
 				if(btD2O != null){
 					btD2O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_Asia.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentSAmerica.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_asia_cities);
+							d.setContentView(R.layout.dialog_samerica_cities);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -131,15 +130,15 @@ public class F_Asia extends SherlockFragment{
 						}
 					});	
 				}else{
-					
+				
 				}
 				
 				if(btD3O != null){
 					btD3O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_Asia.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentSAmerica.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_asia_urban_areas);
+							d.setContentView(R.layout.dialog_samerica_urban_areas);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -154,25 +153,24 @@ public class F_Asia extends SherlockFragment{
 				}else{
 					
 				}
-				
 				break;
 			case 3:
-				v = inflater.inflate(R.layout.vp_asia_capitals, null);
+				v = inflater.inflate(R.layout.vp_samerica_capitals, null);
 				break;
 			case 4:
-				v = inflater.inflate(R.layout.vp_asia_mountains, null);
+				v = inflater.inflate(R.layout.vp_samerica_mountains, null);
 				break;
 			case 5:
-				v = inflater.inflate(R.layout.vp_asia_islands, null);
+				v = inflater.inflate(R.layout.vp_samerica_islands, null);
 				break;
 			case 6:
-				v = inflater.inflate(R.layout.vp_asia_rivers, null);
+				v = inflater.inflate(R.layout.vp_samerica_rivers, null);
 				break;
 			case 7:
-				v = inflater.inflate(R.layout.vp_asia_lakes, null);
+				v = inflater.inflate(R.layout.vp_samerica_lakes, null);
 				break;
 			case 8:
-				v = inflater.inflate(R.layout.vp_asia_weather, null);
+				v = inflater.inflate(R.layout.vp_samerica_weather, null);
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

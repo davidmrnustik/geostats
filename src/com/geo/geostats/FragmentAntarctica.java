@@ -16,7 +16,7 @@ import android.widget.ScrollView;
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
 
-public class F_Antarctica extends SherlockFragment{
+public class FragmentAntarctica extends SherlockFragment{
 	
 	ViewPager vp;
 	private vpAdapter miAdapter;
@@ -24,7 +24,7 @@ public class F_Antarctica extends SherlockFragment{
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
-		View v = inflater.inflate(R.layout.f_antarctica, container, false);
+		View v = inflater.inflate(R.layout.fragment_antarctica, container, false);
 		
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();

@@ -32,13 +32,13 @@ public class Continents extends SherlockFragmentActivity{
         ActionBar.Tab Frag6Tab = actionbar.newTab().setText(getString(R.string.Australia));
         ActionBar.Tab Frag7Tab = actionbar.newTab().setText(getString(R.string.Antarctica));
         
-        Fragment Fragment1 = new F_Europe();
-        Fragment Fragment2 = new F_Asia();
-        Fragment Fragment3 = new F_Africa();
-        Fragment Fragment4 = new F_NAmerica();
-        Fragment Fragment5 = new F_SAmerica();
-        Fragment Fragment6 = new F_Australia();
-        Fragment Fragment7 = new F_Antarctica();
+        Fragment Fragment1 = new FragmentEurope();
+        Fragment Fragment2 = new FragmentAsia();
+        Fragment Fragment3 = new FragmentAfrica();
+        Fragment Fragment4 = new FragmentNAmerica();
+        Fragment Fragment5 = new FragmentSAmerica();
+        Fragment Fragment6 = new FragmentAustralia();
+        Fragment Fragment7 = new FragmentAntarctica();
 
         
         Frag1Tab.setTabListener(new MyTabsListener(Fragment1));

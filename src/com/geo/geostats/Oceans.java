@@ -29,11 +29,11 @@ public class Oceans extends SherlockFragmentActivity{
         ActionBar.Tab Frag4Tab = actionbar.newTab().setText(getString(R.string.ArcticOcean));
         ActionBar.Tab Frag5Tab = actionbar.newTab().setText(getString(R.string.SouthernOcean));
         
-        Fragment Fragment1 = new F_AtlanticO();
-        Fragment Fragment2 = new F_PacificO();
-        Fragment Fragment3 = new F_IndianO();
-        Fragment Fragment4 = new F_ArcticO();
-        Fragment Fragment5 = new F_SouthernO();
+        Fragment Fragment1 = new FragmentAtlanticO();
+        Fragment Fragment2 = new FragmentPacificO();
+        Fragment Fragment3 = new FragmentIndianO();
+        Fragment Fragment4 = new FragmentArcticO();
+        Fragment Fragment5 = new FragmentSouthernO();
 
         
         Frag1Tab.setTabListener(new MyTabsListener(Fragment1));
