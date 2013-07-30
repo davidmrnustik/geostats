@@ -21,6 +21,13 @@
             android:text="@string/LargestUrbanAreas"/>
 		
 		<include layout="@layout/inc_europe_urban_areas"/>
+		
+		<TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Capitals"/>
+		
+		<include layout="@layout/inc_europe_capitals"/>
 
         
     </LinearLayout>

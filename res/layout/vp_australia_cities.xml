@@ -6,6 +6,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:gravity="center_horizontal">
         
 	     <Button 
@@ -19,6 +20,12 @@
 	        android:layout_height="wrap_content"
 	        android:text="@string/LargestUrbanAreas"
 	        android:id="@+id/btDialog3"/>
+	    
+	    <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Capitals"
+	        android:id="@+id/btDialog6"/>
         
     </LinearLayout>
 </ScrollView>

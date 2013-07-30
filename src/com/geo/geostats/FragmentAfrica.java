@@ -21,7 +21,7 @@ import com.viewpagerindicator.TabPageIndicator;
 
 public class FragmentAfrica extends SherlockFragment{
 	
-	Button btD1O, btD2O, btD3O;
+	Button btD1O, btD2O, btD3O, btD4O;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	
@@ -44,7 +44,7 @@ public class FragmentAfrica extends SherlockFragment{
 		@Override
 		public int getCount() {
 			// TODO Auto-generated method stub
-			return 9;
+			return 8;
 		}
 		
 		public CharSequence getPageTitle(int position) {
@@ -110,6 +110,7 @@ public class FragmentAfrica extends SherlockFragment{
 				
 				Button btD2O = (Button) v.findViewById(R.id.btDialog2);
 				Button btD3O = (Button) v.findViewById(R.id.btDialog3);
+				Button btD4O = (Button) v.findViewById(R.id.btDialog4);
 				
 				if(btD2O != null){
 					btD2O.setOnClickListener(new OnClickListener() {
@@ -153,23 +154,41 @@ public class FragmentAfrica extends SherlockFragment{
 					
 				}
 				
+				if(btD4O != null){
+					btD4O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(FragmentAfrica.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.dialog_africa_capitals);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});
+				}else{
+					
+				}
+				
 				break;
 			case 3:
-				v = inflater.inflate(R.layout.vp_africa_capitals, null);
-				break;
-			case 4:
 				v = inflater.inflate(R.layout.vp_africa_mountains, null);
 				break;
-			case 5:
+			case 4:
 				v = inflater.inflate(R.layout.vp_africa_islands, null);
 				break;
-			case 6:
+			case 5:
 				v = inflater.inflate(R.layout.vp_africa_rivers, null);
 				break;
-			case 7:
+			case 6:
 				v = inflater.inflate(R.layout.vp_africa_lakes, null);
 				break;
-			case 8:
+			case 7:
 				v = inflater.inflate(R.layout.vp_africa_weather, null);
 				break;
 			}

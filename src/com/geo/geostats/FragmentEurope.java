@@ -22,7 +22,7 @@ import com.viewpagerindicator.TabPageIndicator;
 
 public class FragmentEurope extends SherlockFragment {
 
-	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btD7O, btD8O, btClose;
+	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btD7O, btD8O, btD9O, btClose;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	//public final int limit = 0;
@@ -49,7 +49,7 @@ public class FragmentEurope extends SherlockFragment {
 		@Override
 		public int getCount() {
 			// TODO Auto-generated method stub
-			return 9;
+			return 8;
 		}
 		
 		public CharSequence getPageTitle(int position) {
@@ -199,6 +199,7 @@ public class FragmentEurope extends SherlockFragment {
 				
 				Button btD5O = (Button) v.findViewById(R.id.btDialog5);
 				Button btD6O = (Button) v.findViewById(R.id.btDialog6);
+				Button btD9O = (Button) v.findViewById(R.id.btDialog9);
 				
 				if(btD5O != null){
 					btD5O.setOnClickListener(new OnClickListener() {
@@ -242,11 +243,29 @@ public class FragmentEurope extends SherlockFragment {
 					
 				}
 				
+				if(btD9O != null){
+					btD9O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.dialog_europe_capitals);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});
+				}else{
+					
+				}
+				
 				break;
 			case 3:
-				v = inflater.inflate(R.layout.vp_europe_capitals, null);
-				break;
-			case 4:
 				v = inflater.inflate(R.layout.vp_europe_mountains, null);
 				
 				Button btD7O = (Button) v.findViewById(R.id.btDialog7);
@@ -295,16 +314,16 @@ public class FragmentEurope extends SherlockFragment {
 				}
 				
 				break;
-			case 5:
+			case 4:
 				v = inflater.inflate(R.layout.vp_europe_islands, null);
 				break;
-			case 6:
+			case 5:
 				v = inflater.inflate(R.layout.vp_europe_rivers, null);
 				break;
-			case 7:
+			case 6:
 				v = inflater.inflate(R.layout.vp_europe_lakes, null);
 				break;
-			case 8:
+			case 7:
 				v = inflater.inflate(R.layout.vp_europe_weather, null);
 				break;
 			}
