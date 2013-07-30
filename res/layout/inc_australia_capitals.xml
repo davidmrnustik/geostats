@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	style="@style/ScrollView">
-   
-    <TableLayout style="@style/TableLayout"
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+	    android:layout_below="@+id/btClose"
         android:stretchColumns="0">
         
 	    <TableRow style="@style/TableRow">
@@ -26,10 +23,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/Tokyo"/>
+	            android:text="@string/Canberra"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/LargestPopulationAsia"/>
+	            android:text="@string/LargestPopulationAustralia"/>
 	    </TableRow>
 	    
 	    <TableRow
@@ -43,10 +40,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/Melekeok"/>
+	            android:text="@string/Valaku"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/SmallestPopulationAsia"/>
+	            android:text="@string/SmallestPopulationAustralia"/>
 	    </TableRow>
 	    
 	    <TableRow
@@ -60,10 +57,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/Astana"/>
+	            android:text="@string/DelapUligaDjarrit"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/MostNortherlyAsia"/>
+	            android:text="@string/MostNortherlyAustralia"/>
 	    </TableRow>
 	    
 	    <TableRow
@@ -77,10 +74,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/Dili"/>
+	            android:text="@string/Wellington"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/MostSoutherlyAsia"/>
+	            android:text="@string/MostSoutherlyAustralia"/>
 	    </TableRow>
 	    
 	    <TableRow
@@ -94,12 +91,11 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/Thimphu"/>
+	            android:text="@string/Canberra"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/HighestCapitalAsia"/>
+	            android:text="@string/HighestCapitalAustralia"/>
 	    </TableRow>
 
 	</TableLayout>
-	
-</ScrollView>
+</merge>

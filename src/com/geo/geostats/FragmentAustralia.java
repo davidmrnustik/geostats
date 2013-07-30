@@ -22,7 +22,7 @@ import com.viewpagerindicator.TabPageIndicator;
 
 public class FragmentAustralia extends SherlockFragment{
 
-	Button btD1O, btD2O, btD3O, btD4O, btD5O;
+	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	
@@ -45,7 +45,7 @@ public class FragmentAustralia extends SherlockFragment{
 		@Override
 		public int getCount() {
 			// TODO Auto-generated method stub
-			return 9;
+			return 8;
 		}
 		
 		public CharSequence getPageTitle(int position) {
@@ -111,6 +111,7 @@ public class FragmentAustralia extends SherlockFragment{
 				
 				Button btD2O = (Button) v.findViewById(R.id.btDialog2);
 				Button btD3O = (Button) v.findViewById(R.id.btDialog3);
+				Button btD6O = (Button) v.findViewById(R.id.btDialog6);
 				
 				if(btD2O != null){
 					btD2O.setOnClickListener(new OnClickListener() {
@@ -153,11 +154,29 @@ public class FragmentAustralia extends SherlockFragment{
 				}else{
 					
 				}
+				
+				if(btD6O != null){
+					btD6O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.dialog_australia_capitals);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});
+				}else{
+					
+				}
 				break;
 			case 3:
-				v = inflater.inflate(R.layout.vp_australia_capitals, null);
-				break;
-			case 4:
 				v = inflater.inflate(R.layout.vp_australia_mountains, null);
 				
 				Button btD4O = (Button) v.findViewById(R.id.btDialog4);
@@ -205,16 +224,16 @@ public class FragmentAustralia extends SherlockFragment{
 					
 				}
 				break;
-			case 5:
+			case 4:
 				v = inflater.inflate(R.layout.vp_australia_islands, null);
 				break;
-			case 6:
+			case 5:
 				v = inflater.inflate(R.layout.vp_australia_rivers, null);
 				break;
-			case 7:
+			case 6:
 				v = inflater.inflate(R.layout.vp_australia_lakes, null);
 				break;
-			case 8:
+			case 7:
 				v = inflater.inflate(R.layout.vp_australia_weather, null);
 				break;
 			}

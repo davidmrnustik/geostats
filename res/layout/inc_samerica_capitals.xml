@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-   	style="@style/ScrollView">
-   
-   <!-- Solution of row span from http://www.compiletimeerror.com/2013/07/android-tablelayout-example.html -->
-    
-    <TableLayout style="@style/TableLayout"
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout style="@style/TableLayout"
+	    android:layout_below="@+id/btClose"
         android:stretchColumns="0">
         
 	    <TableRow style="@style/TableRow">
@@ -28,10 +23,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/Moscow"/>
+	            android:text="@string/BuenosAires"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/LargestPopulationEurope"/>
+	            android:text="@string/LargestPopulationSAmerica"/>
 	    </TableRow>
 	    
 	    <TableRow
@@ -45,10 +40,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/VaticanCity"/>
+	            android:text="@string/Sucre"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/SmallestPopulationEurope"/>
+	            android:text="@string/SmallestPopulationSAmerica"/>
 	    </TableRow>
 	    
 	    <TableRow
@@ -62,10 +57,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/Reykjavik"/>
+	            android:text="@string/Caracas"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/MostNortherlyEurope"/>
+	            android:text="@string/MostNortherlySAmerica"/>
 	    </TableRow>
 	    
 	    <TableRow
@@ -79,10 +74,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/Valletta"/>
+	            android:text="@string/Stanley"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/MostSoutherlyEurope"/>
+	            android:text="@string/MostSoutherlySAmerica"/>
 	    </TableRow>
 	    
 	    <TableRow
@@ -96,12 +91,11 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/AndorraLaVella"/>
+	            android:text="@string/LaPaz"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/HighestCapitalEurope"/>
+	            android:text="@string/HighestCapitalSAmerica"/>
 	    </TableRow>
 
 	</TableLayout>
-	
-</ScrollView>
+</merge>

@@ -16,3 +16,7 @@ Then, in your project properties, add the created project under the ‘Libraries’ 
 
 There are also another ways to leverage ActionBarSherlock in your projects:
 - ActionBarSherlock [http://actionbarsherlock.com/usage.html]
+
+All versions of the android support libraries must be the same at this time. In case that there will be found
+not identical versions of android-support-v4.jar in the dependency list, update them with Android Tools > Add Support Library
+in Eclipse for all projects: ActionBarSherlock, Android-ViewPagerIndicator and geostats.
