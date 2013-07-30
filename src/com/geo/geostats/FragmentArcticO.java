@@ -7,12 +7,12 @@ import android.view.ViewGroup;
 import com.actionbarsherlock.app.SherlockFragment;
 
 
-public class F_PacificO extends SherlockFragment{
+public class FragmentArcticO extends SherlockFragment{
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
-		View v = inflater.inflate(R.layout.f_pacific_o, container, false);
+		View v = inflater.inflate(R.layout.fragment_arctic_o, container, false);
         
 		return v;
 	}

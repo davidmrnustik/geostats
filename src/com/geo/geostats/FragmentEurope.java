@@ -20,7 +20,7 @@ import android.widget.ScrollView;
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
 
-public class F_Europe extends SherlockFragment {
+public class FragmentEurope extends SherlockFragment {
 
 	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btD7O, btD8O, btClose;
 	ViewPager vp;
@@ -30,7 +30,7 @@ public class F_Europe extends SherlockFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
-		View v = inflater.inflate(R.layout.f_europe, container, false);
+		View v = inflater.inflate(R.layout.fragment_europe, container, false);
 		
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
@@ -107,9 +107,9 @@ public class F_Europe extends SherlockFragment {
 								}).create();
 							d.show();*/
 													
-							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_europe_countries);
+							d.setContentView(R.layout.dialog_europe_countries);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -127,9 +127,9 @@ public class F_Europe extends SherlockFragment {
 				if(btD2O != null){
 					btD2O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_europe_eu_countries);
+							d.setContentView(R.layout.dialog_europe_eu_countries);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -154,9 +154,9 @@ public class F_Europe extends SherlockFragment {
 				if(btD3O != null){
 					btD3O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_europe_population);
+							d.setContentView(R.layout.dialog_europe_population);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -175,9 +175,9 @@ public class F_Europe extends SherlockFragment {
 				if(btD4O != null){
 					btD4O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_europe_eu_population);
+							d.setContentView(R.layout.dialog_europe_eu_population);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -203,9 +203,9 @@ public class F_Europe extends SherlockFragment {
 				if(btD5O != null){
 					btD5O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_europe_cities);
+							d.setContentView(R.layout.dialog_europe_cities);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -224,9 +224,9 @@ public class F_Europe extends SherlockFragment {
 				if(btD6O != null){
 					btD6O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_europe_urban_areas);
+							d.setContentView(R.layout.dialog_europe_urban_areas);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -255,9 +255,9 @@ public class F_Europe extends SherlockFragment {
 				if(btD7O != null){
 					btD7O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_europe_mountains_kmd);
+							d.setContentView(R.layout.dialog_europe_mountains_kmd);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -276,9 +276,9 @@ public class F_Europe extends SherlockFragment {
 				if(btD8O != null){
 				btD8O.setOnClickListener(new OnClickListener() {
 					public void onClick(View v) {
-						final Dialog d = new Dialog(F_Europe.this.getActivity(), R.style.DialogContinents);
+						final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
 						d.setCancelable(true);
-						d.setContentView(R.layout.d_europe_mountains_cc);
+						d.setContentView(R.layout.dialog_europe_mountains_cc);
 						d.setCanceledOnTouchOutside(true);
 						Button btClose = (Button) d.findViewById(R.id.btClose);
 						btClose.setOnClickListener(new OnClickListener() {

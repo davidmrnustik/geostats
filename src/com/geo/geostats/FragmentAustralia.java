@@ -20,16 +20,16 @@ import android.widget.ScrollView;
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
 
-public class F_NAmerica extends SherlockFragment{
-	
-	Button btD1O, btD2O, btD3O;
+public class FragmentAustralia extends SherlockFragment{
+
+	Button btD1O, btD2O, btD3O, btD4O, btD5O;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
-		View v = inflater.inflate(R.layout.f_namerica, container, false);
+		View v = inflater.inflate(R.layout.fragment_australia, container, false);
 		
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
@@ -78,19 +78,19 @@ public class F_NAmerica extends SherlockFragment{
 			View v = null;
 			switch(position){
 			case 0:
-				v = inflater.inflate(R.layout.vp_namerica_countries, null);
+				v = inflater.inflate(R.layout.vp_australia_countries, null);
 				break;
 			case 1:
-				v = inflater.inflate(R.layout.vp_namerica_population, null);
+				v = inflater.inflate(R.layout.vp_australia_population, null);
 				
 				Button btD1O = (Button) v.findViewById(R.id.btDialog1);
 				
 				if(btD1O != null){
 					btD1O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_NAmerica.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_namerica_population);
+							d.setContentView(R.layout.dialog_australia_population);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -105,10 +105,9 @@ public class F_NAmerica extends SherlockFragment{
 				}else{
 					
 				}
-				
 				break;
 			case 2:
-				v = inflater.inflate(R.layout.vp_namerica_cities, null);
+				v = inflater.inflate(R.layout.vp_australia_cities, null);
 				
 				Button btD2O = (Button) v.findViewById(R.id.btDialog2);
 				Button btD3O = (Button) v.findViewById(R.id.btDialog3);
@@ -116,9 +115,9 @@ public class F_NAmerica extends SherlockFragment{
 				if(btD2O != null){
 					btD2O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_NAmerica.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_namerica_cities);
+							d.setContentView(R.layout.dialog_australia_cities);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -137,9 +136,9 @@ public class F_NAmerica extends SherlockFragment{
 				if(btD3O != null){
 					btD3O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(F_NAmerica.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.d_namerica_urban_areas);
+							d.setContentView(R.layout.dialog_australia_urban_areas);
 							d.setCanceledOnTouchOutside(true);
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
@@ -154,25 +153,69 @@ public class F_NAmerica extends SherlockFragment{
 				}else{
 					
 				}
-					
 				break;
 			case 3:
-				v = inflater.inflate(R.layout.vp_namerica_capitals, null);
+				v = inflater.inflate(R.layout.vp_australia_capitals, null);
 				break;
 			case 4:
-				v = inflater.inflate(R.layout.vp_namerica_mountains, null);
+				v = inflater.inflate(R.layout.vp_australia_mountains, null);
+				
+				Button btD4O = (Button) v.findViewById(R.id.btDialog4);
+				Button btD5O = (Button) v.findViewById(R.id.btDialog5);
+				
+				if(btD4O != null){
+					btD4O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.dialog_australia_mountains_ap);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});	
+				}else{
+				
+				}
+				
+				if(btD5O != null){
+					btD5O.setOnClickListener(new OnClickListener() {
+						public void onClick(View v) {
+							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
+							d.setCancelable(true);
+							d.setContentView(R.layout.dialog_australia_mountains_ac);
+							d.setCanceledOnTouchOutside(true);
+							Button btClose = (Button) d.findViewById(R.id.btClose);
+							btClose.setOnClickListener(new OnClickListener() {
+								@Override
+								public void onClick(View v) {
+									d.cancel();
+								}
+							});
+							d.show();
+						}
+					});
+				}else{
+					
+				}
 				break;
 			case 5:
-				v = inflater.inflate(R.layout.vp_namerica_islands, null);
+				v = inflater.inflate(R.layout.vp_australia_islands, null);
 				break;
 			case 6:
-				v = inflater.inflate(R.layout.vp_namerica_rivers, null);
+				v = inflater.inflate(R.layout.vp_australia_rivers, null);
 				break;
 			case 7:
-				v = inflater.inflate(R.layout.vp_namerica_lakes, null);
+				v = inflater.inflate(R.layout.vp_australia_lakes, null);
 				break;
 			case 8:
-				v = inflater.inflate(R.layout.vp_namerica_weather, null);
+				v = inflater.inflate(R.layout.vp_australia_weather, null);
 				break;
 			}
 			((ViewPager)container).addView(v, 0);
