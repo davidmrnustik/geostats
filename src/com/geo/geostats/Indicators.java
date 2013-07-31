@@ -25,15 +25,14 @@ public class Indicators extends SherlockFragmentActivity implements FragmentIndi
 			getSupportFragmentManager().beginTransaction()
             .add(R.id.fragment_container, firstFragment).commit();
 			
-			getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-	        getSupportActionBar().setHomeButtonEnabled(true);
-	        
-	        ActionBar actionbar = getSupportActionBar();
-	        actionbar.setTitle(getString(R.string.Indicators));
-			
 		}
-
+		
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
         
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.setTitle(getString(R.string.Indicators));
+
 	}
 	
 	@Override
@@ -54,7 +53,7 @@ public class Indicators extends SherlockFragmentActivity implements FragmentIndi
 			break;
 			
 		case android.R.id.home:
-			NavUtils.navigateUpFromSameTask(this);
+			NavUtils.navigateUpFromSameTask(Indicators.this);
 	        return true;
 		}	
 		
