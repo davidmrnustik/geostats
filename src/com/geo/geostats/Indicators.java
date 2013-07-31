@@ -2,45 +2,38 @@ package com.geo.geostats;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.NavUtils;
-import android.view.View;
-
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 
-public class Indicators extends SherlockFragmentActivity{
+public class Indicators extends SherlockFragmentActivity implements FragmentIndicatorsList.OnHeadlineSelectedListener{
 	
-	boolean mIsDualPane;
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.indicators);
 		
-		View articleView = findViewById(R.id.fRecords);
-        mIsDualPane = articleView != null && 
-                        articleView.getVisibility() == View.VISIBLE;
-        
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
-        
-        ActionBar actionbar = getSupportActionBar();
-        actionbar.setTitle(getString(R.string.Indicators));
-        
-        /*if (findViewById(R.id.fragment_container) != null) {
-        	if (savedInstanceState != null) {
+		if (findViewById(R.id.fragment_container) != null) {
+			if (savedInstanceState != null) {
                 return;
             }
-        	
-	        FragmentIndicatorsList firstFragment = new FragmentIndicatorsList();
+			FragmentIndicatorsList firstFragment = new FragmentIndicatorsList();
+			firstFragment.setArguments(getIntent().getExtras());
+			
+			getSupportFragmentManager().beginTransaction()
+            .add(R.id.fragment_container, firstFragment).commit();
+			
+			getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+	        getSupportActionBar().setHomeButtonEnabled(true);
 	        
-	        firstFragment.setArguments(getIntent().getExtras());
-	        
-	        getSupportFragmentManager().beginTransaction()
-	        .add(R.id.fragment_container, firstFragment).commit();
+	        ActionBar actionbar = getSupportActionBar();
+	        actionbar.setTitle(getString(R.string.Indicators));
+			
+		}
+
         
-        }*/
 	}
 	
 	@Override
@@ -67,5 +60,29 @@ public class Indicators extends SherlockFragmentActivity{
 		
 		return true;
 	}
+	
+	public void onArticleSelected(int position) {
+
+        FragmentIndicatorsRecords articleFrag = (FragmentIndicatorsRecords)
+                getSupportFragmentManager().findFragmentById(R.id.fRecord);
+
+        if (articleFrag != null) {
+
+            articleFrag.updateArticleView(position);
+
+        } else {
+
+        	FragmentIndicatorsRecords newFragment = new FragmentIndicatorsRecords();
+            Bundle args = new Bundle();
+            args.putInt(FragmentIndicatorsRecords.ARG_POSITION, position);
+            newFragment.setArguments(args);
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+
+            transaction.replace(R.id.fragment_container, newFragment);
+            transaction.addToBackStack(null);
+
+            transaction.commit();
+        }
+    }
 
 }
