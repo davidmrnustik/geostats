@@ -3,11 +3,14 @@ package com.geo.geostats;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
+import android.view.View;
 
 import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockActivity;
+import com.actionbarsherlock.app.SherlockFragmentActivity;
 
-public class Indicators extends SherlockActivity{
+public class Indicators extends SherlockFragmentActivity{
+	
+	boolean mIsDualPane;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -15,12 +18,29 @@ public class Indicators extends SherlockActivity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.indicators);
 		
+		View articleView = findViewById(R.id.fRecords);
+        mIsDualPane = articleView != null && 
+                        articleView.getVisibility() == View.VISIBLE;
+        
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
         
         ActionBar actionbar = getSupportActionBar();
         actionbar.setTitle(getString(R.string.Indicators));
-                
+        
+        /*if (findViewById(R.id.fragment_container) != null) {
+        	if (savedInstanceState != null) {
+                return;
+            }
+        	
+	        FragmentIndicatorsList firstFragment = new FragmentIndicatorsList();
+	        
+	        firstFragment.setArguments(getIntent().getExtras());
+	        
+	        getSupportFragmentManager().beginTransaction()
+	        .add(R.id.fragment_container, firstFragment).commit();
+        
+        }*/
 	}
 	
 	@Override
