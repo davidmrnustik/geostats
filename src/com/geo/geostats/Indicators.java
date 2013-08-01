@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.NavUtils;
+import android.util.Log;
+
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 
@@ -61,7 +63,10 @@ public class Indicators extends SherlockFragmentActivity implements FragmentIndi
 	}
 	
 	public void onArticleSelected(int position) {
-
+		
+        String ble2 = Integer.toString(position);
+        Log.i("ABOUT", ble2);
+		
         FragmentIndicatorsRecords articleFrag = (FragmentIndicatorsRecords)
                 getSupportFragmentManager().findFragmentById(R.id.fRecord);
 

@@ -11,12 +11,7 @@
 	    <TextView
 	        style="@style/TextViewTitle"
 	        android:text="@string/LargestCountries"/>
-	    
-	    <TextView
-	        style="@style/TextViewTitle"
-	        android:text=""
-	        android:id="@+id/blee"/>
-	    
+
 	    <TableLayout style="@style/TableLayout">
 	        
 		    <TableRow style="@style/TableRow">

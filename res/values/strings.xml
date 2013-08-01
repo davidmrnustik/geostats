@@ -33,6 +33,7 @@
     <string name="Islands">Islands</string>
     <string name="Rivers">Rivers</string>
     <string name="Lakes">Lakes</string>
+    <string name="IndicatorsIntroText">Choose from the left side .. blablabla</string>
     
     <string name="NumberOfCountries">Number of countries</string>
     <string name="HighestPoint">Highest point (m)</string>
