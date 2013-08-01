@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="2"
+    android:baselineAligned="true"
+    android:orientation="horizontal" >
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.1">
+        
+        <ImageView
+	        android:contentDescription="@string/Australia"
+	        android:src="@drawable/map"
+	        style="@style/ImageViewMapLand" />
+        
+        <TableLayout
+	       	style="@style/TableLayout"
+	        android:shrinkColumns="0">
+			    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/TotalArea"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/TotalAreaRecordPacificO"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Volume"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/VolumeRecordPacificO"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/AverageDepth"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/AverageDepthRecordPacificO"/>
+		    </TableRow>
+		    
+		    <TableRow
+		        style="@style/TableRow.Span">
+		        <TextView 
+		            style="@style/TableTextView.Bold"
+		            android:layout_span="2"
+		            android:text="@string/DeepestPoint"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.RowSpan"
+		            android:text="@string/MarianaTrench"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight.RowSpan"
+		            android:text="@string/DeepestPointRecordPacificO"/>
+		    </TableRow>
+		</TableLayout>
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+		<TextView 
+		    style="@style/TextViewTitle"
+		    android:text="@string/LargestSeas"/>
+		
+		<TableLayout
+		    style="@style/TableLayout"
+		       android:shrinkColumns="0">
+		       
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Name"/>
+		        <TextView 
+		            style="@style/TableTextView.Head"
+		            android:text="@string/TotalSqKm"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/SouthChinaSea"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestSeasPacificO01"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/BeringSea"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestSeasPacificO02"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/SeaofOkhotsk"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestSeasPacificO03"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/EastChinaSeaandYellowSea"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestSeasPacificO04"/>
+		    </TableRow>
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/SeaOfJapan"/>
+		        <TextView 
+		            style="@style/TableTextView.GravityRight"
+		            android:text="@string/LargestSeasPacificO05"/>
+		    </TableRow>
+		</TableLayout>
+	</LinearLayout>
+</LinearLayout>
