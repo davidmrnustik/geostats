@@ -1,92 +1,56 @@
 package com.geo.geostats;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.app.NavUtils;
-import android.util.Log;
 
+import android.content.Intent;
+import android.support.v4.app.NavUtils;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.geo.geostats.FragmentIndicatorsList.OnHeadlineSelectedListener;
 
-public class Indicators extends SherlockFragmentActivity implements FragmentIndicatorsList.OnHeadlineSelectedListener{
+public class Indicators extends SherlockFragmentActivity implements OnHeadlineSelectedListener {
+	IndicatorsAbstractNewsView indicatorsAbstractNewsView;
 	
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.indicators);
-		
-		if (findViewById(R.id.fragment_container) != null) {
-			if (savedInstanceState != null) {
-                return;
-            }
-			FragmentIndicatorsList firstFragment = new FragmentIndicatorsList();
-			firstFragment.setArguments(getIntent().getExtras());
-			
-			getSupportFragmentManager().beginTransaction()
-            .add(R.id.fragment_container, firstFragment).commit();
-			
+	@Override public void onCreate(Bundle savedInstanceState) {
+	      super.onCreate(savedInstanceState);
+	      setContentView(R.layout.indicators);
+	      indicatorsAbstractNewsView = new IndicatorsAbstractNewsViewProvider(this).get();
+	      indicatorsAbstractNewsView.onCreate(savedInstanceState);
+	      
+	      getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+	      getSupportActionBar().setHomeButtonEnabled(true);
+	        
+	      ActionBar actionbar = getSupportActionBar();
+	      actionbar.setTitle(getString(R.string.Indicators));
+	      
+	   }
+
+	   @Override public void onArticleSelected(int position) {
+		   indicatorsAbstractNewsView.onArticleSelected(position);
+	   }
+	   
+	   @Override
+		public boolean onCreateOptionsMenu(com.actionbarsherlock.view.Menu menu){
+			getSupportMenuInflater().inflate(R.menu.menu_branches, menu);
+			return true;
 		}
-		
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
-        
-        ActionBar actionbar = getSupportActionBar();
-        actionbar.setTitle(getString(R.string.Indicators));
+	   
+	   @Override
+		public boolean onOptionsItemSelected(com.actionbarsherlock.view.MenuItem item){
+			super.onOptionsItemSelected(item);
+			switch(item.getItemId()){
+			case R.id.menu_branches:
 
+				Intent i = new Intent("com.geo.geostats.BRANCHES");
+				startActivity(i);
+
+				break;
+
+			case android.R.id.home:
+				NavUtils.navigateUpFromSameTask(Indicators.this);
+		        return true;
+			}	
+
+			return true;
+		}
 	}
-	
-	@Override
-	public boolean onCreateOptionsMenu(com.actionbarsherlock.view.Menu menu){
-		getSupportMenuInflater().inflate(R.menu.menu_branches, menu);
-		return true;
-	}
-	
-	@Override
-	public boolean onOptionsItemSelected(com.actionbarsherlock.view.MenuItem item){
-		super.onOptionsItemSelected(item);
-		switch(item.getItemId()){
-		case R.id.menu_branches:
-			
-			Intent i = new Intent("com.geo.geostats.BRANCHES");
-			startActivity(i);
-			
-			break;
-			
-		case android.R.id.home:
-			NavUtils.navigateUpFromSameTask(Indicators.this);
-	        return true;
-		}	
-		
-		return true;
-	}
-	
-	public void onArticleSelected(int position) {
-		
-        String ble2 = Integer.toString(position);
-        Log.i("ABOUT", ble2);
-		
-        FragmentIndicatorsRecords articleFrag = (FragmentIndicatorsRecords)
-                getSupportFragmentManager().findFragmentById(R.id.fRecord);
-
-        if (articleFrag != null) {
-
-            articleFrag.updateArticleView(position);
-
-        } else {
-
-        	FragmentIndicatorsRecords newFragment = new FragmentIndicatorsRecords();
-            Bundle args = new Bundle();
-            args.putInt(FragmentIndicatorsRecords.ARG_POSITION, position);
-            newFragment.setArguments(args);
-            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-
-            transaction.replace(R.id.fragment_container, newFragment);
-            transaction.addToBackStack(null);
-
-            transaction.commit();
-        }
-    }
-
-}
