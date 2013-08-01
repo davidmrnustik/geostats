@@ -9,6 +9,7 @@ import android.widget.ListView;
 import com.actionbarsherlock.app.SherlockListFragment;
 
 public class FragmentIndicatorsList extends SherlockListFragment {
+	
     OnHeadlineSelectedListener mCallback;
 
     public interface OnHeadlineSelectedListener {
@@ -21,8 +22,21 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 
         int layout = Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB ?
                 android.R.layout.simple_list_item_activated_1 : android.R.layout.simple_list_item_1;
-
-        setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, Ipsum.Headlines));
+        
+    	String[] alist = new String[11];
+    	alist[0] = getString(R.string.LargestCountries);
+    	alist[1] = getString(R.string.MostPopulatedCountries);
+    	alist[2] = getString(R.string.CountriesByPopulationDensity);
+    	alist[3] = getString(R.string.HighestMountains);
+    	alist[4] = getString(R.string.LargestIslands);
+    	alist[5] = getString(R.string.LongestRivers);
+		alist[6] = getString(R.string.LargestLakes);
+		alist[7] = getString(R.string.LargestSeas);
+		alist[8] = getString(R.string.LargestCities);
+		alist[9] = getString(R.string.LargestUrbanAreas);
+		alist[10] = getString(R.string.MajorOceanicTrenches);
+        
+        setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
     }
 
     @Override
