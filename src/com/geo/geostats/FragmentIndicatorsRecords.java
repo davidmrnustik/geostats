@@ -98,6 +98,10 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 			article.removeAllViews();
 			View vv = vi.inflate(R.layout.vp_world_major_oceanic_trenches, null);
 			article.addView(vv);
+		}else if(position == 11){
+			article.removeAllViews();
+			View vv = vi.inflate(R.layout.vp_world_deadliest_earthquakes, null);
+			article.addView(vv);
 		}
 
         mCurrentPosition = position;

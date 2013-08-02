@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	
+ 	<string name="DeadliestEarthquakes01">255.000</string>
+	<string name="DeadliestEarthquakes02">225.000</string>
+	<string name="DeadliestEarthquakes03">222.570</string>
+	<string name="DeadliestEarthquakes04">200.000</string>
+	<string name="DeadliestEarthquakes05">200.000</string>
+	<string name="DeadliestEarthquakes06">142.807</string>
+	<string name="DeadliestEarthquakes07">110.000</string>
+	<string name="DeadliestEarthquakes08">74.648</string>
+	<string name="DeadliestEarthquakes09">70.000</string>
+	<string name="DeadliestEarthquakes10">66.794</string>
+	<string name="DeadliestEarthquakes11">60.000</string>
+	<string name="DeadliestEarthquakes12">50.000</string>
+	<string name="DeadliestEarthquakes13">35.000</string>
+	<string name="DeadliestEarthquakes14">32.700</string>
+	<string name="DeadliestEarthquakes15">30.000</string>
+	<string name="DeadliestEarthquakes16">28.000</string>
+	<string name="DeadliestEarthquakes17">26.271</string>
+	<string name="DeadliestEarthquakes18">25.000</string>
+	<string name="DeadliestEarthquakes19">22.778</string>
+	<string name="DeadliestEarthquakes20">20.000</string>
+
+</resources>

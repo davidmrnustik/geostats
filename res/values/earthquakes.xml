@@ -4,7 +4,6 @@
 	<string name="Leogane">Léogane</string>
 	<string name="SichuanProvince">Sichuan Province</string>
 	<string name="NorthwestPakistan">northwest Pakistan</string>
-	<string name="Sumatera">Sumatera</string>
 	<string name="Bam">Bam</string>
 	<string name="Gujarat">Gujarat</string>
 	<string name="IzmitKocaeli">Izmit (Kocaeli)</string>
@@ -30,5 +29,26 @@
 	<string name="Messina">Messina</string>
 	<string name="WestOfDusanbe">west of Dusanbe</string>
 	<string name="Kangra">Kangra</string>
+	
+	<string name="Year1976">1976</string>
+	<string name="Year2004">2004</string>
+	<string name="Year2010">2010</string>
+	<string name="Year1927">1927</string>
+	<string name="Year1920">1920</string>
+	<string name="Year1923">1923</string>
+	<string name="Year1908">1908</string>
+	<string name="Year2005">2005</string>
+	<string name="Year1932">1932</string>
+	<string name="Year1970">1970</string>
+	<string name="Year2008">2008</string>
+	<string name="Year1990">1990</string>
+	<string name="Year1915">1915</string>
+	<string name="Year1939">1939</string>
+	<string name="Year1935">1935</string>
+	<string name="Year1939">1939</string>
+	<string name="Year2003">2003</string>
+	<string name="Year1988">1988</string>
+	<string name="Year1976">1976</string>
+	<string name="Year2001">2001</string>
     
 </resources>

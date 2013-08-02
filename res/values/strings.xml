@@ -3,6 +3,7 @@
     <string name="app_name">geostats</string>
     
     <string name="Name">Name</string>
+    <string name="Year">Year</string>
     <string name="Country">Country</string>
     <string name="Total">Total</string>
     <string name="TotalSqKm">Total sq km</string>
@@ -34,6 +35,7 @@
     <string name="Rivers">Rivers</string>
     <string name="Lakes">Lakes</string>
     <string name="IndicatorsIntroText">Choose from the left side .. blablabla</string>
+    <string name="Deaths">Deaths</string>
     
     <string name="NumberOfCountries">Number of countries</string>
     <string name="HighestPoint">Highest point (m)</string>
@@ -64,5 +66,7 @@
     <string name="MajorOceanicTrenches">Major oceanic trenches</string>
     <string name="AverageDepth">Average Depth (m)</string>
     <string name="DeepestPoint">Deepest Point (m)</string>
+    <string name="DeadliestEarthquakes">Deadliest Earthquakes</string>
+    
 
 </resources>
