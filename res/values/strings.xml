@@ -69,6 +69,6 @@
     <string name="DeepestPoint">Deepest Point (m)</string>
     <string name="DeadliestEarthquakes">Deadliest Earthquakes</string>
     <string name="MajorVolcanicEruptions">Major Volcanic Eruptions</string>
+    <string name="WeatherExtremes">Weather Extremes</string>
     
-
 </resources>
