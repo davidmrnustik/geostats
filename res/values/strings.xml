@@ -3,6 +3,7 @@
     <string name="app_name">geostats</string>
     
     <string name="Name">Name</string>
+    <string name="NameCountry">Name / Country</string>
     <string name="Year">Year</string>
     <string name="Country">Country</string>
     <string name="Total">Total</string>
@@ -67,6 +68,7 @@
     <string name="AverageDepth">Average Depth (m)</string>
     <string name="DeepestPoint">Deepest Point (m)</string>
     <string name="DeadliestEarthquakes">Deadliest Earthquakes</string>
+    <string name="MajorVolcanicEruptions">Major Volcanic Eruptions</string>
     
 
 </resources>
