@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+         android:orientation="vertical">
+    
+	    <TextView
+	        style="@style/TextViewTitle"
+	        android:text="@string/WeatherExtremes"/>
+	    
+	    <TableLayout style="@style/TableLayout.Shrink"
+	        android:shrinkColumns="0">
+	        
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Year"/>
+		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/Location"/>
+		    </TableRow>
+		    
+		    <TableRow style="@style/TableRow">
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year1976"/>
+			    <TableLayout android:stretchColumns="0">
+		            <TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.PadddingBottom0"
+				            android:text="@string/TangshanHebeiProvince"/>
+		   			</TableRow>
+		   			<TableRow>
+				        <TextView 
+				          	style="@style/TableTextView.RowSpan"
+				            android:text="@string/China"/>
+		   			</TableRow>
+		        </TableLayout>
+		    </TableRow>
+
+		</TableLayout>
+	</LinearLayout>
+</ScrollView>

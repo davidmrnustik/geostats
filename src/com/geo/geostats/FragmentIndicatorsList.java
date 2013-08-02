@@ -26,7 +26,7 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 	      int layout = Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB ?
 	            android.R.layout.simple_list_item_activated_1 : android.R.layout.simple_list_item_1;
         
-			String[] alist = new String[11];
+			String[] alist = new String[14];
 			alist[0] = getString(R.string.LargestCountries);
 			alist[1] = getString(R.string.MostPopulatedCountries);
 			alist[2] = getString(R.string.CountriesByPopulationDensity);
@@ -38,6 +38,9 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 			alist[8] = getString(R.string.LargestCities);
 			alist[9] = getString(R.string.LargestUrbanAreas);
 			alist[10] = getString(R.string.MajorOceanicTrenches);
+			alist[11] = getString(R.string.DeadliestEarthquakes);
+			alist[12] = getString(R.string.MajorVolcanicEruptions);
+			alist[13] = getString(R.string.WeatherExtremes);
         
         setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
     	}
