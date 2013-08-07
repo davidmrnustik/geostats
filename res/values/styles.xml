@@ -47,6 +47,9 @@
     <style name="TableTextView.PadddingBottom0">
         <item name="android:paddingBottom">2dp</item>
     </style>
+     <style name="TableTextView.PadddingBottom0.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
     <style name="TableTextView.RowSpan">
         <item name="android:paddingTop">0dp</item>
     </style>
