@@ -9,7 +9,7 @@
 	            android:text="@string/TotalArea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/TotalAreaRecordIndianO"/>
+	            android:text="@string/TotalAreaRecordArcticO"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 

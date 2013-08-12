@@ -2,6 +2,7 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ScrollView">
+
     <TableLayout
 	    style="@style/TableLayout"
 	       android:shrinkColumns="0">
@@ -12,16 +13,16 @@
 	            android:text="@string/Name"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
-	            android:text="@string/TotalSqKm"/>
+	            android:text="@string/Area"/>
 	    </TableRow>
 	    
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/BayofBengal"/>
+	            android:text="@string/HudsonBay"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasIndianO01"/>
+	            android:text="@string/HudsonBay2Record"/>
 	    </TableRow>
 	</TableLayout>
 </ScrollView>

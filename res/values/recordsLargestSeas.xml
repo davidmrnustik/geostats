@@ -31,4 +31,12 @@
 	<string name="LargestSeasIndianO01">2.172.000</string>
 	<string name="LargestSeasIndianO02">453.000</string>
 	<string name="LargestSeasIndianO03">238.000</string>
+	
+	<!-- LARGEST SEAS ARCTIC OCEAN -->
+	<string name="LargestSeasArcticO01">1.405.000</string>
+	<string name="LargestSeasArcticO02">936.000</string>
+	<string name="LargestSeasArcticO03">883.000</string>
+	<string name="LargestSeasArcticO04">650.000</string>
+	<string name="LargestSeasArcticO05">582.000</string>
+
 </resources>

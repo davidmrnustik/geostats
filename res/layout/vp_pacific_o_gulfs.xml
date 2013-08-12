@@ -13,16 +13,24 @@
 	            android:text="@string/Name"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
-	            android:text="@string/TotalSqKm"/>
+	            android:text="@string/Area"/>
 	    </TableRow>
 	    
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/ArcticOcean"/>
+	            android:text="@string/GulfOfAlaska"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasAtlanticO01"/>
+	            android:text="@string/GulfOfAlaskaRecord"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/GulfOfCalifornia"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/GulfOfCaliforniaRecord"/>
 	    </TableRow>
 	</TableLayout>
 </ScrollView>

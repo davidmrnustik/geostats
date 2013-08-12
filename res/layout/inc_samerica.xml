@@ -13,10 +13,18 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Volume"/>
+	            android:text="@string/LandArea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/VolumeRecordSAmerica"/>
+	            android:text="@string/LandAreaRecordSAmerica"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/EarthTotalSurface"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/SurfaceRecordSAmerica"/>
 	    </TableRow>
 	</TableLayout>
 </merge>

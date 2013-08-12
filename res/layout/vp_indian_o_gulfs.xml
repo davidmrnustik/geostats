@@ -12,7 +12,7 @@
 	            android:text="@string/Name"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
-	            android:text="@string/TotalSqKm"/>
+	            android:text="@string/Area"/>
 	    </TableRow>
 	    
 	    <TableRow style="@style/TableRow">
@@ -21,15 +21,15 @@
 	            android:text="@string/BayOfBengal"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasIndianO01"/>
+	            android:text="@string/BayOfBengalRecord"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/RedSea"/>
+	            android:text="@string/GreatAustralianBight"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasIndianO02"/>
+	            android:text="@string/GreatAustralianBightRecord"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
@@ -37,7 +37,7 @@
 	            android:text="@string/TheGulf"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasIndianO03"/>
+	            android:text="@string/TheGulfRecord"/>
 	    </TableRow>
 	</TableLayout>
 </ScrollView>

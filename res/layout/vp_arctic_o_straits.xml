@@ -2,6 +2,7 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ScrollView">
+
     <TableLayout
 	    style="@style/TableLayout"
 	       android:shrinkColumns="0">
@@ -12,32 +13,44 @@
 	            android:text="@string/Name"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
-	            android:text="@string/TotalSqKm"/>
+	            android:text="@string/Length"/>
+	        <TextView 
+	            style="@style/TableTextView.Head"
+	            android:text="@string/Width"/>
 	    </TableRow>
 	    
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/BayOfBengal"/>
+	            android:text="@string/ProlivVilkitskogo"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasIndianO01"/>
+	            android:text="@string/ProlivVilkitskogoLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/ProlivVilkitskogoWidth"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/RedSea"/>
+	            android:text="@string/ProvivKarskiyeVorota"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasIndianO02"/>
+	            android:text="@string/ProvivKarskiyeVorotaLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/ProvivKarskiyeVorotaWidth"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/TheGulf"/>
+	            android:text="@string/DavisStrait"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasIndianO03"/>
+	            android:text="@string/DavisStraitLength"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/DavisStraitWidth"/>
 	    </TableRow>
 	</TableLayout>
 </ScrollView>

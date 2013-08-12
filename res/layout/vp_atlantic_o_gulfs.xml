@@ -2,6 +2,7 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ScrollView">
+
     <TableLayout
 	    style="@style/TableLayout"
 	       android:shrinkColumns="0">
@@ -12,32 +13,32 @@
 	            android:text="@string/Name"/>
 	        <TextView 
 	            style="@style/TableTextView.Head"
-	            android:text="@string/TotalSqKm"/>
+	            android:text="@string/Area"/>
 	    </TableRow>
 	    
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/BayOfBengal"/>
+	            android:text="@string/GulfOfMexico"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasIndianO01"/>
+	            android:text="@string/GulfOfMexicoRecord"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/RedSea"/>
+	            android:text="@string/GulfOfGuinea"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasIndianO02"/>
+	            android:text="@string/GulfOfGuineaRecord"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/TheGulf"/>
+	            android:text="@string/HudsonBay"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasIndianO03"/>
+	            android:text="@string/HudsonBayRecord"/>
 	    </TableRow>
 	</TableLayout>
 </ScrollView>

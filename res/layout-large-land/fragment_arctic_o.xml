@@ -9,21 +9,21 @@
     <RelativeLayout 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1.1">
+        android:layout_weight="1">
         
         <ImageView
-	        android:contentDescription="@string/AtlanticOcean"
-	        style="@style/ImageViewMapLand"
+	        android:contentDescription="@string/ArcticOcean"
+	        style="@style/ImageViewMapLandLarge"
 	        android:src="@drawable/map" />
     
-	    <include layout="@layout/inc_atlantic_o"/>
+	    <include layout="@layout/inc_arctic_o"/>
         
     </RelativeLayout>
 
     <LinearLayout 
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="0.9"
+        android:layout_weight="1"
         android:orientation="vertical">
 	    
 	    <include layout="@layout/inc_viewpager"/>

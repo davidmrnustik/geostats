@@ -41,7 +41,7 @@ public class FragmentIndianO extends SherlockFragment{
 		@Override
 		public int getCount() {
 			// TODO Auto-generated method stub
-			return 2;
+			return 3;
 		}
 		
 		public CharSequence getPageTitle(int position) {
@@ -77,7 +77,10 @@ public class FragmentIndianO extends SherlockFragment{
 				v = inflater.inflate(R.layout.vp_indian_o_seas, null);
 				break;
 			case 1:
-				v = inflater.inflate(R.layout.vp_indian_o_channels, null);
+				v = inflater.inflate(R.layout.vp_indian_o_gulfs, null);
+				break;
+			case 2:
+				v = inflater.inflate(R.layout.vp_indian_o_straits, null);
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

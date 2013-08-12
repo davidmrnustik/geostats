@@ -12,56 +12,20 @@
         android:layout_weight="1.1">
         
         <ImageView
-	        android:contentDescription="@string/Australia"
-	        android:src="@drawable/map"
-	        style="@style/ImageViewMapLand" />
+	        android:contentDescription="@string/SouthernOcean"
+	        style="@style/ImageViewMapLand"
+	        android:src="@drawable/map" />
+
     </RelativeLayout>
-		    
-   	<TableLayout
-       	style="@style/TableLayout"
-       	android:layout_width="0dp"
-       	android:layout_weight="0.9"
-        android:shrinkColumns="0">
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
 	    
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/TotalArea"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/TotalAreaRecordSouthernO"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Volume"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/VolumeRecordSouthernO"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/AverageDepth"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/AverageDepthRecordSouthernO"/>
-	    </TableRow>
+	    <include layout="@layout/inc_southern_o"/>
 	    
-	    <TableRow
-	        style="@style/TableRow.Span">
-	        <TextView 
-	            style="@style/TableTextView.Bold"
-	            android:layout_span="2"
-	            android:text="@string/DeepestPoint"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/SouthSandwichTrench"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/DeepestPointRecordSouthernO"/>
-	    </TableRow>
-	</TableLayout>
+    </LinearLayout>
+
 </LinearLayout>
