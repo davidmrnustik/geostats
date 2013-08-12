@@ -19,6 +19,7 @@
     <string name="Volume">Volume</string>
     <string name="EarthTotalSurface">Earth\'s total surface</string>
     <string name="LandArea">Land Area</string>
+    <string name="ContinentShoreline">Continent shoreline (km)</string>
     <string name="Highest">Highest</string>
     <string name="Value">Value</string>
     <string name="Topic">Topic</string>

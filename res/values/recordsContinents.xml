@@ -10,6 +10,7 @@
     <string name="HighestPointRecordEurope">@string/HighestMountainsEuropeKMD01</string>
     <string name="HighestPointRecord1Europe">@string/HighestMountainsEuropeCC01</string> <!-- WIKI -->
     <string name="LowestPointRecordEurope">-28</string> <!-- WIKI -->
+    <string name="ShorelineRecordEurope">37.200</string> <!-- GEOGRAFICKE TABULKY -->
     
     <string name="TotalLandAreaRecordAsia">45.036.492</string>
     <string name="PopulationRecordAsia">4.164.252.000</string>
@@ -20,6 +21,7 @@
     <string name="DensitySqKmRecordAsia">95</string> <!-- WIKI -->
     <string name="HighestPointRecordAsia">@string/HighestMountainsWorld01</string>
     <string name="LowestPointRecordAsia">-424</string> <!-- WIKI -->
+    <string name="ShorelineRecordAsia">70.600</string> <!-- GEOGRAFICKE TABULKY -->
    
     <string name="TotalLandAreaRecordAfrica">30.343.578</string>
     <string name="PopulationRecordAfrica">1.032.532.974</string>
@@ -30,6 +32,7 @@
     <string name="DensitySqKmRecordAfrica">33.7%</string> <!-- WIKI -->
     <string name="HighestPointRecordAfrica">@string/HighestMountainsAfrica01</string>
     <string name="LowestPointRecordAfrica">-155</string> <!-- WIKI -->
+    <string name="ShorelineRecordAfrica">30.500</string> <!-- GEOGRAFICKE TABULKY -->
     
     <string name="TotalLandAreaRecordNAmerica">24.680.331</string>
     <string name="PopulationRecordNAmerica">528.720.588</string>
@@ -40,6 +43,7 @@
     <string name="DensitySqKmRecordNAmerica">22.1%</string> <!-- WIKI -->
     <string name="HighestPointRecordNAmerica">@string/HighestMountainsNAmerica01</string>
     <string name="LowestPointRecordNAmerica">-86</string> <!-- WIKI -->
+    <string name="ShorelineRecordNAmerica">75.500</string> <!-- GEOGRAFICKE TABULKY -->
     
     <string name="TotalLandAreaRecordSAmerica">17.815.420</string>
     <string name="PopulationRecordSAmerica">387.489.196</string>
@@ -50,6 +54,7 @@
     <string name="DensitySqKmRecordSAmerica">22</string> <!-- WIKI -->
     <string name="HighestPointRecordSAmerica">@string/HighestMountainsSAmerica01</string>
     <string name="LowestPointRecordSAmerica">-105</string> <!-- WIKI -->
+    <string name="ShorelineRecordSAmerica">28.700</string> <!-- GEOGRAFICKE TABULKY -->
     
     <string name="TotalLandAreaRecordAustralia">8.844.516</string>
     <string name="PopulationRecordAustralia">36.000.000</string>
@@ -61,6 +66,7 @@
     <string name="HighestPointRecordAustralia">@string/HighestMountainsAustraliaAP01</string>
     <string name="HighestPointRecord1Australia">@string/HighestMountainsAustraliaAC01</string> <!-- WIKI -->
     <string name="LowestPointRecordAustralia">-15</string> <!-- WIKI -->
+    <string name="ShorelineRecordAustralia">19.500</string> <!-- GEOGRAFICKE TABULKY -->
     
     <string name="TotalLandAreaRecordAntarctica">12.093.000</string>
     <string name="PopulationRecordAntarctica">-</string>
@@ -71,4 +77,5 @@
     <string name="DensitySqKmRecordAntarctica">-</string>
     <string name="HighestPointRecordAntarctica">@string/HighestMountainsAntarctica01</string>
     <string name="LowestPointRecordAntarctica">-50</string> <!-- WIKI -->
+    <string name="ShorelineRecordAntarctica">50.000</string> <!-- GEOGRAFICKE TABULKY -->
 </resources>

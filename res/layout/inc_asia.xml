@@ -26,5 +26,13 @@
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/SurfaceRecordAsia"/>
 	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/ContinentShoreline"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/ShorelineRecordAsia"/>
+	    </TableRow>
 	</TableLayout>
 </merge>
