@@ -4,6 +4,7 @@
     
     <string name="Name">Name</string>
     <string name="NameCountry">Name / Country</string>
+    <string name="NameLocation">Name / Location</string>
     <string name="Year">Year</string>
     <string name="Country">Country</string>
     <string name="Total">Total</string>
@@ -16,6 +17,9 @@
     <string name="TotalArea">Total Area (sq km)</string>
     <string name="Population">Population</string>
     <string name="Volume">Volume</string>
+    <string name="EarthTotalSurface">Earth\'s total surface</string>
+    <string name="LandArea">Land Area</string>
+    <string name="ContinentShoreline">Continent shoreline (km)</string>
     <string name="Highest">Highest</string>
     <string name="Value">Value</string>
     <string name="Topic">Topic</string>
@@ -37,6 +41,9 @@
     <string name="Lakes">Lakes</string>
     <string name="IndicatorsIntroText">Choose from the left side .. blablabla</string>
     <string name="Deaths">Deaths</string>
+    <string name="Bays">Bays</string>
+    <string name="Channels">Channels</string>
+    <string name="Area">Area (sq km)</string>
     
     <string name="NumberOfCountries">Number of countries</string>
     <string name="HighestPoint">Highest point (m)</string>
@@ -68,7 +75,10 @@
     <string name="AverageDepth">Average Depth (m)</string>
     <string name="DeepestPoint">Deepest Point (m)</string>
     <string name="DeadliestEarthquakes">Deadliest Earthquakes</string>
-    <string name="MajorVolcanicEruptions">Major Volcanic Eruptions</string>
+    <string name="LargestEarthquakes">Largest Earthquakes</string>
+    <string name="MajorVolcanicEruptions">Major Volcanic Eruptions 1980&#8211;2011</string>
     <string name="WeatherExtremes">Weather Extremes</string>
+    <string name="Length">Length (km)</string>
+    <string name="Width">Width (km)</string>
     
 </resources>

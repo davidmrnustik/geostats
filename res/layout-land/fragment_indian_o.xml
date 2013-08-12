@@ -12,105 +12,22 @@
         android:layout_weight="1.1">
         
         <ImageView
-	        android:contentDescription="@string/Australia"
-	        android:src="@drawable/map"
-	        style="@style/ImageViewMapLand" />
+	        android:contentDescription="@string/IndianOcean"
+	        style="@style/ImageViewMapLand"
+	        android:src="@drawable/map" />
     
-		<TableLayout
-	       	style="@style/TableLayout"
-	        android:shrinkColumns="0">
-			    
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/TotalArea"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/TotalAreaRecordIndianO"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Volume"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/VolumeRecordIndianO"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/AverageDepth"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/AverageDepthRecordIndianO"/>
-		    </TableRow>
-		    
-		    <TableRow
-		        style="@style/TableRow.Span">
-		        <TextView 
-		            style="@style/TableTextView.Bold"
-		            android:layout_span="2"
-		            android:text="@string/DeepestPoint"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView.RowSpan"
-		            android:text="@string/JavaTrench"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight.RowSpan"
-		            android:text="@string/DeepestPointRecordIndianO"/>
-		    </TableRow>
-		</TableLayout>
+	    <include layout="@layout/inc_indian_o"/>
+        
+    </RelativeLayout>
 
-	</RelativeLayout>
-    
     <LinearLayout 
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="0.9"
         android:orientation="vertical">
+	    
+	    <include layout="@layout/inc_viewpager"/>
+	    
+    </LinearLayout>
 
-        <TextView 
-	    	style="@style/TextViewTitle"
-	    	android:text="@string/LargestSeas"/>
-        
-		<TableLayout
-		    style="@style/TableLayout"
-		       android:shrinkColumns="0">
-		       
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView.Head"
-		            android:text="@string/Name"/>
-		        <TextView 
-		            style="@style/TableTextView.Head"
-		            android:text="@string/TotalSqKm"/>
-		    </TableRow>
-		    
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/BayofBengal"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasIndianO01"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/RedSea"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasIndianO02"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/TheGulf"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasIndianO03"/>
-		    </TableRow>
-		</TableLayout>
-	</LinearLayout>
 </LinearLayout>

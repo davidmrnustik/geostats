@@ -2,111 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:weightSum="4"
     android:orientation="vertical" >
     
-	<TableLayout
-			
-	       	style="@style/TableLayout"
-	        android:shrinkColumns="0">
-		    
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/TotalArea"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/TotalAreaRecordAtlanticO"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Volume"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/VolumeRecordAtlanticO"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/AverageDepth"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/AverageDepthRecordAtlanticO"/>
-	    </TableRow>
-	    
-	    <TableRow
-	        style="@style/TableRow.Span">
-	        <TextView 
-	            style="@style/TableTextView.Bold"
-	            android:layout_span="2"
-	            android:text="@string/DeepestPoint"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/PuertoRicoTrench"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight.RowSpan"
-	            android:text="@string/DeepestPointRecordAtlanticO"/>
-	    </TableRow>
-	</TableLayout>
-	
-	<TextView 
-	    style="@style/TextViewTitle"
-	    android:text="@string/LargestSeas"/>
-	
-	<TableLayout
-	    style="@style/TableLayout"
-	       android:shrinkColumns="0">
-	       
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView.Head"
-	            android:text="@string/Name"/>
-	        <TextView 
-	            style="@style/TableTextView.Head"
-	            android:text="@string/TotalSqKm"/>
-	    </TableRow>
-	    
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/ArcticOcean"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasAtlanticO01"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/CaribbeanSea"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasAtlanticO02"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/MediterraneanSea"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasAtlanticO03"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/GulfOfMexico"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasAtlanticO04"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/HudsonBay"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestSeasAtlanticO05"/>
-	    </TableRow>
-	</TableLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    
+	    <include layout="@layout/inc_atlantic_o"/>
+        
+	</LinearLayout>
+	<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+    
+    	<include layout="@layout/inc_viewpager"/>
+    	
+	</LinearLayout>
 </LinearLayout>

@@ -16,27 +16,7 @@
 	        android:src="@drawable/map"
 	        style="@style/ImageViewMapLand" />
     
-	    <TableLayout style="@style/TableLayout"
-	        android:layout_alignParentBottom="true"
-		        android:shrinkColumns="0">
-			    
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/TotalLandArea"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/TotalLandAreaRecordAustralia"/>
-		    </TableRow>
-		    <TableRow style="@style/TableRow">
-		        <TextView 
-		          	style="@style/TableTextView"
-		            android:text="@string/Volume"/>
-		        <TextView 
-		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/VolumeRecordAustralia"/>
-		    </TableRow>
-		</TableLayout>
+	    <include layout="@layout/inc_australia"/>
         
     </RelativeLayout>
 
