@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- source: GEOGRAFICKE TABULKY -->
+
 <resources>
     <string name="LargestPeninsulasWorld01">2.780.000</string>
 	<string name="LargestPeninsulasWorld02">2.088.000</string>

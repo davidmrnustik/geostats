@@ -41,7 +41,7 @@ public class FragmentArcticO extends SherlockFragment{
 		@Override
 		public int getCount() {
 			// TODO Auto-generated method stub
-			return 3;
+			return 4;
 		}
 		
 		public CharSequence getPageTitle(int position) {
@@ -81,6 +81,9 @@ public class FragmentArcticO extends SherlockFragment{
 				break;
 			case 2:
 				v = inflater.inflate(R.layout.vp_arctic_o_straits, null);
+				break;
+			case 3:
+				v = inflater.inflate(R.layout.vp_arctic_o_currents, null);
 				break;
 			}
 			((ViewPager)container).addView(v, 0);
