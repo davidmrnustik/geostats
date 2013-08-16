@@ -18,18 +18,18 @@
     <string name="BaringStraitLength">60</string>
     <string name="TorresStraitLength">400</string>
     
-    <string name="StraitOfGibraltarWidth">14</string>
-    <string name="BosporusWidth">0.7</string>
-    <string name="DardanellesWidth">1.3</string>
-    <string name="LaMancheWidth">33</string>
-    <string name="SkagerrakWidth">60</string>
-    <string name="KattegatWidth">60</string>
-    <string name="StraitOfMalaccaWidth">36</string>
-    <string name="StraitOfHormuzWidth">15</string>
-    <string name="ProlivVilkitskogoWidth">56</string>
-    <string name="ProvivKarskiyeVorotaWidth">45</string>
-    <string name="DavisStraitWidth">330</string>
-    <string name="StraitOfMagellanWidth">4</string>
-    <string name="BaringStraitWidth">86</string>
-    <string name="TorresStraitWidth">85</string>
+    <string name="StraitOfGibraltarWidth">14 km</string>
+    <string name="BosporusWidth">0.7 km</string>
+    <string name="DardanellesWidth">1.3 km</string>
+    <string name="LaMancheWidth">33 km</string>
+    <string name="SkagerrakWidth">60 km</string>
+    <string name="KattegatWidth">60 km</string>
+    <string name="StraitOfMalaccaWidth">36 km</string>
+    <string name="StraitOfHormuzWidth">15 km</string>
+    <string name="ProlivVilkitskogoWidth">56 km</string>
+    <string name="ProvivKarskiyeVorotaWidth">45 km</string>
+    <string name="DavisStraitWidth">330 km</string>
+    <string name="StraitOfMagellanWidth">4 km</string>
+    <string name="BaringStraitWidth">86 km</string>
+    <string name="TorresStraitWidth">85 km</string>
 </resources>

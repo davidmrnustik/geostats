@@ -41,7 +41,7 @@ public class FragmentIndianO extends SherlockFragment{
 		@Override
 		public int getCount() {
 			// TODO Auto-generated method stub
-			return 3;
+			return 4;
 		}
 		
 		public CharSequence getPageTitle(int position) {
@@ -81,6 +81,9 @@ public class FragmentIndianO extends SherlockFragment{
 				break;
 			case 2:
 				v = inflater.inflate(R.layout.vp_indian_o_straits, null);
+				break;
+			case 3:
+				v = inflater.inflate(R.layout.vp_indian_o_currents, null);
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

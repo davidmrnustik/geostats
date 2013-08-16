@@ -26,22 +26,23 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 	      int layout = Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB ?
 	            android.R.layout.simple_list_item_activated_1 : android.R.layout.simple_list_item_1;
         
-			String[] alist = new String[15];
+			String[] alist = new String[16];
 			alist[0] = getString(R.string.LargestCountries);
 			alist[1] = getString(R.string.MostPopulatedCountries);
 			alist[2] = getString(R.string.CountriesByPopulationDensity);
 			alist[3] = getString(R.string.HighestMountains);
 			alist[4] = getString(R.string.LargestIslands);
-			alist[5] = getString(R.string.LongestRivers);
-			alist[6] = getString(R.string.LargestLakes);
-			alist[7] = getString(R.string.LargestSeas);
-			alist[8] = getString(R.string.LargestCities);
-			alist[9] = getString(R.string.LargestUrbanAreas);
-			alist[10] = getString(R.string.MajorOceanicTrenches);
-			alist[11] = getString(R.string.DeadliestEarthquakes);
-			alist[12] = getString(R.string.LargestEarthquakes);
-			alist[13] = getString(R.string.MajorVolcanicEruptions);
-			alist[14] = getString(R.string.WeatherExtremes);
+			alist[5] = getString(R.string.LargestPeninsulas);
+			alist[6] = getString(R.string.LongestRivers);
+			alist[7] = getString(R.string.LargestLakes);
+			alist[8] = getString(R.string.LargestSeas);
+			alist[9] = getString(R.string.LargestCities);
+			alist[10] = getString(R.string.LargestUrbanAreas);
+			alist[11] = getString(R.string.MajorOceanicTrenches);
+			alist[12] = getString(R.string.DeadliestEarthquakes);
+			alist[13] = getString(R.string.LargestEarthquakes);
+			alist[14] = getString(R.string.MajorVolcanicEruptions);
+			alist[15] = getString(R.string.WeatherExtremes);
         
         setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
     	}

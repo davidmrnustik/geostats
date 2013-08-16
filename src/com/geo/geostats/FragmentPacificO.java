@@ -42,7 +42,7 @@ public class FragmentPacificO extends SherlockFragment{
 		@Override
 		public int getCount() {
 			// TODO Auto-generated method stub
-			return 3;
+			return 4;
 		}
 		
 		public CharSequence getPageTitle(int position) {
@@ -82,6 +82,9 @@ public class FragmentPacificO extends SherlockFragment{
 				break;
 			case 2:
 				v = inflater.inflate(R.layout.vp_pacific_o_straits, null);
+				break;
+			case 3:
+				v = inflater.inflate(R.layout.vp_pacific_o_currents, null);
 				break;
 			}
 			((ViewPager)container).addView(v, 0);
