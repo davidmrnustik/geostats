@@ -26,6 +26,7 @@
     <string name="TopicName">Topic / Name</string>
     <string name="PercentOfPopulation">% of population</string>
     <string name="DensitySqKm">density sq km</string>
+    <string name="Density">Density</string>
     <string name="Ocean">Ocean</string>
     <string name="Oceans">Oceans</string>
     <string name="World">World</string>

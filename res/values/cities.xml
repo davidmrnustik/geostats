@@ -83,5 +83,15 @@
 	<string name="CentralCoast">Central Coast</string>
 	<string name="Wollongong">Wollongong</string>
 	
-	
+	<string name="TokyoYokohama">Tokyo-Yokohama</string>
+	<string name="JakartaJabotabek">Jakarta (Jabotabek)</string>
+	<string name="SeoulIncheon">Seoul-Incheon</string>
+	<string name="Delhi">Delhi</string>
+	<string name="GuangzhouFoshan">Guangzhou-Foshan</string>
+	<string name="OsakaKobeKyoto">Osaka-Kobe-Kyoto</string>
+	<string name="Bangkok">Bangkok</string>
+	<string name="Tehran">Tehran</string>
+	<string name="Shenzhen">Shenzhen</string>
+	<string name="Nagoya">Nagoya</string>
+	<string name="Tianjin">Tianjin</string>
 </resources>
