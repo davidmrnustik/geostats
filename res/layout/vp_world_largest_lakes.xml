@@ -155,7 +155,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Vostok"/>
+		            android:text="@string/LakeVostok"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestLakesWorld17"/>
