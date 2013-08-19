@@ -3,20 +3,20 @@
 <!-- zdroj: GEOGRAFICKE TABULKY -->
 
 <resources>
-    <string name="StraitOfGibraltarLength">65</string>
-    <string name="BosporusLength">30</string>
-    <string name="DardanellesLength">71</string>
-    <string name="LaMancheLength">56</string>
-    <string name="SkagerrakLength">225</string>
-    <string name="KattegatLength">200</string>
-    <string name="StraitOfMalaccaLength">780</string>
-    <string name="StraitOfHormuzLength">85</string>
-    <string name="ProlivVilkitskogoLength">130</string>
-    <string name="ProvivKarskiyeVorotaLength">33</string>
-    <string name="DavisStraitLength">1170</string>
-    <string name="StraitOfMagellanLength">600</string>
-    <string name="BaringStraitLength">60</string>
-    <string name="TorresStraitLength">400</string>
+    <string name="StraitOfGibraltarLength">65 km</string>
+    <string name="BosporusLength">30 km</string>
+    <string name="DardanellesLength">71 km</string>
+    <string name="LaMancheLength">56 km</string>
+    <string name="SkagerrakLength">225 km</string>
+    <string name="KattegatLength">200 km</string>
+    <string name="StraitOfMalaccaLength">780 km</string>
+    <string name="StraitOfHormuzLength">85 km</string>
+    <string name="ProlivVilkitskogoLength">130 km</string>
+    <string name="ProvivKarskiyeVorotaLength">33 km</string>
+    <string name="DavisStraitLength">1170 km</string>
+    <string name="StraitOfMagellanLength">600 km</string>
+    <string name="BaringStraitLength">60 km</string>
+    <string name="TorresStraitLength">400 km</string>
     
     <string name="StraitOfGibraltarWidth">14 km</string>
     <string name="BosporusWidth">0.7 km</string>
