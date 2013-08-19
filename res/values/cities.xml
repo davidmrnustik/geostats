@@ -94,4 +94,8 @@
 	<string name="Shenzhen">Shenzhen</string>
 	<string name="Nagoya">Nagoya</string>
 	<string name="Tianjin">Tianjin</string>
+	<string name="Accra">Accra</string>
+	<string name="EssenDusseldorf">Essen-Düsseldorf</string>
+	<string name="Milan">Milan</string>
+	<string name="Barcelona">Barcelona</string>
 </resources>
