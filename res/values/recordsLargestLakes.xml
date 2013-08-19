@@ -64,4 +64,29 @@
 	<!-- LARGEST LAKES ANTARCTICA -->
 	<string name="LargestLakesAntarctica01">15.690</string> <!-- WIKI -->
 	
+	
+	<!-- source: http://geology.com/records/deepest-lake.shtml -->
+	
+	<!-- DEEPEST LAKES WORLD -->
+    <string name="DeepestLakesWorld01">1.637</string>
+	<string name="DeepestLakesWorld02">1.470</string>
+	<string name="DeepestLakesWorld03">1.025</string>
+	<string name="DeepestLakesWorld04">900</string>
+	<string name="DeepestLakesWorld05">836</string>
+	<string name="DeepestLakesWorld06">706</string>
+	<string name="DeepestLakesWorld07">668</string>
+	<string name="DeepestLakesWorld08">614</string>
+	<string name="DeepestLakesWorld09">594</string>
+	<string name="DeepestLakesWorld10">590</string>
+	<string name="DeepestLakesWorld11">586</string>
+	<string name="DeepestLakesWorld12">514</string>
+	<string name="DeepestLakesWorld13">506</string>
+	<string name="DeepestLakesWorld14">505</string>
+	<string name="DeepestLakesWorld15">505</string>
+	<string name="DeepestLakesWorld16">501</string>
+	<string name="DeepestLakesWorld17">500</string>
+	<string name="DeepestLakesWorld18">480</string>
+	<string name="DeepestLakesWorld19">468</string>
+	<string name="DeepestLakesWorld20">453</string>
+	
 </resources>

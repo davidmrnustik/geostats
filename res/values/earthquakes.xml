@@ -29,5 +29,20 @@
 	<string name="Messina">Messina</string>
 	<string name="WestOfDusanbe">west of Dusanbe</string>
 	<string name="Kangra">Kangra</string>
+	<string name="PrinceWilliamSound">Prince William Sound</string>
+	<string name="WestCoastNorthernSumatra">Off the West Coast of Northern Sumatra</string>
+	<string name="EastCoastHonshu">Near the East Coast of Honshu</string>
+	<string name="Kamchatka">Kamchatka</string>
+	<string name="OffshoreMaule">Offshore Maule</string>
+	<string name="OffCoastEcuador">Off the Coast of Ecuador</string>
+	<string name="RatIslands">Rat Islands</string>
+	<string name="NorthernSumatra">Northern Sumatra</string>
+	<string name="Assam">Assam</string>
+	<string name="AndreanofIslands">Andreanof Islands</string>
+	<string name="SouthernSumatra">Southern Sumatra</string>
+	<string name="BandaSea">Banda Sea</string>
+	<string name="ChileArgentinaBorder">Chile-Argentina Border</string>
+	<string name="KurilIslands">Kuril Islands</string>
+	
     
 </resources>

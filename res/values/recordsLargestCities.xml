@@ -82,17 +82,17 @@
 	<string name="LargestCitiesSAmerica08">4.075.000</string> <!-- demographia.com -->
 	<string name="LargestCitiesSAmerica09">4.002.000</string> <!-- demographia.com -->
 	<string name="LargestCitiesSAmerica10">3.793.000</string> <!-- demographia.com -->
-	
-	<!-- LARGEST CITIES AUSTRALIA -->
-	<string name="LargestCitiesAustralia01">3.956.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAustralia02">3.761.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAustralia03">1.912.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAustralia04">1.657.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAustralia05">1.120.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAustralia06">534.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAustralia07">382.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAustralia08">308.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAustralia09">298.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAustralia10">246.000</string> <!-- demographia.com -->
+
+	<!-- LARGEST CITIES AUSTRALIA - source: demographia.com-->
+	<string name="LargestCitiesAustralia01">@string/LargestUrbanAreasAustralia01</string>
+	<string name="LargestCitiesAustralia02">@string/LargestUrbanAreasAustralia02</string>
+	<string name="LargestCitiesAustralia03">@string/LargestUrbanAreasAustralia03</string>
+	<string name="LargestCitiesAustralia04">@string/LargestUrbanAreasAustralia04</string>
+	<string name="LargestCitiesAustralia05">@string/LargestUrbanAreasAustralia05</string>
+	<string name="LargestCitiesAustralia06">@string/LargestUrbanAreasAustralia06</string>
+	<string name="LargestCitiesAustralia07">@string/LargestUrbanAreasAustralia07</string>
+	<string name="LargestCitiesAustralia08">@string/LargestUrbanAreasAustralia08</string>
+	<string name="LargestCitiesAustralia09">@string/LargestUrbanAreasAustralia09</string>
+	<string name="LargestCitiesAustralia10">@string/LargestUrbanAreasAustralia10</string>
 	
 </resources>

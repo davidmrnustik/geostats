@@ -88,33 +88,37 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 			article.addView(vv);
 		}else if(position == 8){
 			article.removeAllViews();
-			View vv = vi.inflate(R.layout.vp_world_largest_seas, null);
+			View vv = vi.inflate(R.layout.vp_world_deepest_lakes, null);
 			article.addView(vv);
 		}else if(position == 9){
 			article.removeAllViews();
-			View vv = vi.inflate(R.layout.vp_world_largest_cities, null);
+			View vv = vi.inflate(R.layout.vp_world_largest_seas, null);
 			article.addView(vv);
 		}else if(position == 10){
 			article.removeAllViews();
-			View vv = vi.inflate(R.layout.vp_world_largest_urban_areas, null);
+			View vv = vi.inflate(R.layout.vp_world_largest_cities, null);
 			article.addView(vv);
 		}else if(position == 11){
 			article.removeAllViews();
-			View vv = vi.inflate(R.layout.vp_world_major_oceanic_trenches, null);
+			View vv = vi.inflate(R.layout.vp_world_largest_urban_areas, null);
 			article.addView(vv);
 		}else if(position == 12){
 			article.removeAllViews();
-			View vv = vi.inflate(R.layout.vp_world_deadliest_earthquakes, null);
+			View vv = vi.inflate(R.layout.vp_world_major_oceanic_trenches, null);
 			article.addView(vv);
 		}else if(position == 13){
 			article.removeAllViews();
-			View vv = vi.inflate(R.layout.vp_world_largest_earthquakes, null);
+			View vv = vi.inflate(R.layout.vp_world_deadliest_earthquakes, null);
 			article.addView(vv);
 		}else if(position == 14){
 			article.removeAllViews();
-			View vv = vi.inflate(R.layout.vp_world_major_volcanic_eruptions, null);
+			View vv = vi.inflate(R.layout.vp_world_largest_earthquakes, null);
 			article.addView(vv);
 		}else if(position == 15){
+			article.removeAllViews();
+			View vv = vi.inflate(R.layout.vp_world_major_volcanic_eruptions, null);
+			article.addView(vv);
+		}else if(position == 16){
 			article.removeAllViews();
 			View vv = vi.inflate(R.layout.vp_weather_extremes, null);
 			article.addView(vv);

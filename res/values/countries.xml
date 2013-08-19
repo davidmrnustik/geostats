@@ -11,6 +11,9 @@
     <string name="Kazakhstan">Kazakhstan</string>
     <string name="Algeria">Algeria</string>
     <string name="DRCongo">Dem. Rep. Congo</string>
+    <string name="DRCongoRwanda">Dem. Rep. Congo, Rwanda</string>
+    <string name="TanzaniaDRCongoZambia">Tanzania, Dem. Rep. Congo, Zambia</string>
+    <string name="MalawiMozambiqueTanzania">Malawi, Mozambique, Tanzania</string>
     <string name="SaudiArabia">Saudi Arabia</string>
     <string name="Mexico">Mexico</string>
     <string name="Indonesia">Indonesia</string>
@@ -78,6 +81,7 @@
 	<string name="RSA">Republic of South Africa</string>
 	<string name="Tanzania">Tanzania</string>
 	<string name="Kenya">Kenya</string>
+	<string name="Ghana">Ghana</string>
 	<string name="Uganda">Uganda</string>
 	<string name="Seychelles">Seychelles</string>
 	<string name="Tunisia">Tunisia</string>
@@ -120,6 +124,8 @@
 	<string name="HawaiUSA">Hawai, USA</string>
 	<string name="Greece">Greece</string>
 	<string name="Belgium">Belgium</string>
-	
-	
+	<string name="Alaska">Alaska</string>
+	<string name="Tibet">Tibet</string>
+	<string name="Kyrgyzstan">Kyrgyzstan</string>
+	<string name="Tajikistan">Tajikistan</string>
 </resources>

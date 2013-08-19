@@ -26,6 +26,7 @@
     <string name="TopicName">Topic / Name</string>
     <string name="PercentOfPopulation">% of population</string>
     <string name="DensitySqKm">density sq km</string>
+    <string name="Density">Density</string>
     <string name="Ocean">Ocean</string>
     <string name="Oceans">Oceans</string>
     <string name="World">World</string>
@@ -44,6 +45,7 @@
     <string name="Bays">Bays</string>
     <string name="Channels">Channels</string>
     <string name="Area">Area (sq km)</string>
+    <string name="Magnitude">Magnitude</string>
     
     <string name="NumberOfCountries">Number of countries</string>
     <string name="HighestPoint">Highest point (m)</string>
@@ -69,6 +71,7 @@
     <string name="LargestPeninsulas">Largest Peninsulas</string>
     <string name="LongestRivers">Longest Rivers</string>
     <string name="LargestLakes">Largest Lakes</string>
+    <string name="DeepestLakes">Deepest Lakes</string>
     <string name="LargestSeas">Largest Seas</string>
     <string name="LargestCities">Largest Cities</string>
     <string name="LargestUrbanAreas">Largest Urban Areas</string>
@@ -80,7 +83,7 @@
     <string name="LargestEarthquakes">Largest Earthquakes</string>
     <string name="MajorVolcanicEruptions">Major Volcanic Eruptions 1980&#8211;2011</string>
     <string name="WeatherExtremes">Weather Extremes</string>
-    <string name="Length">Length (km)</string>
+    <string name="Length">Length</string>
     <string name="Width">Width</string>
     <string name="NameFlowRate">Name / Flow rate</string>
     <string name="SpeedCmS">Speed</string>
