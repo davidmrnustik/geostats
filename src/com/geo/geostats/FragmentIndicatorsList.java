@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
 import com.actionbarsherlock.app.SherlockListFragment;
 
 public class FragmentIndicatorsList extends SherlockListFragment {
@@ -20,12 +21,56 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 
 	   @Override public void onCreate(Bundle savedInstanceState) {
 	      super.onCreate(savedInstanceState);
-
+	      
+	      Bundle bag = getSherlockActivity().getIntent().getExtras();
+	      
 	      // We need to use a different list item layout for devices older than
 	      // Honeycomb
 	      int layout = Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB ?
 	            android.R.layout.simple_list_item_activated_1 : android.R.layout.simple_list_item_1;
+	      
+	      if(bag.getString("GEO").equals("G1")){
+	    	
+	    	// called when Physical geography is chosen
+	    	String[] alist = new String[12];
+			alist[0] = getString(R.string.HighestMountains);
+			alist[1] = getString(R.string.LargestIslands);
+			alist[2] = getString(R.string.LargestPeninsulas);
+			alist[3] = getString(R.string.LongestRivers);
+			alist[4] = getString(R.string.LargestLakes);
+			alist[5] = getString(R.string.DeepestLakes);
+			alist[6] = getString(R.string.LargestSeas);
+			alist[7] = getString(R.string.MajorOceanicTrenches);
+			alist[8] = getString(R.string.DeadliestEarthquakes);
+			alist[9] = getString(R.string.LargestEarthquakes);
+			alist[10] = getString(R.string.MajorVolcanicEruptions);
+			alist[11] = getString(R.string.WeatherExtremes);
         
+			setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
+			
+	      }else if(bag.getString("GEO").equals("G2")){
+	    	
+	    	// called when Political and Urban geography is chosen
+	    	String[] alist = new String[5];
+			alist[0] = getString(R.string.LargestCountries);
+			alist[1] = getString(R.string.MostPopulatedCountries);
+			alist[2] = getString(R.string.CountriesByPopulationDensity);
+			alist[3] = getString(R.string.LargestCities);
+			alist[4] = getString(R.string.LargestUrbanAreas);
+	        
+			setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
+			
+	      }else if(bag.getString("GEO").equals("G3")){
+	    	  
+	    	// called when Economic geography is chosen
+	    	String[] alist = new String[1];
+			alist[0] = getString(R.string.LargestCountries);
+	        
+			setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
+			
+	      }else{
+	    	
+	    	// called when Indicators is chosen, this is a default call, all indicators are called
 			String[] alist = new String[17];
 			alist[0] = getString(R.string.LargestCountries);
 			alist[1] = getString(R.string.MostPopulatedCountries);
@@ -45,8 +90,9 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 			alist[15] = getString(R.string.MajorVolcanicEruptions);
 			alist[16] = getString(R.string.WeatherExtremes);
         
-        setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
-    	}
+			setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
+	      }
+	   }
 
 	   @Override public void onStart() {
 		      super.onStart();
