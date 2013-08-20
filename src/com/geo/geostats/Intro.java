@@ -34,6 +34,12 @@ public class Intro extends Activity implements android.view.View.OnClickListener
 		switch(v.getId()){
 		case R.id.btIndicators:
 			Intent in = new Intent("com.geo.geostats.INDICATORS");
+			
+			String name0 = "G0";
+			Bundle bag = new Bundle();
+			bag.putString("GEO", name0);
+			in.putExtras(bag);
+			
 			startActivity(in);
 		break;
 		
