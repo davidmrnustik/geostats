@@ -10,7 +10,7 @@
     
 	    <TextView
 	        style="@style/TextViewTitle"
-	        android:text="@string/ProductionCars"/>
+	        android:text="@string/OilProduction"/>
 	    
 	    <TableLayout style="@style/TableLayout"
 	        android:shrinkColumns="0">

@@ -138,67 +138,67 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 			// called when Economic geography is chosen
 			if (position == 0) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_coal, null);
+				View vv = vi.inflate(R.layout.vp_world_coal_mining, null);
 				article.addView(vv);
 			}else if (position == 1) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_oil, null);
+				View vv = vi.inflate(R.layout.vp_world_oil_production, null);
 				article.addView(vv);
 			}else if (position == 2) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_natural_gas, null);
+				View vv = vi.inflate(R.layout.vp_world_natural_gas_production, null);
 				article.addView(vv);
 			}else if (position == 3) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_electricity, null);
+				View vv = vi.inflate(R.layout.vp_world_electricity_production, null);
 				article.addView(vv);
 			}else if (position == 4) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_steel, null);
+				View vv = vi.inflate(R.layout.vp_world_steel_production, null);
 				article.addView(vv);
 			}else if (position == 5) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_cars, null);
+				View vv = vi.inflate(R.layout.vp_world_motor_vehicle_production, null);
 				article.addView(vv);
 			}else if (position == 6) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_wheat, null);
+				View vv = vi.inflate(R.layout.vp_world_wheat_production, null);
 				article.addView(vv);
 			}else if (position == 7) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_rice, null);
+				View vv = vi.inflate(R.layout.vp_world_rice_production, null);
 				article.addView(vv);
 			}else if (position == 8) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_livestock, null);
+				View vv = vi.inflate(R.layout.vp_world_beef_cattle_production, null);
 				article.addView(vv);
 			}else if (position == 9) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_pork, null);
+				View vv = vi.inflate(R.layout.vp_world_pork_production, null);
 				article.addView(vv);
 			}else if (position == 10) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_lamb, null);
+				View vv = vi.inflate(R.layout.vp_world_sheep_production, null);
 				article.addView(vv);
 			}else if (position == 11) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_milk, null);
+				View vv = vi.inflate(R.layout.vp_world_milk_production, null);
 				article.addView(vv);
 			}else if (position == 12) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_meat, null);
+				View vv = vi.inflate(R.layout.vp_world_meat_production, null);
 				article.addView(vv);
 			}else if (position == 13) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_fishing, null);
+				View vv = vi.inflate(R.layout.vp_world_fish_production, null);
 				article.addView(vv);
 			}else if (position == 14) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_timber, null);
+				View vv = vi.inflate(R.layout.vp_world_logging, null);
 				article.addView(vv);
 			}else if (position == 15) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_gnp, null);
+				View vv = vi.inflate(R.layout.vp_world_gnp, null);
 				article.addView(vv);
 			}
 			mCurrentPosition = position;
@@ -277,67 +277,67 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.addView(vv);
 			}else if (position == 17) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_coal, null);
+				View vv = vi.inflate(R.layout.vp_world_coal_mining, null);
 				article.addView(vv);
 			}else if (position == 18) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_oil, null);
+				View vv = vi.inflate(R.layout.vp_world_oil_production, null);
 				article.addView(vv);
 			}else if (position == 19) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_natural_gas, null);
+				View vv = vi.inflate(R.layout.vp_world_natural_gas_production, null);
 				article.addView(vv);
 			}else if (position == 20) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_electricity, null);
+				View vv = vi.inflate(R.layout.vp_world_electricity_production, null);
 				article.addView(vv);
 			}else if (position == 21) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_steel, null);
+				View vv = vi.inflate(R.layout.vp_world_steel_production, null);
 				article.addView(vv);
 			}else if (position == 22) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_cars, null);
+				View vv = vi.inflate(R.layout.vp_world_motor_vehicle_production, null);
 				article.addView(vv);
 			}else if (position == 23) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_wheat, null);
+				View vv = vi.inflate(R.layout.vp_world_wheat_production, null);
 				article.addView(vv);
 			}else if (position == 24) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_rice, null);
+				View vv = vi.inflate(R.layout.vp_world_rice_production, null);
 				article.addView(vv);
 			}else if (position == 25) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_livestock, null);
+				View vv = vi.inflate(R.layout.vp_world_beef_cattle_production, null);
 				article.addView(vv);
 			}else if (position == 26) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_pork, null);
+				View vv = vi.inflate(R.layout.vp_world_pork_production, null);
 				article.addView(vv);
 			}else if (position == 27) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_lamb, null);
+				View vv = vi.inflate(R.layout.vp_world_sheep_production, null);
 				article.addView(vv);
 			}else if (position == 28) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_milk, null);
+				View vv = vi.inflate(R.layout.vp_world_milk_production, null);
 				article.addView(vv);
 			}else if (position == 29) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_meat, null);
+				View vv = vi.inflate(R.layout.vp_world_meat_production, null);
 				article.addView(vv);
 			}else if (position == 30) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_fishing, null);
+				View vv = vi.inflate(R.layout.vp_world_fish_production, null);
 				article.addView(vv);
 			}else if (position == 31) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_timber, null);
+				View vv = vi.inflate(R.layout.vp_world_logging, null);
 				article.addView(vv);
 			}else if (position == 32) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_production_gnp, null);
+				View vv = vi.inflate(R.layout.vp_world_gnp, null);
 				article.addView(vv);
 			}
 		}

@@ -64,21 +64,21 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 	    	  
 	    	// called when Economic geography is chosen
 	    	String[] alist = new String[16];
-			alist[0] = getString(R.string.ProductionCoal);
-			alist[1] = getString(R.string.ProductionOil);
-			alist[2] = getString(R.string.ProductionNaturalGas);
-			alist[3] = getString(R.string.ProductionElectricity);
-			alist[4] = getString(R.string.ProductionSteel);
-			alist[5] = getString(R.string.ProductionCars);
-			alist[6] = getString(R.string.ProductionWheat);
-			alist[7] = getString(R.string.ProductionRice);
-			alist[8] = getString(R.string.Livestock);
-			alist[9] = getString(R.string.Pork);
-			alist[10] = getString(R.string.Lamb);
-			alist[11] = getString(R.string.ProductionMilk);
-			alist[12] = getString(R.string.ProductionMeat);
-			alist[13] = getString(R.string.Fishing);
-			alist[14] = getString(R.string.ProductionTimber);
+			alist[0] = getString(R.string.CoalProduction);
+			alist[1] = getString(R.string.OilProduction);
+			alist[2] = getString(R.string.NaturalGasProduction);
+			alist[3] = getString(R.string.ElectricityProduction);
+			alist[4] = getString(R.string.SteelProduction);
+			alist[5] = getString(R.string.MotorVehicleProduction);
+			alist[6] = getString(R.string.WheatProduction);
+			alist[7] = getString(R.string.RiceProduction);
+			alist[8] = getString(R.string.BeefCattleProduction);
+			alist[9] = getString(R.string.PorkProduction);
+			alist[10] = getString(R.string.SheepProduction);
+			alist[11] = getString(R.string.MilkProduction);
+			alist[12] = getString(R.string.MeatProduction);
+			alist[13] = getString(R.string.FishProduction);
+			alist[14] = getString(R.string.Logging);
 			alist[15] = getString(R.string.GNP);
 			
 			// add records for Zelezna ruda, zlato, diamanty, ...
@@ -106,21 +106,21 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 			alist[14] = getString(R.string.LargestEarthquakes);
 			alist[15] = getString(R.string.MajorVolcanicEruptions);
 			alist[16] = getString(R.string.WeatherExtremes);
-			alist[17] = getString(R.string.ProductionCoal);
-			alist[18] = getString(R.string.ProductionOil);
-			alist[19] = getString(R.string.ProductionNaturalGas);
-			alist[20] = getString(R.string.ProductionElectricity);
-			alist[21] = getString(R.string.ProductionSteel);
-			alist[22] = getString(R.string.ProductionCars);
-			alist[23] = getString(R.string.ProductionWheat);
-			alist[24] = getString(R.string.ProductionRice);
-			alist[25] = getString(R.string.Livestock);
-			alist[26] = getString(R.string.Pork);
-			alist[27] = getString(R.string.Lamb);
-			alist[28] = getString(R.string.ProductionMilk);
-			alist[29] = getString(R.string.ProductionMeat);
-			alist[30] = getString(R.string.Fishing);
-			alist[31] = getString(R.string.ProductionTimber);
+			alist[17] = getString(R.string.CoalProduction);
+			alist[18] = getString(R.string.OilProduction);
+			alist[19] = getString(R.string.NaturalGasProduction);
+			alist[20] = getString(R.string.ElectricityProduction);
+			alist[21] = getString(R.string.SteelProduction);
+			alist[22] = getString(R.string.MotorVehicleProduction);
+			alist[23] = getString(R.string.WheatProduction);
+			alist[24] = getString(R.string.RiceProduction);
+			alist[25] = getString(R.string.BeefCattleProduction);
+			alist[26] = getString(R.string.PorkProduction);
+			alist[27] = getString(R.string.SheepProduction);
+			alist[28] = getString(R.string.MilkProduction);
+			alist[29] = getString(R.string.MeatProduction);
+			alist[30] = getString(R.string.FishProduction);
+			alist[31] = getString(R.string.Logging);
 			alist[32] = getString(R.string.GNP);			
         
 			setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));

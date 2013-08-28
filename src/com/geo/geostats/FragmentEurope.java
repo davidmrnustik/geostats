@@ -16,6 +16,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ScrollView;
+import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
@@ -25,6 +26,7 @@ public class FragmentEurope extends SherlockFragment {
 	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btD7O, btD8O, btD9O, btClose;
 	ViewPager vp;
 	private vpAdapter miAdapter;
+	TextView tvChart;
 	//public final int limit = 0;
 	
 	@Override
@@ -35,6 +37,10 @@ public class FragmentEurope extends SherlockFragment {
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
+
+		tvChart = (TextView)v.findViewById(R.id.chartNo);
+		tvChart.append(" 1");
+		
         //vp.setCurrentItem(2); skip to a particular tab
         //vp.setOffscreenPageLimit(limit);
 		
@@ -83,7 +89,7 @@ public class FragmentEurope extends SherlockFragment {
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_europe_countries, null);
-				
+							
 				Button btD1O = (Button) v.findViewById(R.id.btDialog);
 				Button btD2O = (Button) v.findViewById(R.id.btDialog2);
 				
@@ -111,6 +117,8 @@ public class FragmentEurope extends SherlockFragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_countries);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 2 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -131,6 +139,8 @@ public class FragmentEurope extends SherlockFragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_eu_countries);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 3 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -158,6 +168,8 @@ public class FragmentEurope extends SherlockFragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_population);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 4 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -179,6 +191,8 @@ public class FragmentEurope extends SherlockFragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_eu_population);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 5 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -208,6 +222,8 @@ public class FragmentEurope extends SherlockFragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_cities);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 6 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -229,6 +245,8 @@ public class FragmentEurope extends SherlockFragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_urban_areas);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 7 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -250,6 +268,8 @@ public class FragmentEurope extends SherlockFragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_capitals);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 8 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -278,6 +298,8 @@ public class FragmentEurope extends SherlockFragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_mountains_kmd);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 9 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -299,6 +321,8 @@ public class FragmentEurope extends SherlockFragment {
 						d.setCancelable(true);
 						d.setContentView(R.layout.dialog_europe_mountains_cc);
 						d.setCanceledOnTouchOutside(true);
+						tvChart = (TextView)d.findViewById(R.id.chartNo);
+						tvChart.append(" 10 - 2010");
 						Button btClose = (Button) d.findViewById(R.id.btClose);
 						btClose.setOnClickListener(new OnClickListener() {
 							@Override
@@ -316,15 +340,23 @@ public class FragmentEurope extends SherlockFragment {
 				break;
 			case 4:
 				v = inflater.inflate(R.layout.vp_europe_islands, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(getString(R.string.ChartNo) + " 11 - 2010");
 				break;
 			case 5:
 				v = inflater.inflate(R.layout.vp_europe_rivers, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(getString(R.string.ChartNo) + " 12 - 2010");
 				break;
 			case 6:
 				v = inflater.inflate(R.layout.vp_europe_lakes, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(getString(R.string.ChartNo) + " 13 - 2010");
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_europe_weather, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(getString(R.string.ChartNo) + " 14 - 2010");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

@@ -92,21 +92,25 @@
     <string name="PoliticalUrbanGeography">Political and Urban geography</string>
     <string name="EconomicGeography">Economic geography</string>
     
-    <string name="ProductionCoal">Coal production</string>
-    <string name="ProductionOil">Oil production</string>
-    <string name="ProductionNaturalGas">Natural gas production</string>
-    <string name="ProductionElectricity">Electricity production</string>
-    <string name="ProductionSteel">Steel production</string>
-    <string name="ProductionCars">Cars production</string>
-    <string name="ProductionWheat">Wheat production</string>
-    <string name="ProductionRice">Rice production</string>
-    <string name="Livestock">Livestock</string>
-    <string name="Pork">Pork</string>
-    <string name="Lamb">Lamb</string>
-    <string name="ProductionMilk">Milk production</string>
-    <string name="ProductionMeat">Meat production</string>
-    <string name="Fishing">Fishing</string>
-    <string name="ProductionTimber">Timber</string>
+    <string name="CoalProduction">Coal production</string>
+    <string name="OilProduction">Oil production</string>
+    <string name="NaturalGasProduction">Natural gas production</string>
+    <string name="ElectricityProduction">Electricity production</string>
+    <string name="SteelProduction">Steel production</string>
+    <string name="MotorVehicleProduction">Motor vehicle production</string>
+    <string name="WheatProduction">Wheat production</string>
+    <string name="RiceProduction">Rice production</string>
+    <string name="BeefCattleProduction">Beef cattle production</string>
+    <string name="PorkProduction">Pork production</string>
+    <string name="SheepProduction">Sheep production</string>
+    <string name="MilkProduction">Milk production</string>
+    <string name="MeatProduction">Meat production</string>
+    <string name="FishProduction">Fish production</string>
+    <string name="Logging">Logging</string>
     <string name="GNP">Gross national product</string>
+    
+    <string name="Chart">Chart</string>
+    <string name="ChartNo">Chart No.</string>
+    <string name="WeatherRecords">Weather records</string>
     
 </resources>
