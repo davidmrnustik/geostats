@@ -63,32 +63,65 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 	      }else if(bag.getString("GEO").equals("G3")){
 	    	  
 	    	// called when Economic geography is chosen
-	    	String[] alist = new String[1];
-			alist[0] = getString(R.string.LargestCountries);
+	    	String[] alist = new String[16];
+			alist[0] = getString(R.string.CoalProduction);
+			alist[1] = getString(R.string.OilProduction);
+			alist[2] = getString(R.string.NaturalGasProduction);
+			alist[3] = getString(R.string.ElectricityProduction);
+			alist[4] = getString(R.string.SteelProduction);
+			alist[5] = getString(R.string.MotorVehicleProduction);
+			alist[6] = getString(R.string.WheatProduction);
+			alist[7] = getString(R.string.RiceProduction);
+			alist[8] = getString(R.string.BeefCattleProduction);
+			alist[9] = getString(R.string.PorkProduction);
+			alist[10] = getString(R.string.SheepProduction);
+			alist[11] = getString(R.string.MilkProduction);
+			alist[12] = getString(R.string.MeatProduction);
+			alist[13] = getString(R.string.FishProduction);
+			alist[14] = getString(R.string.Logging);
+			alist[15] = getString(R.string.GNP);
+			
+			// add records for Zelezna ruda, zlato, diamanty, ...
 	        
 			setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
 			
 	      }else{
 	    	
 	    	// called when Indicators is chosen, this is a default call, all indicators are called
-			String[] alist = new String[17];
+			String[] alist = new String[33];
 			alist[0] = getString(R.string.LargestCountries);
 			alist[1] = getString(R.string.MostPopulatedCountries);
 			alist[2] = getString(R.string.CountriesByPopulationDensity);
-			alist[3] = getString(R.string.HighestMountains);
-			alist[4] = getString(R.string.LargestIslands);
-			alist[5] = getString(R.string.LargestPeninsulas);
-			alist[6] = getString(R.string.LongestRivers);
-			alist[7] = getString(R.string.LargestLakes);
-			alist[8] = getString(R.string.DeepestLakes);
-			alist[9] = getString(R.string.LargestSeas);
-			alist[10] = getString(R.string.LargestCities);
-			alist[11] = getString(R.string.LargestUrbanAreas);
+			alist[3] = getString(R.string.LargestCities);
+			alist[4] = getString(R.string.LargestUrbanAreas);			
+			alist[5] = getString(R.string.HighestMountains);
+			alist[6] = getString(R.string.LargestIslands);
+			alist[7] = getString(R.string.LargestPeninsulas);
+			alist[8] = getString(R.string.LongestRivers);
+			alist[9] = getString(R.string.LargestLakes);
+			alist[10] = getString(R.string.DeepestLakes);
+			alist[11] = getString(R.string.LargestSeas);
 			alist[12] = getString(R.string.MajorOceanicTrenches);
 			alist[13] = getString(R.string.DeadliestEarthquakes);
 			alist[14] = getString(R.string.LargestEarthquakes);
 			alist[15] = getString(R.string.MajorVolcanicEruptions);
 			alist[16] = getString(R.string.WeatherExtremes);
+			alist[17] = getString(R.string.CoalProduction);
+			alist[18] = getString(R.string.OilProduction);
+			alist[19] = getString(R.string.NaturalGasProduction);
+			alist[20] = getString(R.string.ElectricityProduction);
+			alist[21] = getString(R.string.SteelProduction);
+			alist[22] = getString(R.string.MotorVehicleProduction);
+			alist[23] = getString(R.string.WheatProduction);
+			alist[24] = getString(R.string.RiceProduction);
+			alist[25] = getString(R.string.BeefCattleProduction);
+			alist[26] = getString(R.string.PorkProduction);
+			alist[27] = getString(R.string.SheepProduction);
+			alist[28] = getString(R.string.MilkProduction);
+			alist[29] = getString(R.string.MeatProduction);
+			alist[30] = getString(R.string.FishProduction);
+			alist[31] = getString(R.string.Logging);
+			alist[32] = getString(R.string.GNP);			
         
 			setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
 	      }

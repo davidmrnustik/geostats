@@ -12,6 +12,12 @@
             android:text="@string/LargestCountries"
             android:id="@+id/dTitle"/>
         
+        <TextView
+            style="@style/DialogChartNo"
+            android:layout_toRightOf="@+id/dTitle"
+            android:id="@+id/chartNo"
+            android:text="@string/ChartNo"/>
+        
         <Button
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>

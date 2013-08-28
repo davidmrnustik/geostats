@@ -44,6 +44,10 @@
         <item name="android:paddingBottom">5dp</item>
         <item name="android:background">@color/colorFFF</item>
     </style>
+    <style name="TableTextView.Italic">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+    </style>
     <style name="TableTextView.PadddingBottom0">
         <item name="android:paddingBottom">2dp</item>
     </style>
@@ -94,6 +98,11 @@
     <style name="DialogContinents" parent="@android:style/Theme.Dialog">
         <item name="android:background">#ff0000</item>
         <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="DialogChartNo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
     </style>
     <style name="ButCloseDialog">
         <item name="android:layout_width">wrap_content</item>
