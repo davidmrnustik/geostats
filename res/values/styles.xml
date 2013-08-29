@@ -102,7 +102,8 @@
     <style name="DialogChartNo">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textStyle">italic</item>
     </style>
     <style name="ButCloseDialog">
         <item name="android:layout_width">wrap_content</item>

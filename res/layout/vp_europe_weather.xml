@@ -7,7 +7,6 @@
           android:shrinkColumns="0">
         <TableRow style="@style/TableRow.Span">
 	        <TextView
-	            android:id="@+id/chartNo"
 	            android:layout_span="2"
 	          	style="@style/TextViewTitle"
 	            android:text="@string/WeatherRecords"/>
@@ -71,6 +70,13 @@
 	        <TextView 
 	            style="@style/TableTextView.GravityRight.RowSpan"
 	            android:text="@string/PrepLeastEurope"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow.Span">
+ 		   <TextView
+		        android:id="@+id/chartNo"
+		        android:layout_span="2"
+		      	style="@style/TableTextView.Italic"
+		        android:text="@string/ChartNo"/>
 	    </TableRow>
 	</TableLayout>
 </ScrollView>

@@ -1,6 +1,6 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 	<TableLayout style="@style/TableLayout"
-   		    android:layout_below="@+id/dTitle"
+   		    android:layout_below="@+id/chartNo"
 	       android:shrinkColumns="0">
 	       
 	    <TableRow style="@style/TableRow">

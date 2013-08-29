@@ -341,22 +341,22 @@ public class FragmentEurope extends SherlockFragment {
 			case 4:
 				v = inflater.inflate(R.layout.vp_europe_islands, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(getString(R.string.ChartNo) + " 11 - 2010");
+				tvChart.append(" 11 - 2010");
 				break;
 			case 5:
 				v = inflater.inflate(R.layout.vp_europe_rivers, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(getString(R.string.ChartNo) + " 12 - 2010");
+				tvChart.append(" 12 - 2010");
 				break;
 			case 6:
 				v = inflater.inflate(R.layout.vp_europe_lakes, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(getString(R.string.ChartNo) + " 13 - 2010");
+				tvChart.append(" 13 - 2010");
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_europe_weather, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(getString(R.string.ChartNo) + " 14 - 2010");
+				tvChart.append(" 14 - 2010");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

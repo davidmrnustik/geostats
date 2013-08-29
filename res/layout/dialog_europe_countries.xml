@@ -14,7 +14,7 @@
         
         <TextView
             style="@style/DialogChartNo"
-            android:layout_toRightOf="@+id/dTitle"
+            android:layout_below="@+id/dTitle"
             android:id="@+id/chartNo"
             android:text="@string/ChartNo"/>
         
