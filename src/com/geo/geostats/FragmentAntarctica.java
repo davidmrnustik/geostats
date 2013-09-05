@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
+import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
@@ -20,6 +21,7 @@ public class FragmentAntarctica extends SherlockFragment{
 	
 	ViewPager vp;
 	private vpAdapter miAdapter;
+	TextView tvChart;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -29,6 +31,9 @@ public class FragmentAntarctica extends SherlockFragment{
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
+        
+        tvChart = (TextView)v.findViewById(R.id.chartNo);
+		tvChart.append(" 71");
 		
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);
@@ -74,9 +79,13 @@ public class FragmentAntarctica extends SherlockFragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_antarctica_mountains, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 72 - 2010");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_antarctica_weather, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 73 - 2010");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

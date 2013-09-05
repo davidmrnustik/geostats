@@ -5,7 +5,12 @@
     
     <TableLayout style="@style/TableLayout"
         android:shrinkColumns="0">
-        
+        <TableRow style="@style/TableRow.Span">
+	        <TextView
+	            android:layout_span="2"
+	          	style="@style/TextViewTitle"
+	            android:text="@string/LongestRivers"/>
+	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.Head"
@@ -54,6 +59,13 @@
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LongestRiversNAmerica05"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow.Span">
+ 		   <TextView
+		        android:id="@+id/chartNo"
+		        android:layout_span="2"
+		      	style="@style/TableTextView.Italic"
+		        android:text="@string/ChartNo"/>
 	    </TableRow>
 	</TableLayout>
 </ScrollView>

@@ -184,5 +184,9 @@
 		            android:text="@string/LargestCountriesWorld20"/>
 		    </TableRow>
 		</TableLayout>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
 	</LinearLayout>
 </ScrollView>
