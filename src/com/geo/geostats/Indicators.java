@@ -3,6 +3,7 @@ package com.geo.geostats;
 import android.os.Bundle;
 
 import android.content.Intent;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.NavUtils;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
@@ -22,6 +23,7 @@ public class Indicators extends SherlockFragmentActivity implements OnHeadlineSe
 	        
 	      ActionBar actionbar = getSupportActionBar();
 	      actionbar.setTitle(getString(R.string.Indicators));
+	      actionbar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
 	      
 	   }
 
@@ -38,6 +40,7 @@ public class Indicators extends SherlockFragmentActivity implements OnHeadlineSe
 	   @Override
 		public boolean onOptionsItemSelected(com.actionbarsherlock.view.MenuItem item){
 			super.onOptionsItemSelected(item);
+			
 			switch(item.getItemId()){
 			case R.id.menu_branches:
 
@@ -47,7 +50,12 @@ public class Indicators extends SherlockFragmentActivity implements OnHeadlineSe
 				break;
 
 			case android.R.id.home:
-				NavUtils.navigateUpFromSameTask(Indicators.this);
+				FragmentManager fm= getSupportFragmentManager();
+				 if(fm.getBackStackEntryCount()>0){
+				   fm.popBackStack();
+				}else{
+					NavUtils.navigateUpFromSameTask(Indicators.this);
+				}
 		        return true;
 			}	
 
