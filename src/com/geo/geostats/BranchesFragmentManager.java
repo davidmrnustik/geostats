@@ -5,6 +5,7 @@ import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.geo.geostats.FragmentIndicatorsList.OnHeadlineSelectedListener;
 
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.NavUtils;
 
 public class BranchesFragmentManager extends SherlockFragmentActivity implements OnHeadlineSelectedListener {
@@ -46,8 +47,12 @@ public class BranchesFragmentManager extends SherlockFragmentActivity implements
 		switch(item.getItemId()){
 			
 		case android.R.id.home:
-			NavUtils.navigateUpFromSameTask(this);
-	        return true;
+			FragmentManager fm= getSupportFragmentManager();
+			 if(fm.getBackStackEntryCount()>0){
+			   fm.popBackStack();
+			}else{
+				NavUtils.navigateUpFromSameTask(this);
+			}
 		}	
 		
 		return true;
