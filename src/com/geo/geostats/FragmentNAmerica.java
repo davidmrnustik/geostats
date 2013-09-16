@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ScrollView;
+import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
@@ -25,6 +26,7 @@ public class FragmentNAmerica extends SherlockFragment{
 	Button btD1O, btD2O, btD3O, btD4O;
 	ViewPager vp;
 	private vpAdapter miAdapter;
+	TextView tvChart;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -34,6 +36,9 @@ public class FragmentNAmerica extends SherlockFragment{
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
+        
+        tvChart = (TextView)v.findViewById(R.id.chartNo);
+		tvChart.append(" 37");
 		
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);
@@ -79,6 +84,8 @@ public class FragmentNAmerica extends SherlockFragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_namerica_countries, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 38 - 2010");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_namerica_population, null);
@@ -92,6 +99,8 @@ public class FragmentNAmerica extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_namerica_population);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 39 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -121,6 +130,8 @@ public class FragmentNAmerica extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_namerica_cities);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 40 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -142,6 +153,8 @@ public class FragmentNAmerica extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_namerica_urban_areas);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 41 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -163,6 +176,8 @@ public class FragmentNAmerica extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_namerica_capitals);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 42 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -180,18 +195,28 @@ public class FragmentNAmerica extends SherlockFragment{
 				break;
 			case 3:
 				v = inflater.inflate(R.layout.vp_namerica_mountains, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 43 - 2010");
 				break;
 			case 4:
 				v = inflater.inflate(R.layout.vp_namerica_islands, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 44 - 2010");
 				break;
 			case 5:
 				v = inflater.inflate(R.layout.vp_namerica_rivers, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 45 - 2010");
 				break;
 			case 6:
 				v = inflater.inflate(R.layout.vp_namerica_lakes, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 46 - 2010");
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_namerica_weather, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 47 - 2010");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

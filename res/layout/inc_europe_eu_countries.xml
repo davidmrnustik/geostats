@@ -1,7 +1,7 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 	<TableLayout style="@style/TableLayout"
         android:shrinkColumns="0"
-        android:layout_below="@+id/btClose">
+        android:layout_below="@+id/chartNo">
         
 	    <TableRow style="@style/TableRow">
 	        <TextView 

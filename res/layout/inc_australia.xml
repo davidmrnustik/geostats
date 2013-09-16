@@ -34,5 +34,12 @@
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/ShorelineRecordAustralia"/>
 	    </TableRow>
+	    <TableRow style="@style/TableRow.Span">
+	        <TextView
+	            android:id="@+id/chartNo"
+	            android:layout_span="2"
+	          	style="@style/TableTextView.Italic"
+	            android:text="@string/ChartNo"/>
+	    </TableRow>
 	</TableLayout>
 </merge>

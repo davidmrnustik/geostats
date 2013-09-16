@@ -21,89 +21,99 @@
 		            android:text="@string/Name"/>
 		        <TextView 
 		            style="@style/TableTextView.Head"
-		            android:text="@string/TotalSqKm"/>
+		            android:text="@string/Total"/>
 		    </TableRow>
 		    
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/ArcticOcean"/>
+		            android:text="@string/China"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasWorld01"/>
+		            android:text="@string/MotorVehiclesProductionWorld01"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/SouthChinaSea"/>
+		            android:text="@string/Japan"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasWorld02"/>
+		            android:text="@string/MotorVehiclesProductionWorld02"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/CaribbeanSea"/>
+		            android:text="@string/Japan"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasWorld03"/>
+		            android:text="@string/MotorVehiclesProductionWorld03"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/MediterraneanSea"/>
+		            android:text="@string/Germany1"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasWorld04"/>
+		            android:text="@string/MotorVehiclesProductionWorld04"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/BeringSea"/>
+		            android:text="@string/SouthCorea2"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasWorld05"/>
+		            android:text="@string/MotorVehiclesProductionWorld05"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/BayOfBengal"/>
+		            android:text="@string/India"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasWorld06"/>
+		            android:text="@string/MotorVehiclesProductionWorld06"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/GulfOfMexico"/>
+		            android:text="@string/Brazil"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasWorld07"/>
+		            android:text="@string/MotorVehiclesProductionWorld07"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/SeaofOkhotsk"/>
+		            android:text="@string/Mexico"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasWorld08"/>
+		            android:text="@string/MotorVehiclesProductionWorld08"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/HudsonBay"/>
+		            android:text="@string/Thailand"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasWorld09"/>
+		            android:text="@string/MotorVehiclesProductionWorld09"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/EastChinaSeaandYellowSea"/>
+		            android:text="@string/Canada"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
-		            android:text="@string/LargestSeasWorld10"/>
+		            android:text="@string/MotorVehiclesProductionWorld10"/>
 		    </TableRow>
 		</TableLayout>
+		<TextView
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/GermanyAd1"/>
+		<TextView
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/SouthCoreaAd2"/>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
 	</LinearLayout>
 </ScrollView>

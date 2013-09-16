@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 
@@ -13,6 +14,7 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 	
 	Context context;
     final static String ARG_POSITION = "position";
+    TextView tvChart;
     int mCurrentPosition = -1;
 
     @Override
@@ -61,50 +63,74 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 			if(position == 0){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_highest_mountains, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 100 - 2010");
 				article.addView(vv);
 			}else if(position == 1){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_islands, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 101 - 2010");
 				article.addView(vv);
 			}else if(position == 2){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_peninsulas, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 101 - 2010");
 				article.addView(vv);
 			}else if(position == 3){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_longest_rivers, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 103 - 2010");
 				article.addView(vv);
 			}else if(position == 4){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_lakes, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 104 - 2010");
 				article.addView(vv);
 			}else if(position == 5){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_deepest_lakes, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 105 - 2010");
 				article.addView(vv);
 			}else if(position == 6){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_seas, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 106 - 2010");
 				article.addView(vv);
 			}else if(position == 7){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_major_oceanic_trenches, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 107 - 2010");
 				article.addView(vv);
 			}else if(position == 8){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_deadliest_earthquakes, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 108 - 2010");
 				article.addView(vv);
 			}else if(position == 9){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_earthquakes, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 109 - 2010");
 				article.addView(vv);
 			}else if(position == 10){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_major_volcanic_eruptions, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 110 - 2010");
 				article.addView(vv);
 			}else if(position == 11){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_weather_extremes, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 111 - 2010");
 				article.addView(vv);
 			}
 			mCurrentPosition = position;
@@ -114,22 +140,32 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 			if (position == 0) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_countries, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 95 - 2010");
 				article.addView(vv);
 			}else if(position == 1){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_most_populated_countries, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 96 - 2010");
 				article.addView(vv);
 			}else if(position == 2){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_countries_by_population_density, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 97 - 2010");
 				article.addView(vv);
 			}else if(position == 3){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_cities, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 98 - 2010");
 				article.addView(vv);
 			}else if(position == 4){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_urban_areas, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 99 - 2010");
 				article.addView(vv);
 			}
 			mCurrentPosition = position;
@@ -139,66 +175,98 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 			if (position == 0) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_coal_mining, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 112 - 2010");
 				article.addView(vv);
 			}else if (position == 1) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_oil_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 113 - 2010");
 				article.addView(vv);
 			}else if (position == 2) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_natural_gas_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 114 - 2010");
 				article.addView(vv);
 			}else if (position == 3) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_electricity_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 115 - 2010");
 				article.addView(vv);
 			}else if (position == 4) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_steel_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 116 - 2010");
 				article.addView(vv);
 			}else if (position == 5) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_motor_vehicle_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 117 - 2010");
 				article.addView(vv);
 			}else if (position == 6) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_wheat_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 118 - 2010");
 				article.addView(vv);
 			}else if (position == 7) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_rice_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 119 - 2010");
 				article.addView(vv);
 			}else if (position == 8) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_beef_cattle_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 120 - 2010");
 				article.addView(vv);
 			}else if (position == 9) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_pork_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 121 - 2010");
 				article.addView(vv);
 			}else if (position == 10) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_sheep_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 122 - 2010");
 				article.addView(vv);
 			}else if (position == 11) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_milk_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 123 - 2010");
 				article.addView(vv);
 			}else if (position == 12) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_meat_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 124 - 2010");
 				article.addView(vv);
 			}else if (position == 13) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_fish_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 125 - 2010");
 				article.addView(vv);
 			}else if (position == 14) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_logging, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 126 - 2010");
 				article.addView(vv);
 			}else if (position == 15) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_gnp, null);
+				View vv = vi.inflate(R.layout.vp_world_gni, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 127 - 2010");
 				article.addView(vv);
 			}
 			mCurrentPosition = position;
@@ -210,134 +278,200 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 			if (position == 0) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_countries, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 95 - 2010");
 				article.addView(vv);
 			}else if(position == 1){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_most_populated_countries, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 96 - 2010");
 				article.addView(vv);
 			}else if(position == 2){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_countries_by_population_density, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 97 - 2010");
 				article.addView(vv);
 			}else if(position == 3){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_cities, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 98 - 2010");
 				article.addView(vv);
 			}else if(position == 4){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_urban_areas, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 99 - 2010");
 				article.addView(vv);
 			}else if(position == 5){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_highest_mountains, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 100 - 2010");
 				article.addView(vv);
 			}else if(position == 6){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_islands, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 101 - 2010");
 				article.addView(vv);
 			}else if(position == 7){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_peninsulas, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 102 - 2010");
 				article.addView(vv);
 			}else if(position == 8){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_longest_rivers, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 103 - 2010");
 				article.addView(vv);
 			}else if(position == 9){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_lakes, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 104 - 2010");
 				article.addView(vv);
 			}else if(position == 10){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_deepest_lakes, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 105 - 2010");
 				article.addView(vv);
 			}else if(position == 11){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_seas, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 106 - 2010");
 				article.addView(vv);
 			}else if(position == 12){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_major_oceanic_trenches, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 107 - 2010");
 				article.addView(vv);
 			}else if(position == 13){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_deadliest_earthquakes, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 108 - 2010");
 				article.addView(vv);
 			}else if(position == 14){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_earthquakes, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 109 - 2010");
 				article.addView(vv);
 			}else if(position == 15){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_major_volcanic_eruptions, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 110 - 2010");
 				article.addView(vv);
 			}else if(position == 16){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_weather_extremes, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 111 - 2010");
 				article.addView(vv);
 			}else if (position == 17) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_coal_mining, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 112 - 2010");
 				article.addView(vv);
 			}else if (position == 18) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_oil_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 113 - 2010");
 				article.addView(vv);
 			}else if (position == 19) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_natural_gas_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 114 - 2010");
 				article.addView(vv);
 			}else if (position == 20) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_electricity_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 115 - 2010");
 				article.addView(vv);
 			}else if (position == 21) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_steel_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 116 - 2010");
 				article.addView(vv);
 			}else if (position == 22) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_motor_vehicle_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 117 - 2010");
 				article.addView(vv);
 			}else if (position == 23) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_wheat_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 118 - 2010");
 				article.addView(vv);
 			}else if (position == 24) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_rice_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 119 - 2010");
 				article.addView(vv);
 			}else if (position == 25) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_beef_cattle_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 120 - 2010");
 				article.addView(vv);
 			}else if (position == 26) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_pork_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 121 - 2010");
 				article.addView(vv);
 			}else if (position == 27) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_sheep_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 122 - 2010");
 				article.addView(vv);
 			}else if (position == 28) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_milk_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 123 - 2010");
 				article.addView(vv);
 			}else if (position == 29) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_meat_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 124 - 2010");
 				article.addView(vv);
 			}else if (position == 30) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_fish_production, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 125 - 2010");
 				article.addView(vv);
 			}else if (position == 31) {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_logging, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 126 - 2010");
 				article.addView(vv);
 			}else if (position == 32) {
 				article.removeAllViews();
-				View vv = vi.inflate(R.layout.vp_world_gnp, null);
+				View vv = vi.inflate(R.layout.vp_world_gni, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 127 - 2010");
 				article.addView(vv);
 			}
 		}

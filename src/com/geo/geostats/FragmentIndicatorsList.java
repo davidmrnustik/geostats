@@ -72,14 +72,14 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 			alist[5] = getString(R.string.MotorVehicleProduction);
 			alist[6] = getString(R.string.WheatProduction);
 			alist[7] = getString(R.string.RiceProduction);
-			alist[8] = getString(R.string.BeefCattleProduction);
-			alist[9] = getString(R.string.PorkProduction);
-			alist[10] = getString(R.string.SheepProduction);
+			alist[8] = getString(R.string.BeefBuffaloProduction);
+			alist[9] = getString(R.string.PigProduction);
+			alist[10] = getString(R.string.SheepGoatProduction);
 			alist[11] = getString(R.string.MilkProduction);
 			alist[12] = getString(R.string.MeatProduction);
 			alist[13] = getString(R.string.FishProduction);
-			alist[14] = getString(R.string.Logging);
-			alist[15] = getString(R.string.GNP);
+			alist[14] = getString(R.string.RoundwoodProduction);
+			alist[15] = getString(R.string.GNI);
 			
 			// add records for Zelezna ruda, zlato, diamanty, ...
 	        
@@ -114,14 +114,14 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 			alist[22] = getString(R.string.MotorVehicleProduction);
 			alist[23] = getString(R.string.WheatProduction);
 			alist[24] = getString(R.string.RiceProduction);
-			alist[25] = getString(R.string.BeefCattleProduction);
-			alist[26] = getString(R.string.PorkProduction);
-			alist[27] = getString(R.string.SheepProduction);
+			alist[25] = getString(R.string.BeefBuffaloProduction);
+			alist[26] = getString(R.string.PigProduction);
+			alist[27] = getString(R.string.SheepGoatProduction);
 			alist[28] = getString(R.string.MilkProduction);
 			alist[29] = getString(R.string.MeatProduction);
 			alist[30] = getString(R.string.FishProduction);
-			alist[31] = getString(R.string.Logging);
-			alist[32] = getString(R.string.GNP);			
+			alist[31] = getString(R.string.RoundwoodProduction);
+			alist[32] = getString(R.string.GNI);			
         
 			setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
 	      }

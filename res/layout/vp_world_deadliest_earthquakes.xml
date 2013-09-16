@@ -427,8 +427,11 @@
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/DeadliestEarthquakes20"/>
 		    </TableRow>
-		    
-		    
+  
 		</TableLayout>
+		<TextView
+	        android:id="@+id/chartNo"
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/ChartNo"/>
 	</LinearLayout>
 </ScrollView>

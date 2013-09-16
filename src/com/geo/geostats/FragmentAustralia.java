@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ScrollView;
+import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
@@ -25,6 +26,7 @@ public class FragmentAustralia extends SherlockFragment{
 	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O;
 	ViewPager vp;
 	private vpAdapter miAdapter;
+	TextView tvChart;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -35,6 +37,9 @@ public class FragmentAustralia extends SherlockFragment{
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
 		
+        tvChart = (TextView)v.findViewById(R.id.chartNo);
+		tvChart.append(" 59");
+        
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);
         
@@ -79,6 +84,8 @@ public class FragmentAustralia extends SherlockFragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_australia_countries, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 60 - 2010");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_australia_population, null);
@@ -92,6 +99,8 @@ public class FragmentAustralia extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_australia_population);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 61 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -120,6 +129,8 @@ public class FragmentAustralia extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_australia_cities);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 62 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -141,6 +152,8 @@ public class FragmentAustralia extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_australia_urban_areas);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 63 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -162,6 +175,8 @@ public class FragmentAustralia extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_australia_capitals);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 64 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -189,6 +204,8 @@ public class FragmentAustralia extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_australia_mountains_ap);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 65 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -210,6 +227,8 @@ public class FragmentAustralia extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_australia_mountains_ac);
 							d.setCanceledOnTouchOutside(true);
+							tvChart = (TextView)d.findViewById(R.id.chartNo);
+							tvChart.append(" 66 - 2010");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -226,15 +245,23 @@ public class FragmentAustralia extends SherlockFragment{
 				break;
 			case 4:
 				v = inflater.inflate(R.layout.vp_australia_islands, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 67 - 2010");
 				break;
 			case 5:
 				v = inflater.inflate(R.layout.vp_australia_rivers, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 68 - 2010");
 				break;
 			case 6:
 				v = inflater.inflate(R.layout.vp_australia_lakes, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 69 - 2010");
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_australia_weather, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 70 - 2010");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

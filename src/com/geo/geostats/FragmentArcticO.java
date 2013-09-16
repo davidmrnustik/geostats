@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
+import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
@@ -20,6 +21,7 @@ public class FragmentArcticO extends SherlockFragment{
 
 	ViewPager vp;
 	private vpAdapter miAdapter;
+	TextView tvChart;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -29,6 +31,9 @@ public class FragmentArcticO extends SherlockFragment{
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
         vp.setAdapter(miAdapter);
+        
+        tvChart = (TextView)v.findViewById(R.id.chartNo);
+		tvChart.append(" 89");
         
         TabPageIndicator indicator = (TabPageIndicator)v.findViewById(R.id.indicator);
         indicator.setViewPager(vp);
@@ -75,15 +80,23 @@ public class FragmentArcticO extends SherlockFragment{
 			switch(position){
 			case 0:
 				v = inflater.inflate(R.layout.vp_arctic_o_seas, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 90 - 2010");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_arctic_o_gulfs, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 91 - 2010");
 				break;
 			case 2:
 				v = inflater.inflate(R.layout.vp_arctic_o_straits, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 92 - 2010");
 				break;
 			case 3:
 				v = inflater.inflate(R.layout.vp_arctic_o_currents, null);
+				tvChart = (TextView)v.findViewById(R.id.chartNo);
+				tvChart.append(" 93 - 2010");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

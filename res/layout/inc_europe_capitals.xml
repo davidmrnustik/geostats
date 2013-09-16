@@ -3,7 +3,7 @@
 	<!-- Solution of row span from http://www.compiletimeerror.com/2013/07/android-tablelayout-example.html -->
     
     <TableLayout style="@style/TableLayout"
-        android:layout_below="@+id/btClose"
+        android:layout_below="@+id/chartNo"
         android:stretchColumns="0">
         
 	    <TableRow style="@style/TableRow">

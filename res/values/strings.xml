@@ -12,6 +12,7 @@
     <string name="TotalSqM">Total sq m</string>
     <string name="TotalKm">Total km</string>
     <string name="TotalM">Total m</string>
+    <string name="M3">m3</string>
     <string name="Location">Location</string>
     <string name="TotalLandArea">Total Land Area (sq km)</string>
     <string name="TotalArea">Total Area (sq km)</string>
@@ -92,25 +93,34 @@
     <string name="PoliticalUrbanGeography">Political and Urban geography</string>
     <string name="EconomicGeography">Economic geography</string>
     
-    <string name="CoalProduction">Coal production</string>
-    <string name="OilProduction">Oil production</string>
+    <string name="CoalProduction">Total Primary Coal Production</string>
+    <string name="OilProduction">Total Oil Supply</string>
     <string name="NaturalGasProduction">Natural gas production</string>
     <string name="ElectricityProduction">Electricity production</string>
     <string name="SteelProduction">Steel production</string>
     <string name="MotorVehicleProduction">Motor vehicle production</string>
     <string name="WheatProduction">Wheat production</string>
     <string name="RiceProduction">Rice production</string>
-    <string name="BeefCattleProduction">Beef cattle production</string>
-    <string name="PorkProduction">Pork production</string>
-    <string name="SheepProduction">Sheep production</string>
+    <string name="BeefBuffaloProduction">Beef and Buffalo meat production</string>
+    <string name="PigProduction">Pig meat production per capita</string>
+    <string name="SheepGoatProduction">Sheep and goat meat production</string>
     <string name="MilkProduction">Milk production</string>
     <string name="MeatProduction">Meat production</string>
-    <string name="FishProduction">Fish production</string>
-    <string name="Logging">Logging</string>
-    <string name="GNP">Gross national product</string>
+    <string name="FishProduction">Capture fish production</string>
+    <string name="RoundwoodProduction">Roundwood production</string>
+    <string name="GNI">Gross national income</string>
     
     <string name="Chart">Chart</string>
+    <string name="CapPpp">per capita, PPP ($)</string>
     <string name="ChartNo">Chart No.</string>
     <string name="WeatherRecords">Weather records</string>
+    <string name="ThousandShortTons">Thousand Short Tons</string>
+    <string name="ThousandTonnes">Thousand Tonnes</string>
+    <string name="TonneCap">Tonne/cap</string>
+    <string name="Tonnes">Tonnes</string>
+    <string name="ThousandBarrelsDay">Thousand Barrels/Day</string>
+    <string name="Bcm">bcm</string>
+    <string name="TWh">TWh</string>
+    <string name="MilTonCrudeSteel">mil. tonnes crude steel</string>
     
 </resources>
