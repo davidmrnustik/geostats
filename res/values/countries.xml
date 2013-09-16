@@ -28,10 +28,12 @@
     <string name="Bangladesh">Bangladesh</string>
     <string name="Japan">Japan</string>
     <string name="Vietnam">Vietnam</string>
+    <string name="Myanmar">Myanmar</string>
     <string name="Philippines">Philippines</string>
     <string name="Ethiopia">Ethiopia</string>
     <string name="Egypt">Egypt</string>
     <string name="Germany">Germany</string>
+    <string name="Germany1">Germany (1)</string>
     <string name="Turkey">Turkey</string>
     <string name="Thailand">Thailand</string>
 	<string name="Macau">Macau</string>
@@ -115,6 +117,7 @@
 	<string name="Tuvalu">Tuvalu</string>
 	<string name="MarshallIslands">Marshall Islands</string>
 	<string name="SouthCorea">South Corea</string>
+	<string name="SouthCorea2">South Corea (2)</string>
 	<string name="Belarus">Belarus</string>
 	<string name="IvoryCoast">Ivory Coast</string>
 	<string name="Tajikistan">Tajikistan</string>
@@ -128,4 +131,9 @@
 	<string name="Tibet">Tibet</string>
 	<string name="Kyrgyzstan">Kyrgyzstan</string>
 	<string name="Tajikistan">Tajikistan</string>
+	<string name="UnitedArabEmirates">United Arab Emirates</string>
+	<string name="Kuwait">Kuwait</string>
+	<string name="Qatar">Qatar</string>
+	<string name="Luxembourg">Luxembourg</string>
+	<string name="Switzerland">Switzerland</string>
 </resources>
