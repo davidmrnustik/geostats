@@ -3,6 +3,7 @@
     <string name="app_name">geostats</string>
     
     <string name="Name">Name</string>
+    <string name="Close">Close</string>
     <string name="NameCountry">Name / Country</string>
     <string name="NameLocation">Name / Location</string>
     <string name="Year">Year</string>
@@ -33,7 +34,10 @@
     <string name="World">World</string>
     <string name="Indicators">Indicators</string>
     <string name="Branches">Branches</string>
+    <string name="Exit">Exit</string>
     <string name="Continents">Continents</string>
+    <string name="About">About</string>
+    <string name="References">References</string>
     <string name="Countries">Countries</string>
     <string name="Cities">Cities</string>
     <string name="Capitals">Capitals</string>
