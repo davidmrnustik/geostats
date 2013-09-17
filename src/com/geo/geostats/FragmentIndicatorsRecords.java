@@ -268,7 +268,80 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
 				tvChart.append(" 127 - 2010");
 				article.addView(vv);
+			}else if (position == 16) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_gold, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 128 - 2010");
+				article.addView(vv);
+			}else if (position == 17) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_silver, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 129 - 2010");
+				article.addView(vv);
+			}else if (position == 18) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_diamond, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 130 - 2010");
+				article.addView(vv);
+			}else if (position == 19) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_ironore, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 131 - 2010");
+				article.addView(vv);
+			}else if (position == 20) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_aluminium, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 131 - 2010");
+				article.addView(vv);
+			}else if (position == 21) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_copper, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 132 - 2010");
+				article.addView(vv);
+			}else if (position == 22) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_salt, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 133 - 2010");
+				article.addView(vv);
+			}else if (position == 23) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_mercury, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 134 - 2010");
+				article.addView(vv);
+			}else if (position == 24) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_nickel, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 135 - 2010");
+				article.addView(vv);
+			}else if (position == 25) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_zinc, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 136 - 2010");
+				article.addView(vv);
+			}else if (position == 26) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_uranium, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 137 - 2010");
+				article.addView(vv);
+			}else if (position == 27) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_kaolin, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 138 - 2010");
+				article.addView(vv);
 			}
+			
 			mCurrentPosition = position;
 			
 		}else{
@@ -472,6 +545,78 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				View vv = vi.inflate(R.layout.vp_world_gni, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
 				tvChart.append(" 127 - 2010");
+				article.addView(vv);
+			}else if (position == 33) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_gold, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 128 - 2010");
+				article.addView(vv);
+			}else if (position == 34) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_silver, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 129 - 2010");
+				article.addView(vv);
+			}else if (position == 35) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_diamond, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 130 - 2010");
+				article.addView(vv);
+			}else if (position == 36) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_ironore, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 131 - 2010");
+				article.addView(vv);
+			}else if (position == 37) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_aluminium, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 131 - 2010");
+				article.addView(vv);
+			}else if (position == 38) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_copper, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 132 - 2010");
+				article.addView(vv);
+			}else if (position == 39) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_salt, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 133 - 2010");
+				article.addView(vv);
+			}else if (position == 40) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_mercury, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 134 - 2010");
+				article.addView(vv);
+			}else if (position == 41) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_nickel, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 135 - 2010");
+				article.addView(vv);
+			}else if (position == 42) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_zinc, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 136 - 2010");
+				article.addView(vv);
+			}else if (position == 43) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_uranium, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 137 - 2010");
+				article.addView(vv);
+			}else if (position == 44) {
+				article.removeAllViews();
+				View vv = vi.inflate(R.layout.vp_world_kaolin, null);
+				tvChart = (TextView)vv.findViewById(R.id.chartNo);
+				tvChart.append(" 138 - 2010");
 				article.addView(vv);
 			}
 		}

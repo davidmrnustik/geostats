@@ -77,7 +77,7 @@
 		   			<TableRow>
 				        <TextView 
 				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/SouthCorea"/>
+				            android:text="@string/SouthKorea"/>
 		   			</TableRow>
 		        </TableLayout>
 			    <TextView 
