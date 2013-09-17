@@ -27,7 +27,7 @@ public class InfoReferences extends SherlockActivity {
 	     
 	     tv = (TextView) findViewById(R.id.tvInfoRefs);
 	     tv.setText(Html.fromHtml(ResourceHelper.readRawTextFile(this, R.raw.references)));
-	     tv.setLinkTextColor(Color.WHITE);
+	     tv.setLinkTextColor(Color.BLACK);
 	     Linkify.addLinks(tv, Linkify.ALL);
 	}
 	

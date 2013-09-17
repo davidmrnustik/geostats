@@ -7,12 +7,13 @@
 	<TextView 
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
-	    android:text="ariel bvreilh veilr veailrv eilvb eilvbasievae irlvbsdkf zdjhvfdvbdjfv dsfjv djf vbdjfv bjdv auksfbvsivb adbv adj vms"/>
+	    android:text="@string/app_about"/>
 	
 	<Button 
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:id="@+id/btClose"
+	    android:layout_gravity="center_horizontal"
 	    android:text="@string/Close"/>
     
 </LinearLayout>
