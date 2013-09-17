@@ -42,7 +42,7 @@
 		   			</TableRow>
 		   			<TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
+				          	style="@style/TableTextView.RowSpan.Italic"
 				            android:text="@string/RockSalt"/>
 		   			</TableRow>
 		        </TableLayout>
@@ -60,7 +60,7 @@
 		   			</TableRow>
 		   			<TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
+				          	style="@style/TableTextView.RowSpan.Italic"
 				            android:text="@string/SeaSalt"/>
 		   			</TableRow>
 		        </TableLayout>
@@ -78,7 +78,7 @@
 		   			</TableRow>
 		   			<TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
+				          	style="@style/TableTextView.RowSpan.Italic"
 				            android:text="@string/SaltBrine"/>
 		   			</TableRow>
 		        </TableLayout>
@@ -96,7 +96,7 @@
 		   			</TableRow>
 		   			<TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
+				          	style="@style/TableTextView.RowSpan.Italic"
 				            android:text="@string/RockSalt"/>
 		   			</TableRow>
 		        </TableLayout>
@@ -141,7 +141,7 @@
 		   			</TableRow>
 		   			<TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
+				          	style="@style/TableTextView.RowSpan.Italic"
 				            android:text="@string/RockSalt"/>
 		   			</TableRow>
 		        </TableLayout>
@@ -159,7 +159,7 @@
 		   			</TableRow>
 		   			<TableRow>
 				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
+				          	style="@style/TableTextView.RowSpan.Italic"
 				            android:text="@string/EvaporatedSalt"/>
 		   			</TableRow>
 		        </TableLayout>
