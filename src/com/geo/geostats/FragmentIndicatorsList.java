@@ -63,7 +63,7 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 	      }else if(bag.getString("GEO").equals("G3")){
 	    	  
 	    	// called when Economic geography is chosen
-	    	String[] alist = new String[16];
+	    	String[] alist = new String[28];
 			alist[0] = getString(R.string.CoalProduction);
 			alist[1] = getString(R.string.OilProduction);
 			alist[2] = getString(R.string.NaturalGasProduction);
@@ -72,23 +72,33 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 			alist[5] = getString(R.string.MotorVehicleProduction);
 			alist[6] = getString(R.string.WheatProduction);
 			alist[7] = getString(R.string.RiceProduction);
-			alist[8] = getString(R.string.BeefBuffaloProduction);
-			alist[9] = getString(R.string.PigProduction);
-			alist[10] = getString(R.string.SheepGoatProduction);
-			alist[11] = getString(R.string.MilkProduction);
-			alist[12] = getString(R.string.MeatProduction);
+			alist[8] = getString(R.string.MeatProduction);
+			alist[9] = getString(R.string.BeefBuffaloProduction);
+			alist[10] = getString(R.string.PigProduction);
+			alist[11] = getString(R.string.SheepGoatProduction);
+			alist[12] = getString(R.string.MilkProduction);
 			alist[13] = getString(R.string.FishProduction);
 			alist[14] = getString(R.string.RoundwoodProduction);
 			alist[15] = getString(R.string.GNI);
-			
-			// add records for Zelezna ruda, zlato, diamanty, ...
+			alist[16] = getString(R.string.GoldProduction);
+			alist[17] = getString(R.string.SilverProduction);
+			alist[18] = getString(R.string.DiamondProduction);
+			alist[19] = getString(R.string.IronOreProduction);
+			alist[20] = getString(R.string.AluminiumProduction);
+			alist[21] = getString(R.string.CopperProduction);
+			alist[22] = getString(R.string.SaltProduction);
+			alist[23] = getString(R.string.MercuryProduction);
+			alist[24] = getString(R.string.NickelProduction);
+			alist[25] = getString(R.string.ZincProduction);
+			alist[26] = getString(R.string.UraniumProduction);
+			alist[27] = getString(R.string.KaolinProduction);
 	        
 			setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
 			
 	      }else{
 	    	
 	    	// called when Indicators is chosen, this is a default call, all indicators are called
-			String[] alist = new String[33];
+			String[] alist = new String[45];
 			alist[0] = getString(R.string.LargestCountries);
 			alist[1] = getString(R.string.MostPopulatedCountries);
 			alist[2] = getString(R.string.CountriesByPopulationDensity);
@@ -114,14 +124,26 @@ public class FragmentIndicatorsList extends SherlockListFragment {
 			alist[22] = getString(R.string.MotorVehicleProduction);
 			alist[23] = getString(R.string.WheatProduction);
 			alist[24] = getString(R.string.RiceProduction);
-			alist[25] = getString(R.string.BeefBuffaloProduction);
-			alist[26] = getString(R.string.PigProduction);
-			alist[27] = getString(R.string.SheepGoatProduction);
-			alist[28] = getString(R.string.MilkProduction);
-			alist[29] = getString(R.string.MeatProduction);
+			alist[25] = getString(R.string.MeatProduction);
+			alist[26] = getString(R.string.BeefBuffaloProduction);
+			alist[27] = getString(R.string.PigProduction);
+			alist[28] = getString(R.string.SheepGoatProduction);
+			alist[29] = getString(R.string.MilkProduction);
 			alist[30] = getString(R.string.FishProduction);
 			alist[31] = getString(R.string.RoundwoodProduction);
-			alist[32] = getString(R.string.GNI);			
+			alist[32] = getString(R.string.GNI);
+			alist[33] = getString(R.string.GoldProduction);
+			alist[34] = getString(R.string.SilverProduction);
+			alist[35] = getString(R.string.DiamondProduction);
+			alist[36] = getString(R.string.IronOreProduction);
+			alist[37] = getString(R.string.AluminiumProduction);
+			alist[38] = getString(R.string.CopperProduction);
+			alist[39] = getString(R.string.SaltProduction);
+			alist[40] = getString(R.string.MercuryProduction);
+			alist[41] = getString(R.string.NickelProduction);
+			alist[42] = getString(R.string.ZincProduction);
+			alist[43] = getString(R.string.UraniumProduction);
+			alist[44] = getString(R.string.KaolinProduction);
         
 			setListAdapter(new ArrayAdapter<String>(getSherlockActivity(), layout, alist));
 	      }

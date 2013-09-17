@@ -116,8 +116,8 @@
 	<string name="FederateStatesOfMicronesia">Federate States of Micronesia</string>
 	<string name="Tuvalu">Tuvalu</string>
 	<string name="MarshallIslands">Marshall Islands</string>
-	<string name="SouthCorea">South Corea</string>
-	<string name="SouthCorea2">South Corea (2)</string>
+	<string name="SouthKorea">South Korea</string>
+	<string name="SouthKorea2">South Korea (2)</string>
 	<string name="Belarus">Belarus</string>
 	<string name="IvoryCoast">Ivory Coast</string>
 	<string name="Tajikistan">Tajikistan</string>
@@ -136,4 +136,14 @@
 	<string name="Qatar">Qatar</string>
 	<string name="Luxembourg">Luxembourg</string>
 	<string name="Switzerland">Switzerland</string>
+	<string name="Botswana">Botswana</string>
+	<string name="Zimbabwe">Zimbabwe</string>
+	<string name="Namibia">Namibia</string>
+	<string name="Zambia">Zambia</string>
+	<string name="Morocco">Morocco</string>
+	<string name="NewCaledonia">New Caledonia</string>
+	<string name="Uzbekistan">Uzbekistan</string>
+	<string name="Malawi">Malawi</string>
+	<string name="CzechRepublic">Czech republic</string>
+	<string name="Malaysia">Malaysia</string>
 </resources>

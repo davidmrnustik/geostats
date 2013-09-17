@@ -113,6 +113,19 @@
     <string name="FishProduction">Capture fish production</string>
     <string name="RoundwoodProduction">Roundwood production</string>
     <string name="GNI">Gross national income</string>
+    <string name="GoldProduction">Gold production</string>
+    <string name="SilverProduction">Silver production</string>
+    <string name="DiamondProduction">Diamond production</string>
+    <string name="IronOreProduction">Iron Ore production</string>
+    <string name="AluminiumProduction">Aluminium production</string>
+    <string name="CopperProduction">Copper production</string>
+    <string name="SaltProduction">Salt production</string>
+    <string name="MercuryProduction">Mercury production</string>
+    <string name="NickelProduction">Nickel production</string>
+    <string name="ZincProduction">Zinc production</string>
+    <string name="UraniumProduction">Uranium production</string>
+    <string name="KaolinProduction">Kaolin production</string>
+    
     
     <string name="Chart">Chart</string>
     <string name="CapPpp">per capita, PPP ($)</string>
@@ -121,7 +134,12 @@
     <string name="ThousandShortTons">Thousand Short Tons</string>
     <string name="ThousandTonnes">Thousand Tonnes</string>
     <string name="TonneCap">Tonne/cap</string>
+    <string name="TonnesMetric">Tonnes (metric)</string>
+    <string name="TonnesMetalContent">Tonnes (metal content)</string>
     <string name="Tonnes">Tonnes</string>
+    <string name="Carats">Carats</string>
+    <string name="Kilograms">Kilograms</string>
+    <string name="KilogramsMetalContent">Kg (metal content)</string>
     <string name="ThousandBarrelsDay">Thousand Barrels/Day</string>
     <string name="Bcm">bcm</string>
     <string name="TWh">TWh</string>
