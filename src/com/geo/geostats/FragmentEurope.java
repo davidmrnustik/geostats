@@ -165,7 +165,7 @@ public class FragmentEurope extends SherlockFragment {
 						public void onClick(View v) {
 							final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.dialog_test_population);
+							d.setContentView(R.layout.dialog_europe_population);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
 							tvChart.append(" 4 - 2010");
