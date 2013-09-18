@@ -1,4 +1,74 @@
+<p><b>(112)</b> Total Primary Coal Production, <i>2011</i>: Energy Information Administration (EIA)<br>
+http://www.eia.gov/cfapps/ipdbproject/iedindex3.cfm</p>
 
-1) OED Online gives the pronunciation of "Europe"<br>
-2) National Geographic Atlas of the World (7th ed.). Washington, DC: National Geographic. 1999. "Europe" (pp. 6-9); "Asia" (pp. 9-1): "A commonly accepted division between Asia and Europe ... is formed by the Ural Mountains, Ural River, Caspian Sea, Caucasus Mountains, and the Black Sea with its outlets, the Bosporus and Dardanelles."<br>
-3) Global: UN Migrants, Population". Migration News. January 2010 Volume 17 Number 1.
+<p><b>(113)</b> Total Oil Supply, <i>2012</i>: Energy Information Administration (EIA)<br>
+http://www.eia.gov/cfapps/ipdbproject/iedindex3.cfm</p>
+
+<p><b>(114)</b> Natural gas production, <i>2012</i>: Global Energy Statistical Yearbook<br>
+http://yearbook.enerdata.net/world-natural-gas-production.html</p>
+
+<p><b>(115)</b> Electricity production, <i>2012</i>: Global Energy Statistical Yearbook<br>
+http://yearbook.enerdata.net/world-electricity-production-map-graph-and-data.html</p>
+
+<p><b>(116)</b> Steel production, <i>2012</i>: World Steel in Figures 2013, Major steel-producing countries.
+The World Steel Association (worldsteel), Brussels 2013, 9 p.</p>
+
+<p><b>(117)</b> Motor vehicle production, <i>2012</i>: Organization of Motor Vehicle Manufacturers (OICA)<br>
+http://www.oica.net/category/production-statistics/2012-statistics/</p>
+
+<p><b>(118)</b> Wheat production, <i>2010</i>: FAO Statistical Yearbook 2013, Top wheat producers and their productivity. 
+Food and Agriculture Organization of the United Nations, Rome 2013, 161 p.</p>
+
+<p><b>(119)</b> Rice production, <i>2010</i>: FAO Statistical Yearbook 2013, Top rice producers and their productivity. 
+Food and Agriculture Organization of the United Nations, Rome 2013, 160 p.</p>
+
+<p><b>(120&ndash;123)</b> Meat production, Beef and Buffalo, Pig, Sheep and goat, <i>2010</i>: FAO Statistical Yearbook 2013, Meat production. 
+Food and Agriculture Organization of the United Nations, Rome 2013, 172&ndash;175 p.</p>
+
+<p><b>(124)</b> Milk production, <i>2010</i>: FAO Statistical Yearbook 2013, Egg, milk, and processed milk production. 
+Food and Agriculture Organization of the United Nations, Rome 2013, 176&ndash;179 p.</p>
+
+<p><b>(125)</b> Capture fish production, <i>2010</i>: FAO Statistical Yearbook 2013, Fish production. 
+Food and Agriculture Organization of the United Nations, Rome 2013, 180&ndash;183 p.</p>
+
+<p><b>(126)</b> Roundwood production, <i>2011</i>: FAO Statistical Yearbook 2013, Forestry production and trade. 
+Food and Agriculture Organization of the United Nations, Rome 2013, 226&ndash;229 p.</p>
+
+<p><b>(127)</b> Gross national income, <i>2011</i>: The World Bank, World Development Indicators: Size of the economy, Purchasing power parity gross national income per capita<br>
+http://wdi.worldbank.org/table/1.1#</p>
+
+<p><b>(128)</b> Gold production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Mine production of gold. 
+British Geological Survey, Keyworth, Nottingham  2013, 27-28 p.</p>
+
+<p><b>(129)</b> Silver production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Mine production of silver. 
+British Geological Survey, Keyworth, Nottingham  2013, 63-64 p.</p>
+
+<p><b>(130)</b> Diamond production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Production of diamond. 
+British Geological Survey, Keyworth, Nottingham  2013, 22 p.</p>
+
+<p><b>(131)</b> Iron Ore production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Production of iron ore. 
+British Geological Survey, Keyworth, Nottingham  2013, 33 p.</p>
+
+<p><b>(132)</b> Aluminium production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Production of primary aluminium. 
+British Geological Survey, Keyworth, Nottingham  2013, 4 p.</p>
+
+<p><b>(133)</b> Copper production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Mine production of copper. 
+British Geological Survey, Keyworth, Nottingham  2013, 19 p.</p>
+
+<p><b>(134)</b> Salt production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Production of salt. 
+British Geological Survey, Keyworth, Nottingham  2013, 59-61 p.</p>
+
+<p><b>(135)</b> Mercury production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Production of mercury. 
+British Geological Survey, Keyworth, Nottingham  2013, 47 p.</p>
+
+<p><b>(136)</b> Nickel production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Mine production of nickel. 
+British Geological Survey, Keyworth, Nottingham  2013, 49 p.</p>
+
+<p><b>(137)</b> Zinc production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Mine production of zinc. 
+British Geological Survey, Keyworth, Nottingham  2013, 74 p.</p>
+
+<p><b>(138)</b> Uranium production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Mine production of uranium. 
+British Geological Survey, Keyworth, Nottingham  2013, 72 p.</p>
+
+<p><b>(139)</b> Kaolin production, <i>2011</i>: World Mineral Production 2007&ndash;2011, Production of kaolin. 
+British Geological Survey, Keyworth, Nottingham  2013, 40-41 p.</p>

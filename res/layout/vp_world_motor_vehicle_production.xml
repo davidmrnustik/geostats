@@ -35,7 +35,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Japan"/>
+		            android:text="@string/USA"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/MotorVehiclesProductionWorld02"/>
