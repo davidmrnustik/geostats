@@ -7,6 +7,8 @@
     <string name="Close">Close</string>
     <string name="NameCountry">Name / Country</string>
     <string name="NameLocation">Name / Location</string>
+    <string name="NameSourceYear">Name / Source Year</string>
+    <string name="SourceYear">Source Year</string>
     <string name="Year">Year</string>
     <string name="Country">Country</string>
     <string name="Total">Total</string>
@@ -80,7 +82,7 @@
     <string name="DeepestLakes">Deepest Lakes</string>
     <string name="LargestSeas">Largest Seas</string>
     <string name="LargestCities">Largest Cities</string>
-    <string name="LargestUrbanAreas">Largest Urban Areas</string>
+    <string name="LargestUrbanAreas">Largest Urban agglomerations</string>
     <string name="OceanCurrents">Ocean currents</string>
     <string name="MajorOceanicTrenches">Major oceanic trenches</string>
     <string name="AverageDepth">Average Depth (m)</string>

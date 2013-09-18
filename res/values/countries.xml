@@ -36,7 +36,7 @@
     <string name="Germany1">Germany (1)</string>
     <string name="Turkey">Turkey</string>
     <string name="Thailand">Thailand</string>
-	<string name="Macau">Macau</string>
+	<string name="Macao">Macao</string>
 	<string name="Monaco">Monaco</string>
 	<string name="Singapore">Singapore</string>
 	<string name="HongKong">Hong Kong</string>
@@ -49,12 +49,15 @@
 	<string name="Maldives">Maldives</string>
 	<string name="Jersey">Jersey</string>
 	<string name="Guernsey">Guernsey</string>
+	<string name="ChannelIslands">Channel Islands</string>
 	<string name="Palestine">Palestine</string>
 	<string name="SaintMartin">Saint Martin</string>
 	<string name="Taiwan">Taiwan</string>
 	<string name="Barbados">Barbados</string>
 	<string name="Mauritius">Mauritius</string>
+	<string name="Aruba">Aruba</string>
 	<string name="Mayotte">Mayotte</string>
+	<string name="SanMarino">San Marino</string>
 	<string name="ChinaNepal">China/Nepal</string>
 	<string name="PakistanChina">Pakistan/China</string>
 	<string name="IndiaNepal">India/Nepal</string>
@@ -146,4 +149,6 @@
 	<string name="Malawi">Malawi</string>
 	<string name="CzechRepublic">Czech republic</string>
 	<string name="Malaysia">Malaysia</string>
+	<string name="FrenchPolynesia">French Polynesia</string>
+	<string name="Guam">Guam</string>
 </resources>

@@ -55,7 +55,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Haiti"/>
+	            android:text="@string/DominicanRepublic"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesNAmerica06"/>
@@ -63,7 +63,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/DominicanRepublic"/>
+	            android:text="@string/Haiti"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesNAmerica07"/>

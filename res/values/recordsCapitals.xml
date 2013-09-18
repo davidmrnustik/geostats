@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="LargestPopulationEurope">@string/LargestCitiesEurope02</string>
+    <string name="LargestPopulationEurope">@string/LargestUrbanAreasEurope01</string>
     <string name="SmallestPopulationEurope">800</string>
     <string name="MostNortherlyEurope">64\° 39\' N</string>
     <string name="MostSoutherlyEurope">35\° 54\' S</string>
     <string name="HighestCapitalEurope">1.029 m</string>
     
-    <string name="LargestPopulationAsia">@string/LargestCitiesWorld01</string>
+    <string name="LargestPopulationAsia">@string/LargestUrbanAreasAsia01</string>
     <string name="SmallestPopulationAsia">516</string>
     <string name="MostNortherlyAsia">51\° 10\' N</string>
     <string name="MostSoutherlyAsia">8\° 35\' S</string>

@@ -71,7 +71,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Sudan"/>
+	            android:text="@string/Algeria"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAfrica08"/>
@@ -79,7 +79,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Algeria"/>
+	            android:text="@string/Sudan"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAfrica09"/>

@@ -17,7 +17,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
-
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
 
@@ -26,7 +25,7 @@ public class FragmentEurope extends SherlockFragment {
 	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btD7O, btD8O, btD9O, btClose;
 	ViewPager vp;
 	private vpAdapter miAdapter;
-	TextView tvChart;
+	TextView tvChart, tvTitle;
 	//public final int limit = 0;
 	
 	@Override
@@ -166,7 +165,7 @@ public class FragmentEurope extends SherlockFragment {
 						public void onClick(View v) {
 							final Dialog d = new Dialog(FragmentEurope.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.dialog_europe_population);
+							d.setContentView(R.layout.dialog_test_population);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
 							tvChart.append(" 4 - 2010");
@@ -222,8 +221,10 @@ public class FragmentEurope extends SherlockFragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_cities);
 							d.setCanceledOnTouchOutside(true);
+							tvTitle = (TextView)d.findViewById(R.id.dTitle);
+							tvTitle.append("\n" + getString(R.string.LargestCitiesAd1));
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 6 - 2010");
+							tvChart.append(" 6");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -246,7 +247,7 @@ public class FragmentEurope extends SherlockFragment {
 							d.setContentView(R.layout.dialog_europe_urban_areas);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 7 - 2010");
+							tvChart.append(" 7 - 2013");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -269,7 +270,7 @@ public class FragmentEurope extends SherlockFragment {
 							d.setContentView(R.layout.dialog_europe_capitals);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 8 - 2010");
+							tvChart.append(" 8");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override

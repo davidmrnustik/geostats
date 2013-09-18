@@ -27,7 +27,7 @@
 	    <TableRow style="@style/TableRow">
 	       <TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/Istanbul"/>
+	            android:text="@string/Paris"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasEurope02"/>
@@ -38,7 +38,7 @@
 	    <TableRow style="@style/TableRow">
 	       	<TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/Paris"/>
+	            android:text="@string/London"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasEurope03"/>
@@ -49,7 +49,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/London"/>
+	            android:text="@string/EssenDusseldorf"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasEurope04"/>
@@ -60,7 +60,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/EssenDusseldorf"/>
+	            android:text="@string/Madrid"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasEurope05"/>
@@ -71,7 +71,7 @@
 	    <TableRow style="@style/TableRow">
 			<TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/Madrid"/>
+	            android:text="@string/Milan"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasEurope06"/>
@@ -82,7 +82,7 @@
 	    <TableRow style="@style/TableRow">
 			<TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/Milan"/>
+	            android:text="@string/SaintPetersburg"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasEurope07"/>
@@ -93,7 +93,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/SaintPetersburg"/>
+	            android:text="@string/Barcelona"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasEurope08"/>
@@ -104,7 +104,7 @@
 	    <TableRow style="@style/TableRow">
  			<TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/Barcelona"/>
+	            android:text="@string/Berlin"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasEurope09"/>
@@ -115,7 +115,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/Berlin"/>
+	            android:text="@string/Roma"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasEurope10"/>
