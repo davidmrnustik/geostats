@@ -55,7 +55,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Russia"/>
+	            android:text="@string/Japan"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAsia06"/>
@@ -63,7 +63,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Japan"/>
+	            android:text="@string/Philippines"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAsia07"/>
@@ -71,7 +71,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Philippines"/>
+	            android:text="@string/Vietnam"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAsia08"/>
@@ -79,7 +79,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Vietnam"/>
+	            android:text="@string/Iran"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAsia09"/>
@@ -87,7 +87,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Iran"/>
+	            android:text="@string/Turkey"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAsia10"/>

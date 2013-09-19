@@ -55,7 +55,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Vanuatu"/>
+	            android:text="@string/FrenchPolynesia"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAustralia06"/>
@@ -63,7 +63,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Samoa"/>
+	            android:text="@string/NewCaledonia"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAustralia07"/>
@@ -71,7 +71,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/FederateStatesOfMicronesia"/>
+	            android:text="@string/Vanuatu"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAustralia08"/>
@@ -79,7 +79,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Tonga"/>
+	            android:text="@string/Samoa"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAustralia09"/>
@@ -87,7 +87,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Kiribati"/>
+	            android:text="@string/Guam"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesAustralia10"/>

@@ -20,13 +20,16 @@
 	<string name="Osaka">Osaka</string>
 	<string name="Istanbul">Istanbul</string>
 	<string name="Paris">Paris</string>
+	<string name="Bucuresti">Bucuresti</string>
 	<string name="Moscow">Moscow</string>
 	<string name="VaticanCity">Vatican City</string>
 	<string name="Reykjavik">Reykjavík</string>
 	<string name="Valletta">Valletta</string>
 	<string name="AndorraLaVella">Andorra la Vella</string>
 	<string name="London">London</string>
+	<string name="London1">London (1)</string>
 	<string name="Madrid">Madrid</string>
+	<string name="Kiev">Kiev</string>
 	<string name="SaintPetersburg">Saint Petersburg</string>
 	<string name="Berlin">Berlin</string>
 	<string name="Roma">Roma</string>
@@ -47,6 +50,11 @@
 	<string name="Abidjan">Abidjan</string>
 	<string name="Alexandria">Alexandria</string>
 	<string name="Nairobi">Nairobi</string>
+	<string name="Giza">Giza</string>
+	<string name="Kano">Kano</string>
+	<string name="Douala">Douala</string>
+	<string name="Ibadan">Ibadan</string>
+	<string name="Yaounde">Yaounde</string>
 	<string name="DarEsSalaam">Dar es Salaam</string>
 	<string name="Brades">Brades</string>
 	<string name="Nuuk">Nuuk</string>
@@ -85,6 +93,10 @@
 	
 	<string name="TokyoYokohama">Tokyo-Yokohama</string>
 	<string name="JakartaJabotabek">Jakarta (Jabotabek)</string>
+	<string name="Jakarta">Jakarta</string>
+	<string name="Seoul">Seoul</string>
+	<string name="Guangzhou">Guangzhou</string>
+	<string name="Chongqing">Chongqing</string>
 	<string name="SeoulIncheon">Seoul-Incheon</string>
 	<string name="Delhi">Delhi</string>
 	<string name="GuangzhouFoshan">Guangzhou-Foshan</string>

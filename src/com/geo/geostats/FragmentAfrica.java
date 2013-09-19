@@ -25,7 +25,7 @@ public class FragmentAfrica extends SherlockFragment{
 	Button btD1O, btD2O, btD3O, btD4O;
 	ViewPager vp;
 	private vpAdapter miAdapter;
-	TextView tvChart;
+	TextView tvChart, tvTitle;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -128,8 +128,10 @@ public class FragmentAfrica extends SherlockFragment{
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_africa_cities);
 							d.setCanceledOnTouchOutside(true);
+							tvTitle = (TextView)d.findViewById(R.id.dTitle);
+							tvTitle.append("\n" + getString(R.string.LargestCitiesAd1));
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 29 - 2010");
+							tvChart.append(" 29");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -152,7 +154,7 @@ public class FragmentAfrica extends SherlockFragment{
 							d.setContentView(R.layout.dialog_africa_urban_areas);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 30 - 2010");
+							tvChart.append(" 30 - 2013");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -175,7 +177,7 @@ public class FragmentAfrica extends SherlockFragment{
 							d.setContentView(R.layout.dialog_africa_capitals);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 31 - 2010");
+							tvChart.append(" 31");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override

@@ -39,7 +39,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Venezuela"/>
+	            android:text="@string/Peru"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesSAmerica04"/>
@@ -47,7 +47,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Peru"/>
+	            android:text="@string/Venezuela"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/MostPopulatedCountriesSAmerica05"/>

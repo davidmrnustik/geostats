@@ -24,40 +24,42 @@
 	<string name="LargestCitiesWorld20">@string/LargestCitiesEurope02</string>
 	
 	<!-- LARGEST CITIES EUROPE -->
-	<string name="LargestCitiesEurope01">11.164.000</string>
-	<string name="LargestCitiesEurope02">10.777.000</string>
-	<string name="LargestCitiesEurope03">10.641.000</string>
-	<string name="LargestCitiesEurope04">8.693.000</string>
-	<string name="LargestCitiesEurope05">6.087.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesEurope06">5.000.000</string> <!-- WIKI -->
-	<string name="LargestCitiesEurope07">3.956.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesEurope08">3.798.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesEurope09">2.785.100</string> <!-- WIKI -->
-	<string name="LargestCitiesEurope10">1.864.100</string> <!-- WIKI -->
+	<string name="LargestCitiesEurope01">11.503.501</string>
+	<string name="LargestCitiesEurope02">8.278.251</string>
+	<string name="LargestCitiesEurope03">4.879.566</string>
+	<string name="LargestCitiesEurope04">3.460.725</string>
+	<string name="LargestCitiesEurope05">2.938.723</string>
+	<string name="LargestCitiesEurope06">2.566.953</string>
+	<string name="LargestCitiesEurope07">2.546.804</string>
+	<string name="LargestCitiesEurope08">2.125.851</string>
+	<string name="LargestCitiesEurope09">1.926.334</string>
+	<string name="LargestCitiesEurope10">1.836.808</string>
+	
+	<string name="LondonAd1">(1) Value for Urban agglomeration</string>
 	
 	<!-- LARGEST CITIES ASIA -->
-	<string name="LargestCitiesAsia01">37.049.000</string>
-	<string name="LargestCitiesAsia02">24.160.000</string>
-	<string name="LargestCitiesAsia03">21.797.000</string>
-	<string name="LargestCitiesAsia04">17.840.000</string>
-	<string name="LargestCitiesAsia05">16.924.000</string>
-	<string name="LargestCitiesAsia06">16.623.000</string>
-	<string name="LargestCitiesAsia07">14.818.000</string>
-	<string name="LargestCitiesAsia08">13.335.000</string>
-	<string name="LargestCitiesAsia09">12.587.000</string>
-	<string name="LargestCitiesAsia10">11.365.000</string>
+	<string name="LargestCitiesAsia01">14.348.535</string>
+	<string name="LargestCitiesAsia02">11.978.450</string>
+	<string name="LargestCitiesAsia03">11.509.595</string>
+	<string name="LargestCitiesAsia04">9.895.217</string>
+	<string name="LargestCitiesAsia05">9.879.172</string>
+	<string name="LargestCitiesAsia06">9.820.171</string>
+	<string name="LargestCitiesAsia07">9.691.901</string>
+	<string name="LargestCitiesAsia08">9.607.787</string>
+	<string name="LargestCitiesAsia09">9.339.023</string>
+	<string name="LargestCitiesAsia10">8.945.695</string>
 	
 	<!-- LARGEST CITIES AFRICA -->
-	<string name="LargestCitiesAfrica01">12.427.000</string>
-	<string name="LargestCitiesAfrica02">11.663.000</string>
-	<string name="LargestCitiesAfrica03">10.668.000</string>
-	<string name="LargestCitiesAfrica04">7.426.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAfrica05">5.425.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAfrica06">4.919.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAfrica07">4.603.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAfrica08">4.603.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAfrica09">4.457.000</string> <!-- demographia.com -->
-	<string name="LargestCitiesAfrica10">3.723.000</string> <!-- demographia.com -->
+	<string name="LargestCitiesAfrica01">7.771.617</string>
+	<string name="LargestCitiesAfrica02">5.195.247</string>
+	<string name="LargestCitiesAfrica03">4.030.582</string>
+	<string name="LargestCitiesAfrica04">3.133.518</string>
+	<string name="LargestCitiesAfrica05">2.221.817</string>
+	<string name="LargestCitiesAfrica06">2.166.554</string>
+	<string name="LargestCitiesAfrica07">1.929.079</string>
+	<string name="LargestCitiesAfrica08">1.907.479</string>
+	<string name="LargestCitiesAfrica09">1.835.300</string>
+	<string name="LargestCitiesAfrica10">1.817.524</string>
 	
 	<!-- LARGEST CITIES NORTH AMERICA -->
 	<string name="LargestCitiesNAmerica01">20.078.000</string>
@@ -94,5 +96,7 @@
 	<string name="LargestCitiesAustralia08">@string/LargestUrbanAreasAustralia08</string>
 	<string name="LargestCitiesAustralia09">@string/LargestUrbanAreasAustralia09</string>
 	<string name="LargestCitiesAustralia10">@string/LargestUrbanAreasAustralia10</string>
+	
+	<string name="LargestCitiesAd1">Final figure, complete data for City proper</string>
 	
 </resources>

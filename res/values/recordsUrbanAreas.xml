@@ -48,25 +48,25 @@
 	
 	<!-- LARGEST URBAN AREAS EUROPE -->
 	<string name="LargestUrbanAreasEurope01">15.788.000</string>
-	<string name="LargestUrbanAreasEurope02">12.919.000</string>
-	<string name="LargestUrbanAreasEurope03">10.869.000</string>
-	<string name="LargestUrbanAreasEurope04">9.576.000</string>
-	<string name="LargestUrbanAreasEurope05">7.312.000</string>
-	<string name="LargestUrbanAreasEurope06">6.087.000</string>
-	<string name="LargestUrbanAreasEurope07">5.248.000</string>
-	<string name="LargestUrbanAreasEurope08">4.899.000</string>
-	<string name="LargestUrbanAreasEurope09">4.604.000</string>
-	<string name="LargestUrbanAreasEurope10">3.956.000</string>
+	<string name="LargestUrbanAreasEurope02">10.869.000</string>
+	<string name="LargestUrbanAreasEurope03">9.576.000</string>
+	<string name="LargestUrbanAreasEurope04">7.312.000</string>
+	<string name="LargestUrbanAreasEurope05">6.087.000</string>
+	<string name="LargestUrbanAreasEurope06">5.248.000</string>
+	<string name="LargestUrbanAreasEurope07">4.899.000</string>
+	<string name="LargestUrbanAreasEurope08">4.604.000</string>
+	<string name="LargestUrbanAreasEurope09">3.956.000</string>
+	<string name="LargestUrbanAreasEurope10">3.798.000</string>
 	<string name="LargestUrbanAreasEurope01Density">9.300</string>
-	<string name="LargestUrbanAreasEurope02Density">24.800</string>
-	<string name="LargestUrbanAreasEurope03Density">9.900</string>
-	<string name="LargestUrbanAreasEurope04Density">15.300</string>
-	<string name="LargestUrbanAreasEurope05Density">7.200</string>
-	<string name="LargestUrbanAreasEurope06Density">11.900</string>
-	<string name="LargestUrbanAreasEurope07Density">7.200</string>
-	<string name="LargestUrbanAreasEurope08Density">10.700</string>
-	<string name="LargestUrbanAreasEurope09Density">11.100</string>
-	<string name="LargestUrbanAreasEurope10Density">7.600</string>  
+	<string name="LargestUrbanAreasEurope02Density">9.900</string>
+	<string name="LargestUrbanAreasEurope03Density">15.300</string>
+	<string name="LargestUrbanAreasEurope04Density">7.200</string>
+	<string name="LargestUrbanAreasEurope05Density">11.900</string>
+	<string name="LargestUrbanAreasEurope06Density">7.200</string>
+	<string name="LargestUrbanAreasEurope07Density">10.700</string>
+	<string name="LargestUrbanAreasEurope08Density">11.100</string>
+	<string name="LargestUrbanAreasEurope09Density">7.600</string>
+	<string name="LargestUrbanAreasEurope10Density">8.800</string>
 	
 	<!-- LARGEST URBAN AREAS ASIA -->
 	<string name="LargestUrbanAreasAsia01">37.239.000</string>
