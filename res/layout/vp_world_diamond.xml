@@ -75,7 +75,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Australia"/>
+		            android:text="@string/Oceania"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/DiamondProductionWorld07"/>

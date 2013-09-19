@@ -41,6 +41,6 @@
             android:layout_height="wrap_content"
             android:text="@string/MostPopulatedCountries"/>
 		
-		<include layout="@layout/inc_australia_population"/>
+		<include layout="@layout/inc_oceania_population"/>
 	</LinearLayout>
 </ScrollView>

@@ -29,7 +29,7 @@ public class Continents extends SherlockFragmentActivity{
         ActionBar.Tab Frag3Tab = actionbar.newTab().setText(getString(R.string.Africa));
         ActionBar.Tab Frag4Tab = actionbar.newTab().setText(getString(R.string.NAmerica));
         ActionBar.Tab Frag5Tab = actionbar.newTab().setText(getString(R.string.SAmerica));
-        ActionBar.Tab Frag6Tab = actionbar.newTab().setText(getString(R.string.Australia));
+        ActionBar.Tab Frag6Tab = actionbar.newTab().setText(getString(R.string.Oceania));
         ActionBar.Tab Frag7Tab = actionbar.newTab().setText(getString(R.string.Antarctica));
         
         Fragment Fragment1 = new FragmentEurope();
@@ -37,7 +37,7 @@ public class Continents extends SherlockFragmentActivity{
         Fragment Fragment3 = new FragmentAfrica();
         Fragment Fragment4 = new FragmentNAmerica();
         Fragment Fragment5 = new FragmentSAmerica();
-        Fragment Fragment6 = new FragmentAustralia();
+        Fragment Fragment6 = new FragmentOceania();
         Fragment Fragment7 = new FragmentAntarctica();
 
         

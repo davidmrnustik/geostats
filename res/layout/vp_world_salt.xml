@@ -108,7 +108,7 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView.PadddingBottom0"
-		            android:text="@string/Australia"/>
+		            android:text="@string/Oceania"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:layout_span="2"

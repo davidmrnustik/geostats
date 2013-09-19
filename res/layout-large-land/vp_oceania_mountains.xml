@@ -56,14 +56,14 @@
 	            android:layout_height="wrap_content"
 	            android:text="@string/IndoAustralianPlate"/>
 			
-			<include layout="@layout/inc_australia_mountains_ap"/>
+			<include layout="@layout/inc_oceania_mountains_ap"/>
 			
 			<TextView 
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:text="@string/AustralianContinent"/>
 			
-			<include layout="@layout/inc_australia_mountains_ac"/>
+			<include layout="@layout/inc_oceania_mountains_ac"/>
 		
 	</LinearLayout>
 		

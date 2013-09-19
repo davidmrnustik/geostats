@@ -9,25 +9,25 @@
     <RelativeLayout 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1">
+        android:layout_weight="1.1">
         
         <ImageView
-	        android:contentDescription="@string/Australia"
-	        style="@style/ImageViewMapLandLarge"
-	        android:src="@drawable/map" />
+	        android:contentDescription="@string/Oceania"
+	        android:src="@drawable/map"
+	        style="@style/ImageViewMapLand" />
     
-	    <include layout="@layout/inc_australia"/>
+	    <include layout="@layout/inc_oceania"/>
         
     </RelativeLayout>
 
     <LinearLayout 
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="1"
+        android:layout_weight="0.9"
         android:orientation="vertical">
 	    
-	    <include layout="@layout/inc_viewpager"/>
-	    
+	   <include layout="@layout/inc_viewpager"/>
+	   
     </LinearLayout>
 
 </LinearLayout>

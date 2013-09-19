@@ -13,10 +13,10 @@
     	
         <ImageView
             android:src="@drawable/map"
-            android:contentDescription="@string/Australia"
+            android:contentDescription="@string/Oceania"
             style="@style/ImageViewMapLarge" />
         
-	    <include layout="@layout/inc_australia"/>
+	    <include layout="@layout/inc_oceania"/>
         
 	</LinearLayout>
 	<LinearLayout 

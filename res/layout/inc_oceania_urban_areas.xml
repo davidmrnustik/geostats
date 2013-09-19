@@ -60,7 +60,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/Adelaide"/>
+	            android:text="@string/Auckland"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasAustralia05"/>
@@ -71,7 +71,7 @@
 	    <TableRow style="@style/TableRow">
 			<TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/GoldCoast"/>
+	            android:text="@string/Adelaide"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasAustralia06"/>
@@ -82,7 +82,7 @@
 	    <TableRow style="@style/TableRow">
 			<TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/Canberra"/>
+	            android:text="@string/GoldCoast"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasAustralia07"/>
@@ -93,7 +93,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/Newcastle"/>
+	            android:text="@string/Canberra"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasAustralia08"/>
@@ -104,7 +104,7 @@
 	    <TableRow style="@style/TableRow">
  			<TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/CentralCoast"/>
+	            android:text="@string/Wellington"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasAustralia09"/>
@@ -115,7 +115,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView.PadddingBottom0"
-	            android:text="@string/Wollongong"/>
+	            android:text="@string/Christchurch"/>
 		    <TextView 
 	          	style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestUrbanAreasAustralia10"/>

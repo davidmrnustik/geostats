@@ -9,7 +9,7 @@
         <TextView 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/MostPopulatedCountries"
+            android:text="@string/Capitals"
             android:id="@+id/dTitle"/>
         
         <TextView
@@ -22,7 +22,7 @@
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
 	
-   		<include layout="@layout/inc_australia_population"/>	
+   		<include layout="@layout/inc_oceania_capitals"/>	
         
 	</RelativeLayout>
 </ScrollView>

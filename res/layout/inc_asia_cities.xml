@@ -117,10 +117,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Guangzhou"/>
+	            android:text="@string/Istanbul"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2002"/>
+	            android:text="@string/Year2010"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAsia10"/>
