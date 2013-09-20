@@ -8,22 +8,24 @@
 	<string name="LargestCitiesWorld02">@string/LargestCitiesAsia02</string>
 	<string name="LargestCitiesWorld03">@string/LargestCitiesAsia03</string>
 	<string name="LargestCitiesWorld04">@string/LargestCitiesEurope01</string>
-	<string name="LargestCitiesWorld05">@string/LargestCitiesAsia04</string>
-	<string name="LargestCitiesWorld06">@string/LargestCitiesAsia05</string>
-	<string name="LargestCitiesWorld07">@string/LargestCitiesAsia06</string>
-	<string name="LargestCitiesWorld08">@string/LargestCitiesAsia07</string>
-	<string name="LargestCitiesWorld09">@string/LargestCitiesAsia08</string>
-	<string name="LargestCitiesWorld10">@string/LargestCitiesAsia09</string>
-	<string name="LargestCitiesWorld11">@string/LargestCitiesAsia10</string>
-	<string name="LargestCitiesWorld12">@string/LargestCitiesAsia11</string>
-	<string name="LargestCitiesWorld13">@string/LargestCitiesNAmerica01</string>
-	<string name="LargestCitiesWorld14">@string/LargestCitiesAsia12</string>
-	<string name="LargestCitiesWorld15">@string/LargestCitiesSAmerica01</string>
+	<string name="LargestCitiesWorld05">@string/LargestCitiesSAmerica01</string>
+	<string name="LargestCitiesWorld06">@string/LargestCitiesAsia04</string>
+	<string name="LargestCitiesWorld07">@string/LargestCitiesAsia05</string>
+	<string name="LargestCitiesWorld08">@string/LargestCitiesAsia06</string>
+	<string name="LargestCitiesWorld09">@string/LargestCitiesAsia07</string>
+	<string name="LargestCitiesWorld10">@string/LargestCitiesAsia08</string>
+	<string name="LargestCitiesWorld11">@string/LargestCitiesAsia09</string>
+	<string name="LargestCitiesWorld12">@string/LargestCitiesNAmerica01</string>
+	<string name="LargestCitiesWorld13">@string/LargestCitiesAsia10</string>
+	<string name="LargestCitiesWorld14">@string/LargestCitiesAsia11</string>
+	<string name="LargestCitiesWorld15">@string/LargestCitiesSAmerica02</string>
 	<string name="LargestCitiesWorld16">@string/LargestCitiesNAmerica02</string>
-	<string name="LargestCitiesWorld17">@string/LargestCitiesEurope02</string>
-	<string name="LargestCitiesWorld18">@string/LargestCitiesAsia13</string>
-	<string name="LargestCitiesWorld19">@string/LargestCitiesAfrica01</string>
-	<string name="LargestCitiesWorld20">@string/LargestCitiesAsia14</string>
+
+	<string name="LargestCitiesWorld17">@string/LargestCitiesAsia12</string>
+	<string name="LargestCitiesWorld18">@string/LargestCitiesEurope02</string>
+	<string name="LargestCitiesWorld19">@string/LargestCitiesAsia13</string>
+	<string name="LargestCitiesWorld20">@string/LargestCitiesAfrica01</string>
+
 	
 	<!-- LARGEST CITIES EUROPE -->
 	<string name="LargestCitiesEurope01">11.503.501</string>
@@ -57,16 +59,16 @@
 	<string name="LargestCitiesAsia14">7.499.181</string>
 	
 	<!-- LARGEST CITIES AFRICA -->
-	<string name="LargestCitiesAfrica01">7.771.617</string>
-	<string name="LargestCitiesAfrica02">5.195.247</string>
-	<string name="LargestCitiesAfrica03">4.030.582</string>
-	<string name="LargestCitiesAfrica04">3.133.518</string>
-	<string name="LargestCitiesAfrica05">2.221.817</string>
-	<string name="LargestCitiesAfrica06">2.166.554</string>
-	<string name="LargestCitiesAfrica07">1.929.079</string>
-	<string name="LargestCitiesAfrica08">1.907.479</string>
-	<string name="LargestCitiesAfrica09">1.835.300</string>
-	<string name="LargestCitiesAfrica10">1.817.524</string>
+	<string name="LargestCitiesAfrica01">7.854.000</string>
+	<string name="LargestCitiesAfrica02">7.771.617</string>
+	<string name="LargestCitiesAfrica03">5.195.247</string>
+	<string name="LargestCitiesAfrica04">4.030.582</string>
+	<string name="LargestCitiesAfrica05">3.133.518</string>
+	<string name="LargestCitiesAfrica06">2.221.817</string>
+	<string name="LargestCitiesAfrica07">2.166.554</string>
+	<string name="LargestCitiesAfrica08">1.929.079</string>
+	<string name="LargestCitiesAfrica09">1.907.479</string>
+	<string name="LargestCitiesAfrica10">1.835.300</string>
 	
 	<!-- LARGEST CITIES NORTH AMERICA -->
 	<string name="LargestCitiesNAmerica01">8.851.080</string>
@@ -81,16 +83,16 @@
 	<string name="LargestCitiesNAmerica10">1.600.894</string>
 	
 	<!-- LARGEST CITIES SOUTH AMERICA -->
-	<string name="LargestCitiesSAmerica01">8.472.935</string>
-	<string name="LargestCitiesSAmerica02">6.320.446</string>
-	<string name="LargestCitiesSAmerica03">5.105.860</string>
-	<string name="LargestCitiesSAmerica04">2.965.403</string>
-	<string name="LargestCitiesSAmerica05">2.674.923</string>
-	<string name="LargestCitiesSAmerica06">2.481.272</string>
-	<string name="LargestCitiesSAmerica07">2.278.691</string>
-	<string name="LargestCitiesSAmerica08">2.104.423</string>
-	<string name="LargestCitiesSAmerica09">2.039.626</string>
-	<string name="LargestCitiesSAmerica10">1.751.907</string>
+	<string name="LargestCitiesSAmerica01">11.253.503</string>
+	<string name="LargestCitiesSAmerica02">8.472.935</string>
+	<string name="LargestCitiesSAmerica03">6.840.116</string>
+	<string name="LargestCitiesSAmerica04">6.320.446</string>
+	<string name="LargestCitiesSAmerica05">5.105.860</string>
+	<string name="LargestCitiesSAmerica06">2.890.151</string>
+	<string name="LargestCitiesSAmerica07">2.674.923</string>
+	<string name="LargestCitiesSAmerica08">2.481.272</string>
+	<string name="LargestCitiesSAmerica09">2.375.151</string>
+	<string name="LargestCitiesSAmerica10">2.278.691</string>
 	
 	<!-- LARGEST CITIES AUSTRALIA -->
 	<string name="LargestCitiesAustralia01">4.028.524</string>
@@ -100,9 +102,9 @@
 	<string name="LargestCitiesAustralia05">1.208.094</string>
 	<string name="LargestCitiesAustralia06">1.198.468</string>
 	<string name="LargestCitiesAustralia07">441.736</string>
-	<string name="LargestCitiesAustralia08">356.585</string>
-	<string name="LargestCitiesAustralia09">288.733</string>
-	<string name="LargestCitiesAustralia10">282.725</string>
+	<string name="LargestCitiesAustralia08">360.768</string>
+	<string name="LargestCitiesAustralia09">360.624</string>
+	<string name="LargestCitiesAustralia10">356.585</string>
 	
 	<string name="LargestCitiesAd1">Final figure, complete data for City proper</string>
 	

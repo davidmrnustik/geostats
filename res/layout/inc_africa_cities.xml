@@ -18,13 +18,24 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
+	            android:text="@string/Kinshasa"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2007"/>
+	        <TextView 
+	            style="@style/TableTextView.GravityRight"
+	            android:text="@string/LargestCitiesAfrica01"/>
+	    </TableRow>
+	    <TableRow style="@style/TableRow">
+	        <TextView 
+	          	style="@style/TableTextView"
 	            android:text="@string/Cairo"/>
 	        <TextView 
 	          	style="@style/TableTextView"
 	            android:text="@string/Year2011"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesAfrica01"/>
+	            android:text="@string/LargestCitiesAfrica02"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
@@ -35,7 +46,7 @@
 	            android:text="@string/Year2002"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesAfrica02"/>
+	            android:text="@string/LargestCitiesAfrica03"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
@@ -46,7 +57,7 @@
 	            android:text="@string/Year2011"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesAfrica03"/>
+	            android:text="@string/LargestCitiesAfrica04"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
@@ -57,7 +68,7 @@
 	            android:text="@string/Year2012"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesAfrica04"/>
+	            android:text="@string/LargestCitiesAfrica05"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
@@ -68,7 +79,7 @@
 	            android:text="@string/Year1996"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesAfrica05"/>
+	            android:text="@string/LargestCitiesAfrica06"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
@@ -79,7 +90,7 @@
 	            android:text="@string/Year2002"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesAfrica06"/>
+	            android:text="@string/LargestCitiesAfrica07"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
@@ -90,7 +101,7 @@
 	            android:text="@string/Year1988"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesAfrica07"/>
+	            android:text="@string/LargestCitiesAfrica08"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
@@ -101,7 +112,7 @@
 	            android:text="@string/Year2010"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesAfrica08"/>
+	            android:text="@string/LargestCitiesAfrica09"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
@@ -110,17 +121,6 @@
 	        <TextView 
 	          	style="@style/TableTextView"
 	            android:text="@string/Year2002"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight"
-	            android:text="@string/LargestCitiesAfrica09"/>
-	    </TableRow>
-	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Yaounde"/>
-	        <TextView 
-	          	style="@style/TableTextView"
-	            android:text="@string/Year2010"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAfrica10"/>

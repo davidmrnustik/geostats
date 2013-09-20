@@ -95,10 +95,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Canberra"/>
+	            android:text="@string/Christchurch"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2012"/>
+	            android:text="@string/Year2006"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia08"/>
@@ -106,10 +106,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Newcastle"/>
+	            android:text="@string/Wellington"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2011"/>
+	            android:text="@string/Year2006"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia09"/>
@@ -117,10 +117,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/CentralCoast"/>
+	            android:text="@string/Canberra"/>
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Year2011"/>
+	            android:text="@string/Year2012"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia10"/>
