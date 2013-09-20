@@ -21,7 +21,7 @@ import android.widget.TextView;
 import com.actionbarsherlock.app.SherlockFragment;
 import com.viewpagerindicator.TabPageIndicator;
 
-public class FragmentAustralia extends SherlockFragment{
+public class FragmentOceania extends SherlockFragment{
 
 	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O;
 	ViewPager vp;
@@ -31,7 +31,7 @@ public class FragmentAustralia extends SherlockFragment{
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 
-		View v = inflater.inflate(R.layout.fragment_australia, container, false);
+		View v = inflater.inflate(R.layout.fragment_oceania, container, false);
 		
 		vp = (ViewPager) v.findViewById(R.id.viewpager);
         miAdapter = new vpAdapter();
@@ -83,21 +83,21 @@ public class FragmentAustralia extends SherlockFragment{
 			View v = null;
 			switch(position){
 			case 0:
-				v = inflater.inflate(R.layout.vp_australia_countries, null);
+				v = inflater.inflate(R.layout.vp_oceania_countries, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
 				tvChart.append(" 60 - 2010");
 				break;
 			case 1:
-				v = inflater.inflate(R.layout.vp_australia_population, null);
+				v = inflater.inflate(R.layout.vp_oceania_population, null);
 				
 				Button btD1O = (Button) v.findViewById(R.id.btDialog1);
 				
 				if(btD1O != null){
 					btD1O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentOceania.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.dialog_australia_population);
+							d.setContentView(R.layout.dialog_oceania_population);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
 							tvChart.append(" 61 - 2010");
@@ -116,7 +116,7 @@ public class FragmentAustralia extends SherlockFragment{
 				}
 				break;
 			case 2:
-				v = inflater.inflate(R.layout.vp_australia_cities, null);
+				v = inflater.inflate(R.layout.vp_oceania_cities, null);
 				
 				Button btD2O = (Button) v.findViewById(R.id.btDialog2);
 				Button btD3O = (Button) v.findViewById(R.id.btDialog3);
@@ -125,9 +125,9 @@ public class FragmentAustralia extends SherlockFragment{
 				if(btD2O != null){
 					btD2O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentOceania.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.dialog_australia_cities);
+							d.setContentView(R.layout.dialog_oceania_cities);
 							d.setCanceledOnTouchOutside(true);
 							tvTitle = (TextView)d.findViewById(R.id.dTitle);
 							tvTitle.append("\n" + getString(R.string.LargestCitiesAd1));
@@ -150,9 +150,9 @@ public class FragmentAustralia extends SherlockFragment{
 				if(btD3O != null){
 					btD3O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentOceania.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.dialog_australia_urban_areas);
+							d.setContentView(R.layout.dialog_oceania_urban_areas);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
 							tvChart.append(" 63 - 2013");
@@ -173,9 +173,9 @@ public class FragmentAustralia extends SherlockFragment{
 				if(btD6O != null){
 					btD6O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentOceania.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.dialog_australia_capitals);
+							d.setContentView(R.layout.dialog_oceania_capitals);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
 							tvChart.append(" 64");
@@ -194,7 +194,7 @@ public class FragmentAustralia extends SherlockFragment{
 				}
 				break;
 			case 3:
-				v = inflater.inflate(R.layout.vp_australia_mountains, null);
+				v = inflater.inflate(R.layout.vp_oceania_mountains, null);
 				
 				Button btD4O = (Button) v.findViewById(R.id.btDialog4);
 				Button btD5O = (Button) v.findViewById(R.id.btDialog5);
@@ -202,9 +202,9 @@ public class FragmentAustralia extends SherlockFragment{
 				if(btD4O != null){
 					btD4O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentOceania.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.dialog_australia_mountains_ap);
+							d.setContentView(R.layout.dialog_oceania_mountains_ap);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
 							tvChart.append(" 65 - 2010");
@@ -225,9 +225,9 @@ public class FragmentAustralia extends SherlockFragment{
 				if(btD5O != null){
 					btD5O.setOnClickListener(new OnClickListener() {
 						public void onClick(View v) {
-							final Dialog d = new Dialog(FragmentAustralia.this.getActivity(), R.style.DialogContinents);
+							final Dialog d = new Dialog(FragmentOceania.this.getActivity(), R.style.DialogContinents);
 							d.setCancelable(true);
-							d.setContentView(R.layout.dialog_australia_mountains_ac);
+							d.setContentView(R.layout.dialog_oceania_mountains_ac);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
 							tvChart.append(" 66 - 2010");
@@ -246,22 +246,22 @@ public class FragmentAustralia extends SherlockFragment{
 				}
 				break;
 			case 4:
-				v = inflater.inflate(R.layout.vp_australia_islands, null);
+				v = inflater.inflate(R.layout.vp_oceania_islands, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
 				tvChart.append(" 67 - 2010");
 				break;
 			case 5:
-				v = inflater.inflate(R.layout.vp_australia_rivers, null);
+				v = inflater.inflate(R.layout.vp_oceania_rivers, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
 				tvChart.append(" 68 - 2010");
 				break;
 			case 6:
-				v = inflater.inflate(R.layout.vp_australia_lakes, null);
+				v = inflater.inflate(R.layout.vp_oceania_lakes, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
 				tvChart.append(" 69 - 2010");
 				break;
 			case 7:
-				v = inflater.inflate(R.layout.vp_australia_weather, null);
+				v = inflater.inflate(R.layout.vp_oceania_weather, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
 				tvChart.append(" 70 - 2010");
 				break;

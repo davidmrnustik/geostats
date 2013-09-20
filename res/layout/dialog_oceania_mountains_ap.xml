@@ -22,7 +22,7 @@
             style="@style/ButCloseDialog"
             android:id="@+id/btClose"/>
 
-		<include layout="@layout/inc_australia_mountains_ap"/>
+		<include layout="@layout/inc_oceania_mountains_ap"/>
         
 	</RelativeLayout>
 </ScrollView>

@@ -22,11 +22,17 @@ Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 <p><b>(28)</b> Africa - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
+<p><b>(29)</b> Africa - Largest Cities: United Nations Statistics Division, City population by sex, city and city type<br>
+http://data.un.org/</p>
+
 <p><b>(30)</b> Africa - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
 <p><b>(39)</b> North America - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
+
+<p><b>(40)</b> North America - Largest Cities: United Nations Statistics Division, City population by sex, city and city type<br>
+http://data.un.org/</p>
 
 <p><b>(41)</b> North America - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
@@ -34,13 +40,19 @@ Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 <p><b>(50)</b> South America - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
+<p><b>(51)</b> South America - Largest Cities: United Nations Statistics Division, City population by sex, city and city type<br>
+http://data.un.org/</p>
+
 <p><b>(52)</b> South America - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
-<p><b>(61)</b> Australia - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
+<p><b>(61)</b> Oceania - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
-<b>(63)</b> Australia - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
+<p><b>(62)</b> Oceania - Largest Cities: United Nations Statistics Division, City population by sex, city and city type<br>
+http://data.un.org/</p>
+
+<p><b>(63)</b> Oceania - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
 <p><b>(96)</b> Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
@@ -48,6 +60,9 @@ http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
 <p><b>(97)</b> Countries by population density, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
+
+<p><b>(98)</b> Largest Cities: United Nations Statistics Division, City population by sex, city and city type<br>
+http://data.un.org/</p>
 
 <p><b>(99)</b> Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>

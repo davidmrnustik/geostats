@@ -28,18 +28,9 @@
 		    </TableRow>
 		    
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/TokyoYokohama"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Japan"/>
-		   			</TableRow>
-		        </TableLayout>
+		         <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/TokyoYokohama"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld01"/>
@@ -48,18 +39,9 @@
 		            android:text="@string/LargestUrbanAreasWorld01Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/JakartaJabotabek"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Indonesia"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/JakartaJabotabek"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld02"/>
@@ -68,18 +50,9 @@
 		            android:text="@string/LargestUrbanAreasWorld02Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/SeoulIncheon"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/SouthKorea"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/SeoulIncheon"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld03"/>
@@ -88,18 +61,9 @@
 		            android:text="@string/LargestUrbanAreasWorld03Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Dehli"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/India"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Dehli"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld04"/>
@@ -108,18 +72,9 @@
 		            android:text="@string/LargestUrbanAreasWorld04Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Shanghai"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/China"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Shanghai"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld05"/>
@@ -128,18 +83,9 @@
 		            android:text="@string/LargestUrbanAreasWorld05Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Manila"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Philippines"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Manila"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld06"/>
@@ -148,18 +94,9 @@
 		            android:text="@string/LargestUrbanAreasWorld06Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Karachi"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Pakistan"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Karachi"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld07"/>
@@ -168,18 +105,9 @@
 		            android:text="@string/LargestUrbanAreasWorld07Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/NewYork"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/USA"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/NewYork"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld08"/>
@@ -188,18 +116,9 @@
 		            android:text="@string/LargestUrbanAreasWorld08Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/SaoPaulo"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Brazil"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/SaoPaulo"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld09"/>
@@ -208,18 +127,9 @@
 		            android:text="@string/LargestUrbanAreasWorld09Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/MexicoCity"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Mexico"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/MexicoCity"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld10"/>
@@ -228,18 +138,9 @@
 		            android:text="@string/LargestUrbanAreasWorld10Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Beijing"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/China"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Beijing"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld11"/>
@@ -248,18 +149,9 @@
 		            android:text="@string/LargestUrbanAreasWorld11Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/GuangzhouFoshan"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/China"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/GuangzhouFoshan"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld12"/>
@@ -268,18 +160,9 @@
 		            android:text="@string/LargestUrbanAreasWorld12Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Mumbai"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/India"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Mumbai"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld13"/>
@@ -288,18 +171,9 @@
 		            android:text="@string/LargestUrbanAreasWorld13Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/OsakaKobeKyoto"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Japan"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/OsakaKobeKyoto"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld14"/>
@@ -308,18 +182,9 @@
 		            android:text="@string/LargestUrbanAreasWorld14Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Moscow"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Russia"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Moscow"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld15"/>
@@ -328,18 +193,9 @@
 		            android:text="@string/LargestUrbanAreasWorld15Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Cairo"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Egypt"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Cairo"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld16"/>
@@ -348,18 +204,9 @@
 		            android:text="@string/LargestUrbanAreasWorld16Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/LosAngeles"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/USA"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/LosAngeles"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld17"/>
@@ -368,18 +215,9 @@
 		            android:text="@string/LargestUrbanAreasWorld17Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Kolkata"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/India"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Kolkata"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld18"/>
@@ -388,18 +226,9 @@
 		            android:text="@string/LargestUrbanAreasWorld18Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Bangkok"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Thailand"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Bangkok"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld19"/>
@@ -408,18 +237,9 @@
 		            android:text="@string/LargestUrbanAreasWorld19Density"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
-		        <TableLayout android:stretchColumns="0">
-		            <TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.PadddingBottom0"
-				            android:text="@string/Dhaka"/>
-		   			</TableRow>
-		   			<TableRow>
-				        <TextView 
-				          	style="@style/TableTextView.RowSpan"
-				            android:text="@string/Bangladesh"/>
-		   			</TableRow>
-		        </TableLayout>
+		        <TextView 
+		          	style="@style/TableTextView.PadddingBottom0"
+		            android:text="@string/Dhaka"/>
 			    <TextView 
 		          	style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestUrbanAreasWorld20"/>

@@ -8,6 +8,9 @@
 	          	style="@style/TableTextView.Head"
 	            android:text="@string/Name"/>
 	        <TextView 
+	          	style="@style/TableTextView.Head"
+	            android:text="@string/SourceYear"/>
+	        <TextView 
 	            style="@style/TableTextView.Head"
 	            android:text="@string/Total"/>
 	    </TableRow>
@@ -17,6 +20,9 @@
 	          	style="@style/TableTextView"
 	            android:text="@string/Sydney"/>
 	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2012"/>
+	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia01"/>
 	    </TableRow>
@@ -24,6 +30,9 @@
 	        <TextView 
 	          	style="@style/TableTextView"
 	            android:text="@string/Melbourne"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2012"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia02"/>
@@ -33,6 +42,9 @@
 	          	style="@style/TableTextView"
 	            android:text="@string/Brisbane"/>
 	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2012"/>
+	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia03"/>
 	    </TableRow>
@@ -41,13 +53,19 @@
 	          	style="@style/TableTextView"
 	            android:text="@string/Perth"/>
 	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2012"/>
+	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia04"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Adelaide"/>
+	            android:text="@string/Auckland"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2009"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia05"/>
@@ -55,7 +73,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/GoldCoast"/>
+	            android:text="@string/Adelaide"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2012"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia06"/>
@@ -63,7 +84,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Canberra"/>
+	            android:text="@string/GoldCoast"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2005"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia07"/>
@@ -71,7 +95,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Newcastle"/>
+	            android:text="@string/Christchurch"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2006"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia08"/>
@@ -79,7 +106,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/CentralCoast"/>
+	            android:text="@string/Wellington"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2006"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia09"/>
@@ -87,7 +117,10 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Wollongong"/>
+	            android:text="@string/Canberra"/>
+	        <TextView 
+	          	style="@style/TableTextView"
+	            android:text="@string/Year2012"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/LargestCitiesAustralia10"/>

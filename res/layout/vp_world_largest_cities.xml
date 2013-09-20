@@ -19,6 +19,9 @@
 		          	style="@style/TableTextView.Head"
 		            android:text="@string/Name"/>
 		        <TextView 
+		          	style="@style/TableTextView.Head"
+		            android:text="@string/SourceYear"/>
+		        <TextView 
 		            style="@style/TableTextView.Head"
 		            android:text="@string/Population"/>
 		    </TableRow>
@@ -26,7 +29,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Tokyo"/>
+		            android:text="@string/Shanghai"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2002"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld01"/>
@@ -34,7 +40,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Dehli"/>
+		            android:text="@string/Mumbai"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2007"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld02"/>
@@ -42,7 +51,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Mumbai"/>
+		            android:text="@string/Beijing"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2002"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld03"/>
@@ -50,7 +62,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/SaoPaulo"/>
+		            android:text="@string/Moscow"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2012"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld04"/>
@@ -58,7 +73,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/MexicoCity"/>
+		            android:text="@string/SaoPaulo"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2010"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld05"/>
@@ -66,7 +84,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/NewYork"/>
+		            android:text="@string/Dehli"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2007"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld06"/>
@@ -74,7 +95,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Shanghai"/>
+		            android:text="@string/Seoul"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2007"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld07"/>
@@ -82,7 +106,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Kolkata"/>
+		            android:text="@string/Chongqing"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2002"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld08"/>
@@ -90,7 +117,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Dhaka"/>
+		            android:text="@string/Jakarta"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2011"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld09"/>
@@ -100,13 +130,19 @@
 		          	style="@style/TableTextView"
 		            android:text="@string/Karachi"/>
 		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2000"/>
+		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld10"/>
 		    </TableRow>
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/BuenosAires"/>
+		            android:text="@string/Tokyo"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2012"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld11"/>
@@ -114,7 +150,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Beijing"/>
+		            android:text="@string/MexicoCity"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2011"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld12"/>
@@ -122,7 +161,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/LosAngeles"/>
+		            android:text="@string/Istanbul"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2010"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld13"/>
@@ -130,7 +172,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Manila"/>
+		            android:text="@string/Guangzhou"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2002"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld14"/>
@@ -138,7 +183,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Lagos"/>
+		            android:text="@string/Lima"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2009"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld15"/>
@@ -146,7 +194,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/RiodeJaneiro"/>
+		            android:text="@string/NewYork"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2011"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld16"/>
@@ -154,7 +205,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Cairo"/>
+		            android:text="@string/Wuhan"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2002"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld17"/>
@@ -162,7 +216,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Osaka"/>
+		            android:text="@string/London1"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2006"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld18"/>
@@ -170,7 +227,10 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Istanbul"/>
+		            android:text="@string/Tehran"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2013"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld19"/>
@@ -178,12 +238,18 @@
 		    <TableRow style="@style/TableRow">
 		        <TextView 
 		          	style="@style/TableTextView"
-		            android:text="@string/Paris"/>
+		            android:text="@string/Kinshasa"/>
+		        <TextView 
+		          	style="@style/TableTextView"
+		            android:text="@string/Year2007"/>
 		        <TextView 
 		            style="@style/TableTextView.GravityRight"
 		            android:text="@string/LargestCitiesWorld20"/>
 		    </TableRow>
 		</TableLayout>
+		<TextView
+	      	style="@style/TableTextView.Italic"
+	        android:text="@string/LondonAd1"/>
 		<TextView
 	        android:id="@+id/chartNo"
 	      	style="@style/TableTextView.Italic"

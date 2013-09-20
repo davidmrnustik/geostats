@@ -169,21 +169,21 @@
 	<string name="LargestUrbanAreasAustralia02">3.761.000</string> 
 	<string name="LargestUrbanAreasAustralia03">1.912.000</string> 
 	<string name="LargestUrbanAreasAustralia04">1.657.000</string> 
-	<string name="LargestUrbanAreasAustralia05">1.120.000</string> 
-	<string name="LargestUrbanAreasAustralia06">534.000</string>
-	<string name="LargestUrbanAreasAustralia07">382.000</string>
-	<string name="LargestUrbanAreasAustralia08">308.000</string>
-	<string name="LargestUrbanAreasAustralia09">298.000</string>
-	<string name="LargestUrbanAreasAustralia10">246.000</string>
+	<string name="LargestUrbanAreasAustralia05">1.310.000</string> 
+	<string name="LargestUrbanAreasAustralia06">1.120.000</string> 
+	<string name="LargestUrbanAreasAustralia07">534.000</string>
+	<string name="LargestUrbanAreasAustralia08">382.000</string>
+	<string name="LargestUrbanAreasAustralia09">350.000</string>
+	<string name="LargestUrbanAreasAustralia10">350.000</string>
 	<string name="LargestUrbanAreasAustralia01Density">5.000</string> 
 	<string name="LargestUrbanAreasAustralia02Density">3.800</string> 
 	<string name="LargestUrbanAreasAustralia03Density">2.500</string> 
-	<string name="LargestUrbanAreasAustralia04Density">2.700</string> 
-	<string name="LargestUrbanAreasAustralia05Density">3.400</string> 
-	<string name="LargestUrbanAreasAustralia06Density">2.300</string>
-	<string name="LargestUrbanAreasAustralia07Density">2.100</string>
-	<string name="LargestUrbanAreasAustralia08Density">2.700</string>
-	<string name="LargestUrbanAreasAustralia09Density">1.900</string>
-	<string name="LargestUrbanAreasAustralia10Density">2.900</string>
+	<string name="LargestUrbanAreasAustralia04Density">2.700</string>
+	<string name="LargestUrbanAreasAustralia05Density">6.200</string>
+	<string name="LargestUrbanAreasAustralia06Density">3.400</string> 
+	<string name="LargestUrbanAreasAustralia07Density">2.300</string>
+	<string name="LargestUrbanAreasAustralia08Density">2.100</string>
+	<string name="LargestUrbanAreasAustralia09Density">4.900</string>
+	<string name="LargestUrbanAreasAustralia10Density">5.100</string>
 	
 </resources>
