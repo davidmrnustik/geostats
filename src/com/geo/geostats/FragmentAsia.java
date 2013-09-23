@@ -198,7 +198,7 @@ public class FragmentAsia extends SherlockFragment{
 			case 3:
 				v = inflater.inflate(R.layout.vp_asia_mountains, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 21 - 2010");
+				tvChart.append(" 21 - 2013");
 				break;
 			case 4:
 				v = inflater.inflate(R.layout.vp_asia_islands, null);
