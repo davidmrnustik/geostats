@@ -122,4 +122,16 @@
 	<string name="EssenDusseldorf">Essen-Düsseldorf</string>
 	<string name="Milan">Milan</string>
 	<string name="Barcelona">Barcelona</string>
+	<string name="CityOfBrisbane">City of Brisbane</string>
+	<string name="GoldCoastCity">Gold Coast City</string>
+	<string name="MoretonBayRegion">Moreton Bay Region</string>
+	<string name="SunshineCoastRegion">Sunshine Coast Region</string>
+	<string name="SunshineCoast">Sunshine Coast</string>
+	<string name="CityOfBlacktown">City of Blacktown</string>
+	<string name="LoganCity">Logan City</string>
+	<string name="Geelong">Geelong</string>
+	<string name="CityOfCasey">City of Casey</string>
+	<string name="CityOfGreaterGeelong">City of Greater Geelong</string>
+	<string name="SutherlandShire">Sutherland Shire</string>
+	<string name="CityOfStirling">City of Stirling</string>
 </resources>

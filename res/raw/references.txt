@@ -49,8 +49,8 @@ Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 <p><b>(61)</b> Oceania - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
-<p><b>(62)</b> Oceania - Largest Cities: United Nations Statistics Division, City population by sex, city and city type<br>
-http://data.un.org/</p>
+<p><b>(62)</b> Oceania - Largest Cities, <i>2011</i>: Australian Bureau of Statistics, 2011 Census QuickStats. Retrieved 9 September 2013<br>
+http://www.abs.gov.au/websitedbs/censushome.nsf/home/census?opendocument&navpos=10</p>
 
 <p><b>(63)</b> Oceania - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>

@@ -95,16 +95,16 @@
 	<string name="LargestCitiesSAmerica10">2.278.691</string>
 	
 	<!-- LARGEST CITIES AUSTRALIA -->
-	<string name="LargestCitiesAustralia01">4.028.524</string>
-	<string name="LargestCitiesAustralia02">3.847.570</string>
-	<string name="LargestCitiesAustralia03">1.977.315</string>
-	<string name="LargestCitiesAustralia04">1.670.953</string>
-	<string name="LargestCitiesAustralia05">1.208.094</string>
-	<string name="LargestCitiesAustralia06">1.198.468</string>
-	<string name="LargestCitiesAustralia07">441.736</string>
-	<string name="LargestCitiesAustralia08">360.768</string>
-	<string name="LargestCitiesAustralia09">360.624</string>
-	<string name="LargestCitiesAustralia10">356.585</string>
+	<string name="LargestCitiesAustralia01">1.041.839</string>
+	<string name="LargestCitiesAustralia02">494.501</string>
+	<string name="LargestCitiesAustralia03">378.045</string>
+	<string name="LargestCitiesAustralia04">306.909</string>
+	<string name="LargestCitiesAustralia05">301.099</string>
+	<string name="LargestCitiesAustralia06">278.050</string>
+	<string name="LargestCitiesAustralia07">252.382</string>
+	<string name="LargestCitiesAustralia08">210.875</string>
+	<string name="LargestCitiesAustralia09">210.863</string>
+	<string name="LargestCitiesAustralia10">195.702</string>
 	
 	<string name="LargestCitiesAd1">Final figure, complete data for City proper</string>
 	

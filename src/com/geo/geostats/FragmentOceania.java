@@ -132,7 +132,7 @@ public class FragmentOceania extends SherlockFragment{
 							tvTitle = (TextView)d.findViewById(R.id.dTitle);
 							tvTitle.append("\n" + getString(R.string.LargestCitiesAd1));
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 62");
+							tvChart.append(" 62 - 2011");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
