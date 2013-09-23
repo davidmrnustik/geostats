@@ -41,11 +41,11 @@
 	<string name="HighestMountainsAsia02">8.611</string>
 	<string name="HighestMountainsAsia03">8.586</string>
 	<string name="HighestMountainsAsia04">8.516</string>
-	<string name="HighestMountainsAsia05">8.463</string>
+	<string name="HighestMountainsAsia05">8.485</string>
 	<string name="HighestMountainsAsia06">8.188</string> <!-- WIKI -->
 	<string name="HighestMountainsAsia07">8.167</string> <!-- WIKI -->
 	<string name="HighestMountainsAsia08">8.163</string> <!-- WIKI -->
-	<string name="HighestMountainsAsia09">8.126</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia09">8.125</string> <!-- WIKI -->
 	<string name="HighestMountainsAsia10">8.091</string> <!-- WIKI -->
 	<string name="HighestMountainsAsia11">8.080</string> <!-- WIKI -->
 	<string name="HighestMountainsAsia12">8.051</string> <!-- WIKI -->
@@ -56,7 +56,7 @@
 	<string name="HighestMountainsAsia17">7.937</string> <!-- WIKI -->
 	<string name="HighestMountainsAsia18">7.932</string> <!-- WIKI -->
 	<string name="HighestMountainsAsia19">7.893</string> <!-- WIKI -->
-	<string name="HighestMountainsAsia20">7.884</string> <!-- WIKI -->
+	<string name="HighestMountainsAsia20">7.885</string> <!-- WIKI -->
 	
 	<!-- HIGHEST MOUNTAINS AFRICA -->
 	<string name="HighestMountainsAfrica01">5.892</string>

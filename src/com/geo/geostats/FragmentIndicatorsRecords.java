@@ -64,7 +64,7 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_highest_mountains, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 100 - 2010");
+				tvChart.append(" 100 - 2013");
 				article.addView(vv);
 			}else if(position == 1){
 				article.removeAllViews();
@@ -159,13 +159,13 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_cities, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 98 - 2010");
+				tvChart.append(" 98");
 				article.addView(vv);
 			}else if(position == 4){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_urban_areas, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 99 - 2010");
+				tvChart.append(" 99 - 2013");
 				article.addView(vv);
 			}
 			mCurrentPosition = position;
@@ -370,19 +370,19 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_cities, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 98 - 2010");
+				tvChart.append(" 98");
 				article.addView(vv);
 			}else if(position == 4){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_urban_areas, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 99 - 2010");
+				tvChart.append(" 99 - 2013");
 				article.addView(vv);
 			}else if(position == 5){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_highest_mountains, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 100 - 2010");
+				tvChart.append(" 100 - 2013");
 				article.addView(vv);
 			}else if(position == 6){
 				article.removeAllViews();

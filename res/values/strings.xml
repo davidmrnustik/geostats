@@ -8,6 +8,8 @@
     <string name="NameCountry">Name / Country</string>
     <string name="NameLocation">Name / Location</string>
     <string name="NameSourceYear">Name / Source Year</string>
+    <string name="NameDistrict">Name / District</string>
+    <string name="LocalGovernmentAreasDistrict">Local government area / District</string>
     <string name="SourceYear">Source Year</string>
     <string name="Year">Year</string>
     <string name="Country">Country</string>
