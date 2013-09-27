@@ -4,7 +4,7 @@
 	<color name="colorCCC">#CCC</color>
 	<color name="colorDarkGrey">#616161</color>
 	
-    <style name="FullScreen">
+    <style name="FullScreen" parent="@style/Theme.Sherlock.Light.NoActionBar">
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowNoTitle">true</item>
     </style>
