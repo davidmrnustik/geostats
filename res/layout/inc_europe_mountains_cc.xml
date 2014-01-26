@@ -30,7 +30,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Kazbek"/>
+	            android:text="@string/Shkhara"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/HighestMountainsEuropeCC03"/>

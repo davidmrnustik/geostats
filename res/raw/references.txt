@@ -1,100 +1,326 @@
-<p><b>(4)</b> Europe - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
+<p><b>(1)</b> Europe - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 85 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+</p>
+
+<p><b>(2)</b> Europe - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 166 p.</p>
+
+<p><b>(3)</b> Europe - Largest EU countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 166 p.<br>The World Bank, World Development Indicators: Surface area<br>
+http://wdi.worldbank.org/table/?.?</p>
+
+<p><b>(4)</b> Europe - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
-<p><b>(5)</b> Europe - Most Populated Countries EU, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
+<p><b>(5)</b> Europe - Most populated countries EU, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
-<p><b>(6)</b> Europe - Largest Cities: United Nations Statistics Division, City population by sex, city and city type.<br>
+<p><b>(6)</b> Europe - Largest cities, <i>2010</i>: United Nations Statistics Division, City population by sex, city and city type.<br>
 http://data.un.org/</p>
 
-<p><b>(7)</b> Europe - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
+<p><b>(7)</b> Europe - Largest urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
-<p><b>(8)</b> Europe - Capitals: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, xx p.</p>
+<p><b>(8)</b> Europe - Capitals, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 166 p.<br>Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
+Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
-<p><b>(17)</b> Asia - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
+<p><b>(9)</b> Europe - Highest mountains (Kuma-Manych Depression), <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 166 p.<br>WIKI</p>
+
+<p><b>(10)</b> Europe - Highest mountains (Caucasus crest), <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 164 p.</p>
+
+<p><b>(11)</b> Europe - Largest islands, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 164 p.</p>
+
+<p><b>(12)</b> Europe - Longest rivers, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 164 p.</p>
+
+<p><b>(13)</b> Europe - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 164 p.</p>
+
+<p><b>(14)</b> Europe - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, ?? p.</p>
+
+<p><b>(15)</b> Asia - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 84 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+</p>
+
+<p><b>(16)</b> Asia - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 130 p.</p>
+
+<p><b>(17)</b> Asia - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
-<p><b>(18)</b> Asia - Largest Cities: United Nations Statistics Division, City population by sex, city and city type.<br>
+<p><b>(18)</b> Asia - Largest cities, <i>2010</i>: United Nations Statistics Division, City population by sex, city and city type.<br>
 http://data.un.org/</p>
 
-<p><b>(19)</b> Asia - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
+<p><b>(19)</b> Asia - Largest urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
-<p><b>(20)</b> Asia - Capitals: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, xx p.</p>
+<p><b>(20)</b> Asia - Capitals, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 130 p.</p>
 
-<p><b>(21)</b> Asia - Highest Mountains, <i>2013</i>: High Asia - All mountains and main peaks above 6750 m<br>
+<p><b>(21)</b> Asia - Highest mountains, <i>2013</i>: High Asia - All mountains and main peaks above 6750 m<br>
 http://www.8000ers.com/cms/en/download.html?func=startdown&id=168</p>
 
-<p><b>(28)</b> Africa - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
+<p><b>(22)</b> Asia - Largest islands, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 128 p.</p>
+
+<p><b>(23)</b> Asia - Longest rivers, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 128 p.</p>
+
+<p><b>(24)</b> Asia - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 128 p.</p>
+
+<p><b>(25)</b> Asia - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, ?? p.</p>
+
+<p><b>(26)</b> Africa - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 85 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+</p>
+
+<p><b>(27)</b> Africa - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 190 p.</p>
+
+<p><b>(28)</b> Africa - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
-<p><b>(29)</b> Africa - Largest Cities: United Nations Statistics Division, City population by sex, city and city type.<br>
+<p><b>(29)</b> Africa - Largest cities, <i>2010</i>: United Nations Statistics Division, City population by sex, city and city type.<br>
 http://data.un.org/</p>
 
-<p><b>(30)</b> Africa - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
+<p><b>(30)</b> Africa - Largest urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
-<p><b>(31)</b> Africa - Capitals: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, xx p.</p>
+<p><b>(31)</b> Africa - Capitals, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 190 p.</p>
 
-<p><b>(39)</b> North America - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
+<p><b>(32)</b> Africa - Highest mountains, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 188 p.</p>
+
+<p><b>(33)</b> Africa - Largest islands, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 188 p.</p>
+
+<p><b>(34)</b> Africa - Longest rivers, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 188 p.</p>
+
+<p><b>(35)</b> Africa - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 188 p.</p>
+
+<p><b>(36)</b> Africa - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, ?? p.</p>
+
+<p><b>(37)</b> North America - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 86 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+</p>
+
+<p><b>(38)</b> North America - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 200 p.</p>
+
+<p><b>(39)</b> North America - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
-<p><b>(40)</b> North America - Largest Cities: United Nations Statistics Division, City population by sex, city and city type.<br>
+<p><b>(40)</b> North America - Largest cities, <i>2010</i>: United Nations Statistics Division, City population by sex, city and city type.<br>
 http://data.un.org/</p>
 
-<p><b>(41)</b> North America - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
+<p><b>(41)</b> North America - Largest urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
-<p><b>(42)</b> North America - Capitals: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, xx p.</p>
+<p><b>(42)</b> North America - Capitals, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 200 p.</p>
 
-<p><b>(50)</b> South America - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
+<p><b>(43)</b> North America - Highest mountains, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 198 p.</p>
+
+<p><b>(44)</b> North America - Largest islands, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 198 p.</p>
+
+<p><b>(45)</b> North America - Longest rivers, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 198 p.</p>
+
+<p><b>(46)</b> North America - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 198 p.</p>
+
+<p><b>(47)</b> North America - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, ?? p.</p>
+
+<p><b>(48)</b> South America - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 86 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+</p>
+
+<p><b>(49)</b> South America - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 228 p.</p>
+
+<p><b>(50)</b> South America - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
-<p><b>(51)</b> South America - Largest Cities: United Nations Statistics Division, City population by sex, city and city type.<br>
+<p><b>(51)</b> South America - Largest cities, <i>2010</i>: United Nations Statistics Division, City population by sex, city and city type.<br>
 http://data.un.org/</p>
 
-<p><b>(52)</b> South America - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
+<p><b>(52)</b> South America - Largest urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
-<p><b>(53)</b> South America - Capitals: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, xx p.</p>
+<p><b>(53)</b> South America - Capitals, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 228 p.</p>
 
-<p><b>(61)</b> Oceania - Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
+<p><b>(54)</b> South America - Highest mountains, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 226 p.</p>
+
+<p><b>(55)</b> South America - Largest islands, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 226 p.</p>
+
+<p><b>(56)</b> South America - Longest rivers, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 226 p.</p>
+
+<p><b>(57)</b> South America - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 226 p.</p>
+
+<p><b>(58)</b> South America - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, ?? p.</p>
+
+<p><b>(59)</b> Oceania - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 84 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+</p>
+
+<p><b>(60)</b> Oceania - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 116 p.</p>
+
+<p><b>(61)</b> Oceania - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
-<p><b>(62)</b> Oceania - Largest Cities, <i>2011</i>: Australian Bureau of Statistics, 2011 Census QuickStats. Retrieved 9 September 2013<br>
+<p><b>(62)</b> Oceania - Largest cities, <i>2011</i>: Australian Bureau of Statistics, 2011 Census QuickStats. Retrieved 9 September 2013<br>
 http://www.abs.gov.au/websitedbs/censushome.nsf/home/census?opendocument&navpos=10</p>
 
-<p><b>(63)</b> Oceania - Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
+<p><b>(63)</b> Oceania - Largest urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
-<p><b>(64)</b> Oceania - Capitals: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, xx p.</p>
+<p><b>(64)</b> Oceania - Capitals, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 116 p.</p>
 
-<p><b>(96)</b> Most Populated Countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
+<p><b>(65)</b> Oceania - Highest mountains in Indo-Australian Plate, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 114 p.</p>
+
+<p><b>(66)</b> Oceania - Highest mountains in Australian continent, <i>2010</i>: WIKI</p>
+
+<p><b>(67)</b> Oceania - Largest islands, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 114 p.</p>
+
+<p><b>(68)</b> Oceania - Longest rivers, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 114 p.</p>
+
+<p><b>(69)</b> Oceania - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 114 p.</p>
+
+<p><b>(70)</b> Oceania - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, ?? p.</p>
+
+<p><b>(71)</b> Antarctica - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 84 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+</p>
+
+<p><b>(72)</b> Antarctica - Highest mountains, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 87 p.</p>
+
+<p><b>(73)</b> Antarctica - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, ?? p.</p>
+
+<p><b>(74)</b> Atlantic ocean - Basic data, <i>2005</i>: CIA Factbook, Geography, Atlantic ocean<br>http://geography.about.com/library/maps/blocean.htm<br>The Mariana Trench, Oceanography<br>http://www.marianatrench.com</p>
+
+<p><b>(75)</b> Atlantic ocean - Largest seas, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 87 p.</p>
+
+<p><b>(76)</b> Atlantic ocean - Gulfs, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 12</p>
+
+<p><b>(77)</b> Atlantic ocean - Straits, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 12</p>
+
+<p><b>(78)</b> Atlantic ocean - Currents, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 14</p>
+
+<p><b>(79)</b> Pacific ocean - Basic data, <i>2005</i>: CIA Factbook, Geography, Pacific ocean<br>http://geography.about.com/library/maps/blocean.htm<br>The Mariana Trench, Oceanography<br>http://www.marianatrench.com</p>
+
+<p><b>(80)</b> Pacific ocean - Largest seas, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 87 p.</p>
+
+<p><b>(81)</b> Pacific ocean - Gulfs, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 11</p>
+
+<p><b>(82)</b> Pacific ocean - Straits, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 11</p>
+
+<p><b>(83)</b> Pacific ocean - Currents, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 14</p>
+
+<p><b>(84)</b> Indian ocean - Basic data, <i>2005</i>: CIA Factbook, Geography, Indian ocean<br>http://geography.about.com/library/maps/blocean.htm<br>The Mariana Trench, Oceanography<br>http://www.marianatrench.com</p>
+
+<p><b>(85)</b> Indian ocean - Largest seas, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 87 p.</p>
+
+<p><b>(86)</b> Indian ocean - Gulfs, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 13</p>
+
+<p><b>(87)</b> Indian ocean - Straits, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 13</p>
+
+<p><b>(88)</b> Indian ocean - Currents, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 14</p>
+
+<p><b>(89)</b> Arctic ocean - Basic data, <i>2005</i>: CIA Factbook, Geography, Arctic ocean<br>http://geography.about.com/library/maps/blocean.htm<br>The Mariana Trench, Oceanography<br>http://www.marianatrench.com</p>
+
+<p><b>(90)</b> Arctic ocean - Largest seas, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 13</p>
+
+<p><b>(91)</b> Arctic ocean - Gulfs, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 13</p>
+
+<p><b>(92)</b> Arctic ocean - Straits, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 13</p>
+
+<p><b>(93)</b> Arctic ocean - Currents, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 14</p>
+
+<p><b>(94)</b> Southern ocean - Basic data, <i>2005</i>: CIA Factbook, Geography, Southern ocean<br>http://geography.about.com/library/maps/blocean.htm</p>
+
+<p><b>(95)</b> Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012</p>
+
+<p><b>(96)</b> Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
 <p><b>(97)</b> Countries by population density, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
 
-<p><b>(98)</b> Largest Cities: United Nations Statistics Division, City population by sex, city and city type.<br>
+<p><b>(98)</b> Largest cities, <i>2010</i>: United Nations Statistics Division, City population by sex, city and city type.<br>
 http://data.un.org/</p>
 
-<p><b>(99)</b> Largest Urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
+<p><b>(99)</b> Largest urban agglomerations, <i>2013</i>: Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
-<p><b>(100)</b> Highest Mountains, <i>2013</i>: High Asia - All mountains and main peaks above 6750 m<br>
+<p><b>(100)</b> Highest mountains, <i>2013</i>: High Asia - All mountains and main peaks above 6750 m<br>
 http://www.8000ers.com/cms/en/download.html?func=startdown&id=168</p>
 
-<p><b>(112)</b> Total Primary Coal Production, <i>2011</i>: Energy Information Administration (EIA)<br>
+<p><b>(101)</b> Largest islands, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012</p>
+
+<p><b>(102)</b> Largest peninsulas, <i>2005</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 10</p>
+
+<p><b>(103)</b> Longest rivers, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012<br>info o ceskym geografovi a amazonce</p>
+
+<p><b>(104)</b> Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012</p>
+
+<p><b>(105)</b> Deepest lakes, <i>2010</i>: Geology.com, Deepest lake in the world<br>http://geology.com/records/deepest-lake.shtml</p>
+
+<p><b>(106)</b> Largest seas, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012</p>
+
+<p><b>(107)</b> Major oceanic trenches, <i>2010</i>: ???</p>
+
+<p><b>(108)</b> Deadliest earthquakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 68 p.</p>
+
+<p><b>(109)</b> Largest earthquakes, <i>2012</i>: USGS, Largest earthquakes in the world since 1900<br>http://earthquake.usgs.gov/earthquakes/world/10_largest_world.php</p>
+
+<p><b>(110)</b> Major volcanic eruptions 1980-2011, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 69 p.</p>
+
+<p><b>(111)</b> Weather extremes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
+Times Atlases, Glasgow 2012, 71 p.</p>
+
+<p><b>(112)</b> Total primary coal production, <i>2011</i>: Energy Information Administration (EIA)<br>
 http://www.eia.gov/cfapps/ipdbproject/iedindex3.cfm</p>
 
-<p><b>(113)</b> Total Oil Supply, <i>2012</i>: Energy Information Administration (EIA)<br>
+<p><b>(113)</b> Total oil supply, <i>2012</i>: Energy Information Administration (EIA)<br>
 http://www.eia.gov/cfapps/ipdbproject/iedindex3.cfm</p>
 
 <p><b>(114)</b> Natural gas production, <i>2012</i>: Global Energy Statistical Yearbook<br>

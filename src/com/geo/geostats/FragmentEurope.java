@@ -6,6 +6,7 @@ import com.geo.geostats.Constants;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.view.PagerAdapter;
@@ -22,7 +23,7 @@ import com.viewpagerindicator.TabPageIndicator;
 
 public class FragmentEurope extends SherlockFragment {
 
-	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btD7O, btD8O, btD9O, btClose;
+	Button btD1O, btD2O, btD3O, btD4O, btD5O, btD6O, btD7O, btD8O, btD9O, btClose, tvChart2;
 	ViewPager vp;
 	private vpAdapter miAdapter;
 	TextView tvChart, tvTitle;
@@ -138,8 +139,19 @@ public class FragmentEurope extends SherlockFragment {
 							d.setCancelable(true);
 							d.setContentView(R.layout.dialog_europe_eu_countries);
 							d.setCanceledOnTouchOutside(true);
-							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 3 - 2010");
+							
+							//tvChart2 is for testing purpose, there is a button instead of textview, changed also in dialog_europe_eu_countries.xml
+							tvChart2 = (Button)d.findViewById(R.id.chartNo);
+							tvChart2.append(" 3 - 2010");
+							tvChart2.setOnClickListener(new OnClickListener() {
+								
+								@Override
+								public void onClick(View v) {
+									Intent b = new Intent("com.geo.geostats.INFO_REFERENCES");
+									startActivity(b);
+									
+								}
+							});
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override

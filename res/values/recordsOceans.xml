@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- <string name="TotalAreaRecordAtlanticO">86.557.000</string> -->
-    <string name="TotalAreaRecordAtlanticO">86.557.000</string> <!-- GEOGRAFICKE TABULKY --> <!-- 76.762.000 -->
+    <string name="TotalAreaRecordAtlanticO">76.762.000</string> <!-- GEOGRAFICKE TABULKY -->
     <string name="VolumeRecordAtlanticO">22%</string>
     <string name="DeepestPointRecordAtlanticO">@string/PuertoRicoTrenchRecord</string>
     <string name="AverageDepthRecordAtlanticO">3.872</string> <!-- marianatrench.com -->
     
-    <!-- <string name="TotalAreaRecordPacificO">166.241.000</string> -->
     <string name="TotalAreaRecordPacificO">155.557.000</string> <!-- GEOGRAFICKE TABULKY -->
     <string name="VolumeRecordPacificO">33%</string>
     <string name="DeepestPointRecordPacificO">@string/MarianaTrenchRecord</string>
     <string name="AverageDepthRecordPacificO">4.188</string> <!-- marianatrench.com -->
     
-    <!-- <string name="TotalAreaRecordIndianO">73.427.000</string> -->
     <string name="TotalAreaRecordIndianO">68.556.000</string> <!-- GEOGRAFICKE TABULKY -->
     <string name="VolumeRecordIndianO">20%</string>
     <string name="DeepestPointRecordIndianO">@string/JavaTrenchRecord</string>

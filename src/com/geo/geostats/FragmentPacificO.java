@@ -87,17 +87,17 @@ public class FragmentPacificO extends SherlockFragment{
 			case 1:
 				v = inflater.inflate(R.layout.vp_pacific_o_gulfs, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 81 - 2010");
+				tvChart.append(" 81 - 1990");
 				break;
 			case 2:
 				v = inflater.inflate(R.layout.vp_pacific_o_straits, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 82 - 2010");
+				tvChart.append(" 82 - 1990");
 				break;
 			case 3:
 				v = inflater.inflate(R.layout.vp_pacific_o_currents, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 83 - 2010");
+				tvChart.append(" 83 - 1990");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);
