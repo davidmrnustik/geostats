@@ -21,7 +21,6 @@ public class Continents extends SherlockFragmentActivity{
         
         ActionBar actionbar = getSupportActionBar();
         actionbar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        actionbar.setDisplayShowTitleEnabled(false);
         actionbar.setTitle(getString(R.string.Continents));
                 
         ActionBar.Tab Frag1Tab = actionbar.newTab().setText(getString(R.string.Europe));

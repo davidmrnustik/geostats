@@ -81,22 +81,22 @@ public class FragmentArcticO extends SherlockFragment{
 			case 0:
 				v = inflater.inflate(R.layout.vp_arctic_o_seas, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 90 - 2010");
+				tvChart.append(" 90 - 1990");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_arctic_o_gulfs, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 91 - 2010");
+				tvChart.append(" 91 - 1990");
 				break;
 			case 2:
 				v = inflater.inflate(R.layout.vp_arctic_o_straits, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 92 - 2010");
+				tvChart.append(" 92 - 1990");
 				break;
 			case 3:
 				v = inflater.inflate(R.layout.vp_arctic_o_currents, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 93 - 2010");
+				tvChart.append(" 93 - 1990");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

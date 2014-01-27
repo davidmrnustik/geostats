@@ -76,7 +76,7 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_peninsulas, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 101 - 2010");
+				tvChart.append(" 101 - 2005");
 				article.addView(vv);
 			}else if(position == 3){
 				article.removeAllViews();
@@ -118,7 +118,7 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_earthquakes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 109 - 2010");
+				tvChart.append(" 109 - 2012");
 				article.addView(vv);
 			}else if(position == 10){
 				article.removeAllViews();
@@ -394,7 +394,7 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_peninsulas, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 102 - 2010");
+				tvChart.append(" 102 - 2005");
 				article.addView(vv);
 			}else if(position == 8){
 				article.removeAllViews();
@@ -436,7 +436,7 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_earthquakes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 109 - 2010");
+				tvChart.append(" 109 - 2012");
 				article.addView(vv);
 			}else if(position == 15){
 				article.removeAllViews();

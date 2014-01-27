@@ -19,11 +19,11 @@
     <string name="MozambiqueCurrentWidth">up to 100 km</string>
     <string name="LabradorCurrentWidth">up to 100 km</string>
     
-    <string name="GulfStreamSpeed">26 cm/s</string>
-    <string name="BenguelaCurrentSpeed">16 cm/s</string>
-    <string name="KuroshioCurrentSpeed">22 cm/s</string>
-    <string name="OyashioCurrentSpeed">5 cm/s</string>
-    <string name="HumboldtCurrentSpeed">11 cm/s</string>
+    <string name="GulfStreamSpeed">80&#8211;100 cm/s</string>
+    <string name="BenguelaCurrentSpeed">25 cm/s</string>
+    <string name="KuroshioCurrentSpeed">up to 200 cm/s</string>
+    <string name="OyashioCurrentSpeed">50 cm/s</string>
+    <string name="HumboldtCurrentSpeed">20&#8211;60 cm/s</string>
     <string name="MozambiqueCurrentSpeed">20 cm/s</string>
-    <string name="LabradorCurrentSpeed">4 cm/s</string>
+    <string name="LabradorCurrentSpeed">25 cm/s</string>
 </resources>

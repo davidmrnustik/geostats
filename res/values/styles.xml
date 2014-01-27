@@ -3,6 +3,7 @@
     <color name="colorFFF">#FFF</color>
 	<color name="colorCCC">#CCC</color>
 	<color name="colorDarkGrey">#616161</color>
+	<color name="color000">#000</color>
 	
     <style name="FullScreen" parent="@style/Theme.Sherlock.Light.NoActionBar">
         <item name="android:windowFullscreen">true</item>
@@ -12,6 +13,29 @@
     <style name="Theme.PageIndicatorDefaults" parent="@style/Theme.Sherlock.Light">
         <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
         <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    
+    <!-- Styles for second-level tab -->
+    <style name="Widget.TabPageIndicator" parent="@style/Theme.Sherlock.Light">
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+    </style>
+    
+    <!-- Styles for first-level tab -->
+    <style name="Widget.Sherlock.ActionBar.TabText" parent="@style/Theme.Sherlock.Light">
+        <!-- <item name="android:textColor">@color/colorFFF</item> -->
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabView" parent="@style/Theme.Sherlock.Light">
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <!-- <item name="android:background">@color/color000</item> -->
+    </style>
+    
+    <style name="RelativeLayoutBody">
+        <item name="android:background">@color/colorFFF</item>
+    </style>
+    <style name="FrameLayoutBody">
+        <item name="android:padding">5dp</item>
     </style>
     
     <style name="TableLayout">
