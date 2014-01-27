@@ -118,7 +118,7 @@ public class FragmentEurope extends SherlockFragment {
 							d.setContentView(R.layout.dialog_europe_countries);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 2 - 2010");
+							tvChart.append(" 2");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -142,7 +142,7 @@ public class FragmentEurope extends SherlockFragment {
 							
 							//tvChart2 is for testing purpose, there is a button instead of textview, changed also in dialog_europe_eu_countries.xml
 							tvChart2 = (Button)d.findViewById(R.id.chartNo);
-							tvChart2.append(" 3 - 2010");
+							tvChart2.append(" 3");
 							tvChart2.setOnClickListener(new OnClickListener() {
 								
 								@Override
@@ -312,7 +312,7 @@ public class FragmentEurope extends SherlockFragment {
 							d.setContentView(R.layout.dialog_europe_mountains_kmd);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 9 - 2014");
+							tvChart.append(" 9");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -335,7 +335,7 @@ public class FragmentEurope extends SherlockFragment {
 						d.setContentView(R.layout.dialog_europe_mountains_cc);
 						d.setCanceledOnTouchOutside(true);
 						tvChart = (TextView)d.findViewById(R.id.chartNo);
-						tvChart.append(" 10 - 2010");
+						tvChart.append(" 10");
 						Button btClose = (Button) d.findViewById(R.id.btClose);
 						btClose.setOnClickListener(new OnClickListener() {
 							@Override
@@ -354,22 +354,22 @@ public class FragmentEurope extends SherlockFragment {
 			case 4:
 				v = inflater.inflate(R.layout.vp_europe_islands, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 11 - 2010");
+				tvChart.append(" 11");
 				break;
 			case 5:
 				v = inflater.inflate(R.layout.vp_europe_rivers, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 12 - 2010");
+				tvChart.append(" 12");
 				break;
 			case 6:
 				v = inflater.inflate(R.layout.vp_europe_lakes, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 13 - 2010");
+				tvChart.append(" 13");
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_europe_weather, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 14 - 2010");
+				tvChart.append(" 14");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

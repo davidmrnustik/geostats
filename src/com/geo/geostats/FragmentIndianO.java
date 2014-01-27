@@ -81,22 +81,22 @@ public class FragmentIndianO extends SherlockFragment{
 			case 0:
 				v = inflater.inflate(R.layout.vp_indian_o_seas, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 85 - 2010");
+				tvChart.append(" 85");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_indian_o_gulfs, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 86 - 1990");
+				tvChart.append(" 86");
 				break;
 			case 2:
 				v = inflater.inflate(R.layout.vp_indian_o_straits, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 87 - 1990");
+				tvChart.append(" 87");
 				break;
 			case 3:
 				v = inflater.inflate(R.layout.vp_indian_o_currents, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 88 - 1990");
+				tvChart.append(" 88");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);
