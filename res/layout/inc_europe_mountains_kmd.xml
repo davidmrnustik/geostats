@@ -23,7 +23,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Dufourspitze"/>
+	            android:text="@string/MontBlancCourmayeur"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/HighestMountainsEuropeKMD02"/>
@@ -31,7 +31,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Grossglockner"/>
+	            android:text="@string/Dufourspitze"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/HighestMountainsEuropeKMD03"/>
@@ -39,7 +39,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Teide"/>
+	            android:text="@string/Nordend"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/HighestMountainsEuropeKMD04"/>
@@ -47,7 +47,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/Mulhacen"/>
+	            android:text="@string/Zumsteinspitze"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/HighestMountainsEuropeKMD05"/>

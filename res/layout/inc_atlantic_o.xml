@@ -36,13 +36,23 @@
 	            android:text="@string/DeepestPoint"/>
 	    </TableRow>
 	    <TableRow style="@style/TableRow">
-	        <TextView 
-	          	style="@style/TableTextView.RowSpan"
-	            android:text="@string/PuertoRicoTrench"/>
-	        <TextView 
-	            style="@style/TableTextView.GravityRight.RowSpan"
+	        <TableLayout android:stretchColumns="0">
+	            <TableRow>
+			        <TextView 
+			          	style="@style/TableTextView.PadddingBottom0"
+			            android:text="@string/MilwaukeeDeep"/>
+	   			</TableRow>
+	   			<TableRow>
+			        <TextView 
+			          	style="@style/TableTextView.RowSpan"
+			            android:text="@string/PuertoRicoTrench"/>
+	   			</TableRow>
+	        </TableLayout>
+		    <TextView 
+	          	style="@style/TableTextView.GravityRight"
+	            android:layout_span="2"
 	            android:text="@string/DeepestPointRecordAtlanticO"/>
-	    </TableRow>
+		</TableRow>
 	    <TableRow style="@style/TableRow.Span">
 	        <TextView
 	            android:id="@+id/chartNo"

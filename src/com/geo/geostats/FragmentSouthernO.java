@@ -19,7 +19,7 @@ public class FragmentSouthernO extends SherlockFragment{
 		View v = inflater.inflate(R.layout.fragment_southern_o, container, false);
 		
 		tvChart = (TextView)v.findViewById(R.id.chartNo);
-		tvChart.append(" 94 - 2005");
+		tvChart.append(" 94 - 2010");
 		
 		return v;
 	}

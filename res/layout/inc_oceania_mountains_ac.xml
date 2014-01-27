@@ -23,7 +23,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/MtBogong"/>
+	            android:text="@string/MtTownsend"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/HighestMountainsAustraliaAC02"/>
@@ -31,7 +31,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/BimberiPeak"/>
+	            android:text="@string/MtTwynam"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/HighestMountainsAustraliaAC03"/>
@@ -39,7 +39,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/MtBartleFrere"/>
+	            android:text="@string/RamsHead"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/HighestMountainsAustraliaAC04"/>
@@ -47,7 +47,7 @@
 	    <TableRow style="@style/TableRow">
 	        <TextView 
 	          	style="@style/TableTextView"
-	            android:text="@string/MtOssa"/>
+	            android:text="@string/UnnamedPeakOnEtheridgeRidge"/>
 	        <TextView 
 	            style="@style/TableTextView.GravityRight"
 	            android:text="@string/HighestMountainsAustraliaAC05"/>

@@ -312,7 +312,7 @@ public class FragmentEurope extends SherlockFragment {
 							d.setContentView(R.layout.dialog_europe_mountains_kmd);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 9 - 2010");
+							tvChart.append(" 9 - 2014");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override

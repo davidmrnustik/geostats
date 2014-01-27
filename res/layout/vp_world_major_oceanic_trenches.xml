@@ -23,7 +23,7 @@
 		            android:text="@string/Name"/>
 		        <TextView 
 		            style="@style/TableTextView.Head"
-		            android:text="@string/TotalM"/>
+		            android:text="@string/DepthM"/>
 		    </TableRow>
 		    
 		    <TableRow style="@style/TableRow">

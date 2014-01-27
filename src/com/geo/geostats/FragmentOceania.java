@@ -230,7 +230,7 @@ public class FragmentOceania extends SherlockFragment{
 							d.setContentView(R.layout.dialog_oceania_mountains_ac);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 66 - 2010");
+							tvChart.append(" 66 - 2011");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override

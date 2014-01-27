@@ -1,13 +1,13 @@
 <p><b>(1)</b> Europe - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 85 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+Times Atlases, Glasgow 2012, 85 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
 <p><b>(2)</b> Europe - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 166 p.</p>
 
 <p><b>(3)</b> Europe - Largest EU countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 166 p.<br>The World Bank, World Development Indicators: Surface area<br>
-http://wdi.worldbank.org/table/?.?</p>
+Times Atlases, Glasgow 2012, 166 p.<br>The World Bank, World Development Indicators, Size of the economy, Surface area<br>
+http://wdi.worldbank.org/table/1.1</p>
 
 <p><b>(4)</b> Europe - Most populated countries, <i>2010</i>: United Nations, Department of Economic and Social Affairs, Population Division, June 2013<br>
 http://esa.un.org/unpd/wpp/Excel-Data/population.htm</p>
@@ -25,8 +25,7 @@ Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 Times Atlases, Glasgow 2012, 166 p.<br>Demographia World Urban Areas (World Agglomerations), 9th Annual Edition (03/2013). 
 Demographia World Urban Areas, Chicago 2013, 16-38 p.</p>
 
-<p><b>(9)</b> Europe - Highest mountains (Kuma-Manych Depression), <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 166 p.<br>WIKI</p>
+<p><b>(9)</b> Europe - Highest mountains (Kuma-Manych Depression), <i>2014</i>: 4000 m peaks of the Alps<br>http://www.bielefeldt.de/4000e.php?Sorts=height&Aufab=descending&Liste=UIAA<br>http://www.ii.uib.no/~petter/mountains/alps_4000.html</p>
 
 <p><b>(10)</b> Europe - Highest mountains (Caucasus crest), <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 164 p.</p>
@@ -40,11 +39,10 @@ Times Atlases, Glasgow 2012, 164 p.</p>
 <p><b>(13)</b> Europe - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 164 p.</p>
 
-<p><b>(14)</b> Europe - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, ?? p.</p>
+<p><b>(14)</b> Europe - Weather records, <i>2010</i>: World Meteorological Organization, Global Weather & Climate Extremes<br>http://wmo.asu.edu/</p>
 
 <p><b>(15)</b> Asia - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 84 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+Times Atlases, Glasgow 2012, 84 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
 <p><b>(16)</b> Asia - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
@@ -74,11 +72,10 @@ Times Atlases, Glasgow 2012, 128 p.</p>
 <p><b>(24)</b> Asia - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 128 p.</p>
 
-<p><b>(25)</b> Asia - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, ?? p.</p>
+<p><b>(25)</b> Asia - Weather records, <i>2010</i>: World Meteorological Organization, Global Weather & Climate Extremes<br>http://wmo.asu.edu/</p>
 
 <p><b>(26)</b> Africa - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 85 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+Times Atlases, Glasgow 2012, 85 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
 <p><b>(27)</b> Africa - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
@@ -108,11 +105,10 @@ Times Atlases, Glasgow 2012, 188 p.</p>
 <p><b>(35)</b> Africa - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 188 p.</p>
 
-<p><b>(36)</b> Africa - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, ?? p.</p>
+<p><b>(36)</b> Africa - Weather records, <i>2010</i>: World Meteorological Organization, Global Weather & Climate Extremes<br>http://wmo.asu.edu/</p>
 
 <p><b>(37)</b> North America - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 86 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+Times Atlases, Glasgow 2012, 86 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
 <p><b>(38)</b> North America - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
@@ -142,11 +138,10 @@ Times Atlases, Glasgow 2012, 198 p.</p>
 <p><b>(46)</b> North America - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 198 p.</p>
 
-<p><b>(47)</b> North America - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, ?? p.</p>
+<p><b>(47)</b> North America - Weather records, <i>2010</i>: World Meteorological Organization, Global Weather & Climate Extremes<br>http://wmo.asu.edu/</p>
 
 <p><b>(48)</b> South America - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 86 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+Times Atlases, Glasgow 2012, 86 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
 <p><b>(49)</b> South America - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
@@ -176,11 +171,10 @@ Times Atlases, Glasgow 2012, 226 p.</p>
 <p><b>(57)</b> South America - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 226 p.</p>
 
-<p><b>(58)</b> South America - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, ?? p.</p>
+<p><b>(58)</b> South America - Weather records, <i>2010</i>: World Meteorological Organization, Global Weather & Climate Extremes<br>http://wmo.asu.edu/</p>
 
 <p><b>(59)</b> Oceania - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 84 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+Times Atlases, Glasgow 2012, 84 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
 <p><b>(60)</b> Oceania - Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
@@ -201,7 +195,7 @@ Times Atlases, Glasgow 2012, 116 p.</p>
 <p><b>(65)</b> Oceania - Highest mountains in Indo-Australian Plate, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 114 p.</p>
 
-<p><b>(66)</b> Oceania - Highest mountains in Australian continent, <i>2010</i>: WIKI</p>
+<p><b>(66)</b> Oceania - Highest mountains in Australian continent, <i>2011</i>: Australian government, Geoscience Australia, Highest Mountains<br>http://www.ga.gov.au/education/geoscience-basics/landforms/highest-mountains.html</p>
 
 <p><b>(67)</b> Oceania - Largest islands, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 114 p.</p>
@@ -212,63 +206,61 @@ Times Atlases, Glasgow 2012, 114 p.</p>
 <p><b>(69)</b> Oceania - Largest lakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 114 p.</p>
 
-<p><b>(70)</b> Oceania - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, ?? p.</p>
+<p><b>(70)</b> Oceania - Weather records, <i>2010</i>: World Meteorological Organization, Global Weather & Climate Extremes<br>http://wmo.asu.edu/</p>
 
 <p><b>(71)</b> Antarctica - Basic data, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, 84 p.<br>Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 8<br>http://data.un.org/
+Times Atlases, Glasgow 2012, 84 p.<br>Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 8<br>http://data.un.org/
 </p>
 
 <p><b>(72)</b> Antarctica - Highest mountains, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 87 p.</p>
 
-<p><b>(73)</b> Antarctica - Weather records, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
-Times Atlases, Glasgow 2012, ?? p.</p>
+<p><b>(73)</b> Antarctica - Weather records, <i>2010</i>: World Meteorological Organization, Global Weather & Climate Extremes<br>http://wmo.asu.edu/</p>
 
-<p><b>(74)</b> Atlantic ocean - Basic data, <i>2005</i>: CIA Factbook, Geography, Atlantic ocean<br>http://geography.about.com/library/maps/blocean.htm<br>The Mariana Trench, Oceanography<br>http://www.marianatrench.com</p>
+<p><b>(74)</b> Atlantic ocean - Basic data, <i>2010</i>: Eakins, B.W. and G.F. Sharman, Volumes of the World's Oceans from ETOPO1, NOAA National Geophysical Data Center, Boulder, CO, 2010.<br>The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html</p>
 
 <p><b>(75)</b> Atlantic ocean - Largest seas, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 87 p.</p>
 
-<p><b>(76)</b> Atlantic ocean - Gulfs, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 12</p>
+<p><b>(76)</b> Atlantic ocean - Gulfs, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 12</p>
 
-<p><b>(77)</b> Atlantic ocean - Straits, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 12</p>
+<p><b>(77)</b> Atlantic ocean - Straits, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 12</p>
 
-<p><b>(78)</b> Atlantic ocean - Currents, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 14</p>
+<p><b>(78)</b> Atlantic ocean - Currents, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 14</p>
 
-<p><b>(79)</b> Pacific ocean - Basic data, <i>2005</i>: CIA Factbook, Geography, Pacific ocean<br>http://geography.about.com/library/maps/blocean.htm<br>The Mariana Trench, Oceanography<br>http://www.marianatrench.com</p>
+<p><b>(79)</b> Pacific ocean - Basic data, <i>2010</i>: Eakins, B.W. and G.F. Sharman, Volumes of the World's Oceans from ETOPO1, NOAA National Geophysical Data Center, Boulder, CO, 2010.<br>The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html</p>
 
 <p><b>(80)</b> Pacific ocean - Largest seas, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 87 p.</p>
 
-<p><b>(81)</b> Pacific ocean - Gulfs, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 11</p>
+<p><b>(81)</b> Pacific ocean - Gulfs, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 11</p>
 
-<p><b>(82)</b> Pacific ocean - Straits, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 11</p>
+<p><b>(82)</b> Pacific ocean - Straits, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 11</p>
 
-<p><b>(83)</b> Pacific ocean - Currents, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 14</p>
+<p><b>(83)</b> Pacific ocean - Currents, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 14</p>
 
-<p><b>(84)</b> Indian ocean - Basic data, <i>2005</i>: CIA Factbook, Geography, Indian ocean<br>http://geography.about.com/library/maps/blocean.htm<br>The Mariana Trench, Oceanography<br>http://www.marianatrench.com</p>
+<p><b>(84)</b> Indian ocean - Basic data, <i>2010</i>:  Eakins, B.W. and G.F. Sharman, Volumes of the World's Oceans from ETOPO1, NOAA National Geophysical Data Center, Boulder, CO, 2010.<br>The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html</p>
 
 <p><b>(85)</b> Indian ocean - Largest seas, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 87 p.</p>
 
-<p><b>(86)</b> Indian ocean - Gulfs, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 13</p>
+<p><b>(86)</b> Indian ocean - Gulfs, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 13</p>
 
-<p><b>(87)</b> Indian ocean - Straits, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 13</p>
+<p><b>(87)</b> Indian ocean - Straits, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 13</p>
 
-<p><b>(88)</b> Indian ocean - Currents, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 14</p>
+<p><b>(88)</b> Indian ocean - Currents, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 14</p>
 
-<p><b>(89)</b> Arctic ocean - Basic data, <i>2005</i>: CIA Factbook, Geography, Arctic ocean<br>http://geography.about.com/library/maps/blocean.htm<br>The Mariana Trench, Oceanography<br>http://www.marianatrench.com</p>
+<p><b>(89)</b> Arctic ocean - Basic data, <i>2010</i>:  Eakins, B.W. and G.F. Sharman, Volumes of the World's Oceans from ETOPO1, NOAA National Geophysical Data Center, Boulder, CO, 2010.<br>The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html<br>Wikipedia, Litke Deep<br>http://en.wikipedia.org/wiki/Litke_Deep</p>
 
-<p><b>(90)</b> Arctic ocean - Largest seas, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 13</p>
+<p><b>(90)</b> Arctic ocean - Largest seas, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 13</p>
 
-<p><b>(91)</b> Arctic ocean - Gulfs, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 13</p>
+<p><b>(91)</b> Arctic ocean - Gulfs, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 13</p>
 
-<p><b>(92)</b> Arctic ocean - Straits, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 13</p>
+<p><b>(92)</b> Arctic ocean - Straits, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 13</p>
 
-<p><b>(93)</b> Arctic ocean - Currents, <i>1990</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 14</p>
+<p><b>(93)</b> Arctic ocean - Currents, <i>1990</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 14</p>
 
-<p><b>(94)</b> Southern ocean - Basic data, <i>2005</i>: CIA Factbook, Geography, Southern ocean<br>http://geography.about.com/library/maps/blocean.htm</p>
+<p><b>(94)</b> Southern ocean - Basic data, <i>2010</i>:  Eakins, B.W. and G.F. Sharman, Volumes of the World's Oceans from ETOPO1, NOAA National Geophysical Data Center, Boulder, CO, 2010.<br>The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html</p>
 
 <p><b>(95)</b> Largest countries, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012</p>
@@ -291,7 +283,7 @@ http://www.8000ers.com/cms/en/download.html?func=startdown&id=168</p>
 <p><b>(101)</b> Largest islands, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012</p>
 
-<p><b>(102)</b> Largest peninsulas, <i>2005</i>: Geograficke tabulky, L. Skokan, M. Bursa, J. Pestova. Nakladatelstvi Fortuna, Praha 2008, str. 10</p>
+<p><b>(102)</b> Largest peninsulas, <i>2005</i>: Geografick&eacute; tabulky, L. Skokan, M. Bursa, J. Pe&scaron;tov&aacute;. Nakladatelstv&iacute; Fortuna, Praha 2008, str. 10</p>
 
 <p><b>(103)</b> Longest rivers, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012<br>info o ceskym geografovi a amazonce</p>
@@ -304,7 +296,7 @@ Times Atlases, Glasgow 2012</p>
 <p><b>(106)</b> Largest seas, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012</p>
 
-<p><b>(107)</b> Major oceanic trenches, <i>2010</i>: ???</p>
+<p><b>(107)</b> Major oceanic trenches, <i>2010</i>: The World Factbook 2013&ndash;14. Washington, DC: Central Intelligence Agency, 2013<br>https://www.cia.gov/library/publications/the-world-factbook/index.html<br>Wikipedia, Oceanic trench<br>http://en.wikipedia.org/wiki/Oceanic_trench<br>Russian Marine Expeditionary investigations of The world Ocean, U.S. Department of Commerce, National Oceanic and Atmospheric Administration, Silver Spring, MD, December 2002, 43 p.</p>
 
 <p><b>(108)</b> Deadliest earthquakes, <i>2010</i>: The Times Atlas of the World: Universal Edition (30 Aug 2012). 
 Times Atlases, Glasgow 2012, 68 p.</p>
