@@ -22,12 +22,12 @@
 	<string name="HighestMountainsWorld19">@string/HighestMountainsAsia19</string>
 	<string name="HighestMountainsWorld20">@string/HighestMountainsAsia20</string>
 	
-	<!-- HIGHEST MOUNTAINS EUROPE - Kuma Manych Depression (KMD) -->
+	<!-- HIGHEST MOUNTAINS EUROPE - Kuma Manych Depression (KMD) http://www.bielefeldt.de/4000e.php?Sorts=height&Aufab=descending&Liste=UIAA -->
 	<string name="HighestMountainsEuropeKMD01">4.810</string>
-	<string name="HighestMountainsEuropeKMD02">4.634</string>
-	<string name="HighestMountainsEuropeKMD03">3.798</string> <!-- WIKI -->
-	<string name="HighestMountainsEuropeKMD04">3.718</string> <!-- WIKI -->
-	<string name="HighestMountainsEuropeKMD05">3.479</string> <!-- WIKI -->
+	<string name="HighestMountainsEuropeKMD02">4.748</string>
+	<string name="HighestMountainsEuropeKMD03">4.634</string>
+	<string name="HighestMountainsEuropeKMD04">4.609</string>
+	<string name="HighestMountainsEuropeKMD05">4.563</string>
 	
 	<!-- HIGHEST MOUNTAINS EUROPE - Caucasus crest (CC) -->
 	<string name="HighestMountainsEuropeCC01">5.642</string>
@@ -86,12 +86,12 @@
 	<string name="HighestMountainsAustraliaAP04">4.595</string>
 	<string name="HighestMountainsAustraliaAP05">4.509</string>
 	
-	<!-- HIGHEST MOUNTAINS AUSTRALIA - Australian Continent (AC) -->
-	<string name="HighestMountainsAustraliaAC01">2.228</string> <!-- WIKI -->
-	<string name="HighestMountainsAustraliaAC02">1.986</string> <!-- WIKI -->
-	<string name="HighestMountainsAustraliaAC03">1.912</string> <!-- WIKI -->
-	<string name="HighestMountainsAustraliaAC04">1.622</string> <!-- WIKI -->
-	<string name="HighestMountainsAustraliaAC05">1.614</string> <!-- WIKI -->
+	<!-- HIGHEST MOUNTAINS AUSTRALIA - Australian Continent (AC) http://www.ga.gov.au/education/geoscience-basics/landforms/highest-mountains.html -->
+	<string name="HighestMountainsAustraliaAC01">2.228</string>
+	<string name="HighestMountainsAustraliaAC02">2.209</string>
+	<string name="HighestMountainsAustraliaAC03">2.195</string>
+	<string name="HighestMountainsAustraliaAC04">2.190</string>
+	<string name="HighestMountainsAustraliaAC05">2.180</string>
 	
 	<!-- HIGHEST MOUNTAINS ANTARCTICA -->
 	<string name="HighestMountainsAntarctica01">4.897</string>

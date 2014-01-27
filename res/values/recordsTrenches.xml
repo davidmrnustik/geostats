@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     	
-	<string name="MarianaTrenchRecord">10.920</string>
+	<string name="MarianaTrenchRecord">10.924</string>
 	<string name="TongaTrenchRecord">10.882</string>
 	<string name="KurilKamchatkaTrenchRecord">10.542</string>
 	<string name="PhilippineTrenchRecord">10.540</string>
@@ -10,7 +10,7 @@
 	<string name="JapanTrenchRecord">9.000</string>
 	<string name="PuertoRicoTrenchRecord">8.605</string>
 	<string name="PeruChileTrenchRecord">8.065</string>
-	<string name="JavaTrenchRecord">7.125</string>
+	<string name="JavaTrenchRecord">7.258</string>
 	<string name="LitkeDeepEurasianBasinRecord">@string/LitkeDeepEurasianBasinRecordWiki</string>
 	<string name="SouthSandwichTrenchRecord">@string/SouthSandwichTrenchRecordWiki</string>
 	

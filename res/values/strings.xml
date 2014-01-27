@@ -28,6 +28,7 @@
     <string name="LandArea">Land Area</string>
     <string name="ContinentShoreline">Continent shoreline (km)</string>
     <string name="Highest">Highest</string>
+    <string name="DepthM">Depth m</string>
     <string name="Value">Value</string>
     <string name="Topic">Topic</string>
     <string name="TopicName">Topic / Name</string>
