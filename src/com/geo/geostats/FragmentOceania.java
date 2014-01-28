@@ -85,7 +85,7 @@ public class FragmentOceania extends SherlockFragment{
 			case 0:
 				v = inflater.inflate(R.layout.vp_oceania_countries, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 60 - 2010");
+				tvChart.append(" 60");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_oceania_population, null);
@@ -207,7 +207,7 @@ public class FragmentOceania extends SherlockFragment{
 							d.setContentView(R.layout.dialog_oceania_mountains_ap);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 65 - 2010");
+							tvChart.append(" 65");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -230,7 +230,7 @@ public class FragmentOceania extends SherlockFragment{
 							d.setContentView(R.layout.dialog_oceania_mountains_ac);
 							d.setCanceledOnTouchOutside(true);
 							tvChart = (TextView)d.findViewById(R.id.chartNo);
-							tvChart.append(" 66 - 2011");
+							tvChart.append(" 66");
 							Button btClose = (Button) d.findViewById(R.id.btClose);
 							btClose.setOnClickListener(new OnClickListener() {
 								@Override
@@ -248,22 +248,22 @@ public class FragmentOceania extends SherlockFragment{
 			case 4:
 				v = inflater.inflate(R.layout.vp_oceania_islands, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 67 - 2010");
+				tvChart.append(" 67");
 				break;
 			case 5:
 				v = inflater.inflate(R.layout.vp_oceania_rivers, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 68 - 2010");
+				tvChart.append(" 68");
 				break;
 			case 6:
 				v = inflater.inflate(R.layout.vp_oceania_lakes, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 69 - 2010");
+				tvChart.append(" 69");
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_oceania_weather, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 70 - 2010");
+				tvChart.append(" 70");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

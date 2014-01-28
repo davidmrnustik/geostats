@@ -80,12 +80,12 @@ public class FragmentAntarctica extends SherlockFragment{
 			case 0:
 				v = inflater.inflate(R.layout.vp_antarctica_mountains, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 72 - 2010");
+				tvChart.append(" 72");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_antarctica_weather, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 73 - 2010");
+				tvChart.append(" 73");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

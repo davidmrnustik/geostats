@@ -85,7 +85,7 @@ public class FragmentNAmerica extends SherlockFragment{
 			case 0:
 				v = inflater.inflate(R.layout.vp_namerica_countries, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 38 - 2010");
+				tvChart.append(" 38");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_namerica_population, null);
@@ -198,27 +198,27 @@ public class FragmentNAmerica extends SherlockFragment{
 			case 3:
 				v = inflater.inflate(R.layout.vp_namerica_mountains, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 43 - 2010");
+				tvChart.append(" 43");
 				break;
 			case 4:
 				v = inflater.inflate(R.layout.vp_namerica_islands, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 44 - 2010");
+				tvChart.append(" 44");
 				break;
 			case 5:
 				v = inflater.inflate(R.layout.vp_namerica_rivers, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 45 - 2010");
+				tvChart.append(" 45");
 				break;
 			case 6:
 				v = inflater.inflate(R.layout.vp_namerica_lakes, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 46 - 2010");
+				tvChart.append(" 46");
 				break;
 			case 7:
 				v = inflater.inflate(R.layout.vp_namerica_weather, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 47 - 2010");
+				tvChart.append(" 47");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);

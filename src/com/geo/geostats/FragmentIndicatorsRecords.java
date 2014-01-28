@@ -64,73 +64,73 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_highest_mountains, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 100 - 2013");
+				tvChart.append(" 100");
 				article.addView(vv);
 			}else if(position == 1){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_islands, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 101 - 2010");
+				tvChart.append(" 101");
 				article.addView(vv);
 			}else if(position == 2){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_peninsulas, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 101 - 2005");
+				tvChart.append(" 101");
 				article.addView(vv);
 			}else if(position == 3){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_longest_rivers, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 103 - 2010");
+				tvChart.append(" 103");
 				article.addView(vv);
 			}else if(position == 4){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_lakes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 104 - 2010");
+				tvChart.append(" 104");
 				article.addView(vv);
 			}else if(position == 5){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_deepest_lakes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 105 - 2010");
+				tvChart.append(" 105");
 				article.addView(vv);
 			}else if(position == 6){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_seas, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 106 - 2010");
+				tvChart.append(" 106");
 				article.addView(vv);
 			}else if(position == 7){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_major_oceanic_trenches, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 107 - 2010");
+				tvChart.append(" 107");
 				article.addView(vv);
 			}else if(position == 8){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_deadliest_earthquakes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 108 - 2010");
+				tvChart.append(" 108");
 				article.addView(vv);
 			}else if(position == 9){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_earthquakes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 109 - 2012");
+				tvChart.append(" 109");
 				article.addView(vv);
 			}else if(position == 10){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_major_volcanic_eruptions, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 110 - 2010");
+				tvChart.append(" 110");
 				article.addView(vv);
 			}else if(position == 11){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_weather_extremes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 111 - 2010");
+				tvChart.append(" 111");
 				article.addView(vv);
 			}
 			mCurrentPosition = position;
@@ -141,7 +141,7 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_countries, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 95 - 2010");
+				tvChart.append(" 95");
 				article.addView(vv);
 			}else if(position == 1){
 				article.removeAllViews();
@@ -352,7 +352,7 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_countries, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 95 - 2010");
+				tvChart.append(" 95");
 				article.addView(vv);
 			}else if(position == 1){
 				article.removeAllViews();
@@ -382,73 +382,73 @@ public class FragmentIndicatorsRecords extends SherlockFragment {
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_highest_mountains, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 100 - 2013");
+				tvChart.append(" 100");
 				article.addView(vv);
 			}else if(position == 6){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_islands, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 101 - 2010");
+				tvChart.append(" 101");
 				article.addView(vv);
 			}else if(position == 7){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_peninsulas, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 102 - 2005");
+				tvChart.append(" 102");
 				article.addView(vv);
 			}else if(position == 8){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_longest_rivers, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 103 - 2010");
+				tvChart.append(" 103");
 				article.addView(vv);
 			}else if(position == 9){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_lakes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 104 - 2010");
+				tvChart.append(" 104");
 				article.addView(vv);
 			}else if(position == 10){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_deepest_lakes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 105 - 2010");
+				tvChart.append(" 105");
 				article.addView(vv);
 			}else if(position == 11){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_seas, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 106 - 2010");
+				tvChart.append(" 106");
 				article.addView(vv);
 			}else if(position == 12){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_major_oceanic_trenches, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 107 - 2010");
+				tvChart.append(" 107");
 				article.addView(vv);
 			}else if(position == 13){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_deadliest_earthquakes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 108 - 2010");
+				tvChart.append(" 108");
 				article.addView(vv);
 			}else if(position == 14){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_largest_earthquakes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 109 - 2012");
+				tvChart.append(" 109");
 				article.addView(vv);
 			}else if(position == 15){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_world_major_volcanic_eruptions, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 110 - 2010");
+				tvChart.append(" 110");
 				article.addView(vv);
 			}else if(position == 16){
 				article.removeAllViews();
 				View vv = vi.inflate(R.layout.vp_weather_extremes, null);
 				tvChart = (TextView)vv.findViewById(R.id.chartNo);
-				tvChart.append(" 111 - 2010");
+				tvChart.append(" 111");
 				article.addView(vv);
 			}else if (position == 17) {
 				article.removeAllViews();

@@ -81,22 +81,22 @@ public class FragmentAtlanticO extends SherlockFragment{
 			case 0:
 				v = inflater.inflate(R.layout.vp_atlantic_o_seas, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 75 - 2010");
+				tvChart.append(" 75");
 				break;
 			case 1:
 				v = inflater.inflate(R.layout.vp_atlantic_o_gulfs, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 76 - 1990");
+				tvChart.append(" 76");
 				break;
 			case 2:
 				v = inflater.inflate(R.layout.vp_atlantic_o_straits, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 77 - 1990");
+				tvChart.append(" 77");
 				break;
 			case 3:
 				v = inflater.inflate(R.layout.vp_atlantic_o_currents, null);
 				tvChart = (TextView)v.findViewById(R.id.chartNo);
-				tvChart.append(" 78 - 1990");
+				tvChart.append(" 78");
 				break;
 			}
 			((ViewPager)container).addView(v, 0);
